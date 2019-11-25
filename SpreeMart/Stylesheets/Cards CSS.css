@@ -1,48 +1,55 @@
+/* Cards
+Product title font-size: 12px
+Product price font-size: 14px */
+
 #Cards{
     background-color: #f1f1f1;
 }
 
 .card{
-    width: 300px;
+    width: 140px;
     margin: 10px 10px;
-    border-radius: 5%;
+    border-radius: 10px;
     background-color: white;
     text-align: center;
 }
 
 .heart-wrapper{
     text-align: left;
-    padding: 10px 10px 0 15px;
+    padding: 2px 0 0 10px;
 }
 
 #heart{
-    width: 25px;
+    width: 15px;
 }
 
 .card-content{
-    padding: 5px 20px 10px 20px;
+    padding: 5px 20px 5px 20px;
 }
 
 #product-image{
-    width: 200px;
+    width: 100px;
 }
 
 .product-title{
     font-family: "Century Gothic";
     color: #f77f00;
     font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 6px;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 2px;
 }
 
 .price{
     font-family: "Century Gothic";
     color: #070707;
     font-weight: bold;
+    font-size: 14px;
 }
 
 .rating{
     margin: 5px 0;
+    display: none;
 }
 
 #rating-star{
@@ -50,8 +57,8 @@
 }
 
 #minus{
-    height: 32.7px;
-    padding: 0.3em 1em;
+    height: 32.2px;
+    padding: 0.3em 0em;
     border: 1px solid #CCCCCC;
     border-radius: 0;
     background-color: white;
@@ -59,8 +66,8 @@
 }
 
 #plus{
-    height: 32.7px;
-    padding: 0.3em .9em;
+    height: 32.2px;
+    padding: 0.3em 0em;
     border: 1px solid #CCCCCC;
     border-radius: 0;
     background-color: white;
@@ -70,7 +77,7 @@
 .ui-input-text{
     border-width: 0 !important; 
     border-style: none;
-    margin: .59em 0;
+    margin: 0.58em 0;
 }
 
 .ui-input-text input{
@@ -84,10 +91,10 @@
 }
 
 .quantity{
-    width: 150px;
+    width: 100px;
     /* text-align: center; */
     /* display: inline; */
-    margin: auto; 
+    margin: auto;
 }
 
 .add-to-cart{
@@ -98,6 +105,7 @@
     background-color: #34AD48;
     display:inline-block;
     border-radius: 50px;
+    margin-top: 2px;
     width: 100px;
     font-family: "Century Gothic";
     color: white;
@@ -164,5 +172,9 @@
 
         .ui-block-d{
             margin-top: 6px;
+        }
+
+        .ui-input-text input {
+            text-align: center!important;
         }
     }
