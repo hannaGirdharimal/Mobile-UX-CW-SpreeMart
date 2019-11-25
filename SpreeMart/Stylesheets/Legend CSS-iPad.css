@@ -1,6 +1,32 @@
-/* Cards
-Product title font-size: 12px
-Product price font-size: 14px */
+.ui-header{
+    padding: 15px 40px;
+    background-color: white !important;
+    border: none !important;
+}
+
+#hamburger{
+    width: 35px;
+    margin-top: 8px;
+}
+
+#logo{
+    width: 180px;
+}
+
+.header-right-wrapper{
+    text-align: right;
+}
+
+#cart{
+    width: 35px;
+    margin-right: 20px;
+    margin-top: 2px;
+}
+
+#profile-image{
+    width: 35px;
+    margin-top: 2px;
+}
 
 #Cards{
     background-color: #f1f1f1;
@@ -116,9 +142,9 @@ Product price font-size: 14px */
     font-weight: bold;
 }
 
-.ui-navbar{
-    padding: 15px 30px;
-    background-color: #D62828;
+.ui-footer{
+    padding: 15px 40px;
+    background-color: #D62828 !important;
 }
 
 .spreemart-title{
@@ -137,43 +163,13 @@ Product price font-size: 14px */
     text-shadow: none !important;
 }
 
+.social-media-wrapper{
+    text-align: right;
+}
+
 #social-media{
     width: 20px;
     margin-right: 10px;
 } 
 
-.ui-block-d{
-    text-align: right; 
-    margin-top: 10px;
-}
 
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) 
-    and (orientation : portrait) 
-    { 
-        .spreemart-title{
-            font-family: "Century Gothic";
-            color: white;
-            font-size: 13px;
-            text-shadow: none !important;
-        }
-
-        #social-media {
-            width: 12px;
-            margin-right: 4px;
-        }
-
-        .spreemart-copyright {
-            font-size: 9px;
-        }
-
-        .ui-block-d{
-            margin-top: 6px;
-        }
-
-        .ui-input-text input {
-            text-align: center!important;
-        }
-    }

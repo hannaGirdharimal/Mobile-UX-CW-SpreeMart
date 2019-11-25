@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Cards</title>
+    <title>iPad</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -22,11 +22,26 @@
 
 <body>
     <div data-role="page" id="Cards">
-        <div data-role="header" data-theme="b">
-            <h1>Cards</h1>
+        <div data-role="header">
+            <div data-role="navbar">
+                <div class="ui-grid-b">
+                    <div class="ui-block-a">
+                        <img id="hamburger" src="Icons/menu-button.png">
+                    </div>
+                    <div class="ui-block-b">
+                        <img id="logo" src="Images/CWLOGO full.png">
+                    </div>
+                    <div class="ui-block-c">
+                        <div class="header-right-wrapper">
+                            <img id="cart" src="Icons/shopping-cart.png">
+                            <img id="profile-image" src="Icons/profile-image.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div data-role="content">
-            <div class="container">          
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="ui-grid-b">
@@ -138,21 +153,20 @@
 
         <div data-role="footer">
             <div data-role="navbar">
-                <div class="ui-grid-c">
+                <div class="ui-grid-a">
                     <div class="ui-block-a">
                         <div class="spreemart-title">SpreeMart ©</div>
                         <div class="spreemart-copyright">All rights reserved</div>
                     </div>
-                    <div class="ui-block-b"></div>
-                    <div class="ui-block-c"></div>
-                    <div class="ui-block-d">
-                        <img id="social-media" src="Icons/facebook.png">
-                        <img id="social-media" src="Icons/instagram.png">
-                        <img id="social-media" src="Icons/twitter.png">
-                        <img id="social-media" src="Icons/youtube.png">
+                    <div class="ui-block-b">
+                        <div class="social-media-wrapper">
+                            <img id="social-media" src="Icons/facebook.png">
+                            <img id="social-media" src="Icons/instagram.png">
+                            <img id="social-media" src="Icons/twitter.png">
+                            <img id="social-media" src="Icons/youtube.png">
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
 

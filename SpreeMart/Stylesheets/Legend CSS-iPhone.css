@@ -117,9 +117,9 @@ Product price font-size: 14px */
     font-weight: bold;
 }
 
-.ui-navbar{
-    padding: 15px 30px;
-    background-color: #D62828;
+.ui-footer{
+    padding: 15px 40px;
+    background-color: #D62828 !important;
 }
 
 .spreemart-title{
@@ -134,19 +134,19 @@ Product price font-size: 14px */
     font-style: italic;
     font-weight: 100;
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     text-shadow: none !important;
 }
 
-#social-media{
-    width: 20px;
-    margin-right: 10px;
-} 
-
-.ui-block-d{
-    text-align: right; 
-    margin-top: 10px;
+.social-media-wrapper{
+    text-align: right;
+    margin-top: 7px;
 }
+
+#social-media{
+    width: 15px;
+    margin-left: 4px;
+} 
 
 @media only screen 
     and (device-width : 375px) 
@@ -154,27 +154,5 @@ Product price font-size: 14px */
     and (-webkit-device-pixel-ratio : 3) 
     and (orientation : portrait) 
     { 
-        .spreemart-title{
-            font-family: "Century Gothic";
-            color: white;
-            font-size: 13px;
-            text-shadow: none !important;
-        }
-
-        #social-media {
-            width: 12px;
-            margin-right: 4px;
-        }
-
-        .spreemart-copyright {
-            font-size: 9px;
-        }
-
-        .ui-block-d{
-            margin-top: 6px;
-        }
-
-        .ui-input-text input {
-            text-align: center!important;
-        }
+        
     }
