@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="Stylesheets/Cards CSS.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/Legend CSS-iPad.css">
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -26,11 +26,10 @@
             <h1>Cards</h1>
         </div>
         <div data-role="content">
-            <div class="container">
+            <div class="container">          
                 <div class="row">
                     <div class="col-md-12">
-
-                        <div class="ui-grid-a">
+                        <div class="ui-grid-b">
                             <div class="ui-block-a">
                                 <div class="card">
                                     <div class="heart-wrapper">
@@ -97,6 +96,39 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="ui-block-c">
+                                <div class="card">
+                                    <div class="heart-wrapper">
+                                        <img id="heart" src="Icons/heart.png">
+                                    </div>
+                                    <div class="card-content">
+                                        <img id="product-image" src="Images/biscuit-packet.png">
+                                        <div class="product-title">GOOD DAY COOKIES</div>
+                                        <div class="price">Rs.800.00</div>
+                                        <div class="rating">
+                                            <img id="rating-star" src="Icons/rating star.png">
+                                            <img id="rating-star" src="Icons/rating star.png">
+                                            <img id="rating-star" src="Icons/rating star.png">
+                                            <img id="rating-star" src="Icons/rating star.png">
+                                            <img id="rating-star" src="Icons/rating star half-filled.png">
+                                        </div>
+                                        <div class="quantity">
+                                            <fieldset class="ui-grid-b">
+                                                <div class="ui-block-a">
+                                                    <a href="#temporary" data-role="button" id="minus">-</a>
+                                                </div>
+                                                <div class="ui-block-b">
+                                                    <input type="number" name="quantity" id="quantity" value="1" />
+                                                </div>
+                                                <div class="ui-block-c">
+                                                    <a href="temporary.html" data-role="button" id="plus">+</a>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                        <a href="#temporary" data-role="button" id="add-to-cart">ADD TO CART</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
@@ -111,7 +143,8 @@
                         <div class="spreemart-title">SpreeMart ©</div>
                         <div class="spreemart-copyright">All rights reserved</div>
                     </div>
-                    <div class="ui-block-b"></div><div class="ui-block-c"></div>
+                    <div class="ui-block-b"></div>
+                    <div class="ui-block-c"></div>
                     <div class="ui-block-d">
                         <img id="social-media" src="Icons/facebook.png">
                         <img id="social-media" src="Icons/instagram.png">
