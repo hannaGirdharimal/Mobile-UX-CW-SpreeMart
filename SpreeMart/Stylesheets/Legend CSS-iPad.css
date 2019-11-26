@@ -9,6 +9,63 @@
     margin-top: 8px;
 }
 
+.sidenav{
+    height: 50%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 68px; 
+    left: 0;
+    border-right: 1px solid #F1F1F1;
+    background-color: white; 
+    overflow-x: hidden;
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+  
+.sidenav a {
+    width: 270px;
+    font-size: 16px !important;
+    font-family: "Century Gothic";
+    color: #4B4B4B;
+    font-weight: 100;
+    border-left: none;
+    border-color: #f1f1f1 !important;
+    border-bottom: 1px solid #f1f1f1 !important;
+    text-align: left;
+    background-color: white !important;
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.item-list{
+    top: -30px;
+}
+
+.item-heading{
+    font-weight: 700 !important;
+    top: -30px;
+}
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    font-size: 36px !important;
+    /* margin-left: 50px; */
+    background-color: white;
+    border: none;
+    right: 5px;
+    text-align: right;
+    top: -25px;
+}
+
 #logo{
     width: 180px;
 }
@@ -165,6 +222,7 @@
 
 .social-media-wrapper{
     text-align: right;
+    margin-top: 10px;
 }
 
 #social-media{
