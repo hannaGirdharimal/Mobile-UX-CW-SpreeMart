@@ -328,6 +328,10 @@
     top: -10px;
 }
 
+#promotion-poster{
+    width: 350px;
+}
+
 .ui-footer{
     padding: 15px 40px;
     background-color: #D62828 !important;
