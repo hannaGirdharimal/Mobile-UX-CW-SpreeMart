@@ -85,50 +85,73 @@
     margin-top: 2px;
 }
 
-/* #slider-image-1{
+.breadcrumb-wrapper{
+    background-color: #DADADA;
     margin: -1em;
-} */
-
-#myCarousel{
-    height: 300px;
-    margin: -1em;
+    padding: 10px 10px 10px 50px;
 }
 
-.carousel-indicators{
-    top: 310px;
-}
-
-.carousel-indicators li{
-    background-color: #707070 !important;
-    border: 1px solid #707070 !important;
-}
-
-.carousel-indicators .active {
-    background-color: transparent !important;
-}
-
-.carousel-control-prev{
-    position: absolute;
-    top: 130px;
-}
-
-.carousel-control-next{
-    position: absolute;
-    top: 130px;
-    right: 0;
-}
-
-#control-arrow{
-    width: 60px;
+.breadcrumb-text{
+    color: #4B4B4B;
+    font-family: "Century Gothic";
 }
 
 .product-grid{
-    margin-top: 40px;
+    margin: 35px 20px 10px 20px;
 }
 
-.search-wrapper{
-    margin: 20px 20px 10px 20px;
+.filter-wrapper{
+    border: none;
+    border-color: white !important;
+    border-radius: 50px;
+    background-color: white;    
+    height: 60px;
+    width: 125%;
+    margin: 0.5em 0;
+    text-align: left;
+    padding: 5px 25px;
+    font-size: 16px;
+    font-family: "Century Gothic";
+    position: relative;
 }
+
+#select-choice-1-button{
+    background-color: white;
+    border: none !important;
+    box-shadow: none !important;
+    outline: 0;
+    text-align: left;
+    margin-top: -5px;
+    font-size: 18px;
+    font-family: "Century Gothic";
+    color: #D62828;
+    font-weight: 100;
+}
+
+.ui-btn-icon-right:after {
+    right: 95px;
+    background-image: url(../Icons/drop-down-arrow.png);
+    background-size: contain;
+    background-color: rgb(255, 255, 255);
+    /* height: 28px; */
+    top: 50%;
+    width: 15px;
+
+}
+
+#options{
+    font-family: "Century Gothic";
+    color: #D62828;
+}
+
+/* .ui-icon-carat-d:after {
+    background-image: url(Icons/drop-down-arrow.png);
+    background-size: contain;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 33px;
+    top: 38%;
+} */
 
 #search{
     border: none;
@@ -136,6 +159,7 @@
     border-radius: 50px;
     background-color: white;
     height: 60px;
+    width: 200%;
     text-align: left;
     padding: 0 40px;
     font-size: 16px;
@@ -152,7 +176,7 @@
     width: 35px;
     /* bottom: 30px; */
     right: 60px;
-    top: 425px;
+    top: 145px;
 }
 
 .section-header{
@@ -330,6 +354,40 @@
 
 #promotion-poster{
     width: 350px;
+}
+
+.pagination-wrapper{
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+  }
+  
+#pagination-number {
+    color: black;
+    font-family: "Century Gothic";
+    float: left;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+/*   
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+} */
+  
+.pagination a:hover:not(.active) {
+    background-color: #D62828;
+    border-radius: 50%;
+    color: white !important;
+}
+
+#next-icon{
+    width: 30px;
 }
 
 .ui-footer{
