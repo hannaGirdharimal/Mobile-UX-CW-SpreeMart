@@ -1,3 +1,7 @@
+.row {
+    width: 102.5%;
+}
+
 .ui-header{
     padding: 15px 40px;
     background-color: white !important;
@@ -164,7 +168,7 @@
     letter-spacing: 3px;
 }
 
-#Cards{
+#Landing-page{
     background-color: #f1f1f1;
 }
 

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>iPad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="Scripts/Menu.js"></script>
+    <link rel="stylesheet" type="text/css" href="Stylesheets/Promotion detail page-iPad.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div data-role="page" id="Promotion-detail">
+        <div data-role="header">
+            <div data-role="navbar">
+                <div class="ui-grid-b">
+                    <div class="ui-block-a">
+                        <!-- <a href="#temporary" data-role="button" id="hamburger-link">
+                            <img id="hamburger" src="Icons/menu-button.png">
+                        </a> -->
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a disabled="disabled" class="item-heading">Categories</a>
+                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
+                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Canned goods & soups</a>
+                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Dairy</a>
+                            <a href="#" class="item-heading">Promotions</a>
+                            <a href="#" class="item-heading">Support</a>
+                        </div>
+                        <span onclick="openNav()"><img id="hamburger" src="Icons/menu-button.png"></span>
+                    </div>
+                    <div class="ui-block-b">
+                        <img id="logo" src="Images/CWLOGO full.png">
+                    </div>
+                    <div class="ui-block-c">
+                        <div class="header-right-wrapper">
+                            <img id="cart" src="Icons/shopping-cart.png">
+                            <img id="profile-image" src="Icons/profile-image.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-role="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="ui-grid-a promotion-detail-grid">
+                            <div class="ui-block-a promotion-image-block">
+                                <img id="promotion-image" src="Images/milk-packet-png-1.png">
+                            </div>
+                            <div class="ui-block-b promotion-description-block">
+                                <div class="promotion-title">Milk Packet Bundle Promotion</div>
+                                <div class="promotion-category">Milk & Dairy </div>
+                                <div class="rating">
+                                    <img id="rating-star" src="Icons/rating star.png">
+                                    <img id="rating-star" src="Icons/rating star.png">
+                                    <img id="rating-star" src="Icons/rating star.png">
+                                    <img id="rating-star" src="Icons/rating star.png">
+                                    <img id="rating-star" src="Icons/rating star half-filled.png">
+                                    <span class="average-rating">4.9</span>
+                                </div>
+                                <div class="price">Rs.120.00</div>
+                                <div class="quantity">
+                                    <fieldset class="ui-grid-b">
+                                        <div class="ui-block-a">
+                                            <a href="#temporary" data-role="button" id="minus">-</a>
+                                        </div>
+                                        <div class="ui-block-b">
+                                            <input type="number" name="quantity" id="quantity" value="1" />
+                                        </div>
+                                        <div class="ui-block-c">
+                                            <a href="temporary.html" data-role="button" id="plus">+</a>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                                <a href="#temporary" data-role="button" id="add-to-cart">ADD TO CART</a>
+                                <a href="#temporary" data-role="button" id="buy-now">BUY NOW</a>
+                            </div>
+                            <div class="promotion-terms">
+                                Buy a Highland Vanilla flavoured milk packet and get a free Highland Plain Milk Packet
+                            </div>
+                            <div class="promotion-validation">
+                                *This promotion is valid only until the 31st of December 2019.
+                            </div>
+                        </div>
+
+                        <div class="ui-grid-a promotion-detail-rate-grid">
+                            <div class="new-rating-text">
+                                Rate our promotion. Your feedback is valued.
+                            </div>
+                            <div class="new-rating">
+                                <img id="new-rating-star" src="Icons/star-border.png">
+                                <img id="new-rating-star" src="Icons/star-border.png">
+                                <img id="new-rating-star" src="Icons/star-border.png">
+                                <img id="new-rating-star" src="Icons/star-border.png">
+                                <img id="new-rating-star" src="Icons/star-border.png">
+                            </div>
+                            <div class="submit-btn-wrapper">
+                                <a href="#temporary" data-role="button" id="submit-btn">SUBMIT</a>
+                            </div>
+                        </div>
+
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                                <div class="section-header">
+                                    OTHER PROMOTIONS
+                                </div>
+                            </div>
+                            <div class="ui-block-b">
+                                <div class="see-more">
+                                    SEE MORE &raquo;
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="ui-grid-b">
+                                    <div class="ui-block-a">
+                                        <div class="card">
+                                            <div class="discount-wrapper">
+                                                <img id="discount-percent" src="Icons/Discount-item.png">
+                                            </div>
+                                            <div class="heart-wrapper">
+                                                <img id="heart" src="Icons/heart.png">
+                                            </div>
+                                            <div class="card-content">
+                                                <img id="product-image" src="Images/biscuit-packet.png">
+                                                <div class="product-title">GOOD DAY COOKIES</div>
+                                                <div class="old-price">Rs.800.00</div>
+                                                <div class="price">Rs.560.00</div>
+                                                <div class="discount-rating">
+                                                    <img id="rating-star" src="Icons/rating star.png">
+                                                    <img id="rating-star" src="Icons/rating star.png">
+                                                    <img id="rating-star" src="Icons/rating star.png">
+                                                    <img id="rating-star" src="Icons/rating star.png">
+                                                    <img id="rating-star" src="Icons/rating star half-filled.png">
+                                                </div>
+                                                <div class="discount-quantity">
+                                                    <fieldset class="ui-grid-b">
+                                                        <div class="ui-block-a">
+                                                            <a href="#temporary" data-role="button" id="minus">-</a>
+                                                        </div>
+                                                        <div class="ui-block-b">
+                                                            <input type="number" name="quantity" id="quantity"
+                                                                value="1" />
+                                                        </div>
+                                                        <div class="ui-block-c">
+                                                            <a href="temporary.html" data-role="button" id="plus">+</a>
+                                                        </div>
+                                                    </fieldset>
+                                                </div>
+                                                <a href="#temporary" data-role="button" id="add-to-cart">ADD TO CART</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ui-block-b">
+                                        <div class="card">
+                                            <div class="discount-wrapper">
+                                                <img id="discount-percent" src="Icons/Discount-item.png">
+                                            </div>
+                                            <div class="heart-wrapper">
+                                                <img id="heart" src="Icons/heart.png">
+                                            </div>
+                                            <div class="card-content">
+                                                <img id="product-image" src="Images/biscuit-packet.png">
+                                                <div class="product-title">GOOD DAY COOKIES</div>
+                                                <div class="old-price">Rs.800.00</div>
+                                                <div class="price">Rs.560.00</div>
+                                                <div class="discount-rating">
+                                                    <img id="rating-star" src="Icons/rating star.png">
+                                                    <img id="rating-star" src="Icons/rating star.png">
+                                                    <img id="rating-star" src="Icons/rating star.png">
+                                                    <img id="rating-star" src="Icons/rating star.png">
+                                                    <img id="rating-star" src="Icons/rating star half-filled.png">
+                                                </div>
+                                                <div class="discount-quantity">
+                                                    <fieldset class="ui-grid-b">
+                                                        <div class="ui-block-a">
+                                                            <a href="#temporary" data-role="button" id="minus">-</a>
+                                                        </div>
+                                                        <div class="ui-block-b">
+                                                            <input type="number" name="quantity" id="quantity"
+                                                                value="1" />
+                                                        </div>
+                                                        <div class="ui-block-c">
+                                                            <a href="temporary.html" data-role="button" id="plus">+</a>
+                                                        </div>
+                                                    </fieldset>
+                                                </div>
+                                                <a href="#temporary" data-role="button" id="add-to-cart">ADD TO CART</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ui-block-c">
+                                        <div class="card">
+                                            <div class="discount-wrapper">
+                                                <img id="discount-percent" src="Icons/Discount-item.png">
+                                            </div>
+                                            <div class="heart-wrapper">
+                                                <img id="heart" src="Icons/heart.png">
+                                            </div>
+                                            <div class="card-content">
+                                                <img id="product-image" src="Images/biscuit-packet.png">
+                                                <div class="product-title">GOOD DAY COOKIES</div>
+                                                <div class="old-price">Rs.800.00</div>
+                                                <div class="price">Rs.560.00</div>
+                                                <div class="discount-rating">
+                                                    <img id="rating-star" src="Icons/rating star.png">
+                                                    <img id="rating-star" src="Icons/rating star.png">
+                                                    <img id="rating-star" src="Icons/rating star.png">
+                                                    <img id="rating-star" src="Icons/rating star.png">
+                                                    <img id="rating-star" src="Icons/rating star half-filled.png">
+                                                </div>
+                                                <div class="discount-quantity">
+                                                    <fieldset class="ui-grid-b">
+                                                        <div class="ui-block-a">
+                                                            <a href="#temporary" data-role="button" id="minus">-</a>
+                                                        </div>
+                                                        <div class="ui-block-b">
+                                                            <input type="number" name="quantity" id="quantity"
+                                                                value="1" />
+                                                        </div>
+                                                        <div class="ui-block-c">
+                                                            <a href="temporary.html" data-role="button" id="plus">+</a>
+                                                        </div>
+                                                    </fieldset>
+                                                </div>
+                                                <a href="#temporary" data-role="button" id="add-to-cart">ADD TO CART</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="footer">
+            <div data-role="navbar">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div class="spreemart-title">SpreeMart ©</div>
+                        <div class="spreemart-copyright">All rights reserved</div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div class="social-media-wrapper">
+                            <img id="social-media" src="Icons/facebook.png">
+                            <img id="social-media" src="Icons/instagram.png">
+                            <img id="social-media" src="Icons/twitter.png">
+                            <img id="social-media" src="Icons/youtube.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
