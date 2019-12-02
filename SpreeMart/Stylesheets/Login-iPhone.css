@@ -1,0 +1,47 @@
+
+#Login{
+    background-image:url("../Images/LoginBackground.png") ;
+}
+
+#logo-icon {
+    width: 147px;
+    height: 129px;
+}
+
+.login-header{
+    margin-top: -20px;
+    font-family: "Century Gothic";
+    color: #D62828;
+    font-weight: bold;
+    font-size: 41px;
+    letter-spacing: 3px;
+}
+
+.sign-up-message{
+    margin-left: 80px;
+    margin-top: -9px;
+}
+
+.white-box{
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+    width: 321px;
+    height: 480px;
+    border-radius: 10px;
+    margin-left: 13px;
+    margin-top: 25px;
+    opacity: 90%;
+}
+
+.text-line{
+        background-color: transparent;
+        color: #eeeeee;
+        outline: none;
+        outline-style: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: solid #eeeeee 1px;
+        padding: 3px 10px;
+    }

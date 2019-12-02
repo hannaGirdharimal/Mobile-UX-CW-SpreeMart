@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Stylesheets/Legend CSS-iPhone.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/ar-css.css">
+
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div data-role="page" id="Cards">
+        <div data-role="header">
+            <div data-role="navbar">
+                <div class="ui-grid-b">
+                    <div class="ui-block-a">
+                         <!--    -->
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a disabled="disabled" class="item-heading">Categories</a>
+                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
+                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Canned goods & soups</a>
+                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Dairy</a>
+                            <a href="#" class="item-heading">Promotions</a>
+                            <a href="#" class="item-heading">Support</a>
+                        </div>
+                        <span onclick="openNav()"><img id="hamburger" src="Icons/menu-button.png"></span>
+                    </div>
+                    <div class="ui-block-b">
+                        <img id="logo" src="Images/CWLOGO full.png">
+                    </div>
+                    <div class="ui-block-c">
+                        <div class="header-right-wrapper">
+                            <img id="cart" src="Icons/shopping-cart.png">
+                            <img id="profile-image" src="Icons/profile-image.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div data-role="content">
+            <div class="ui-grid-a">
+                <img id="ar-poster" src="Images/AR.png">
+            </div>
+            <div class="ui-grid-a">
+                <div class="white-box">
+                    <div class="promotion-description">
+                        Stand a chance to win Rs 20,000 worth of items the next time you shop with us. All you have to
+                        do is
+                        to click below to take a creative picture with our Logo filter. Then upload on to Facebook or
+                        Instagram and tag us with the hashtag #FreeSpree
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <div class="camera-white-box">
+                <div class="camera-dashed-box">
+                    <img id="camera-icon" src="Icons/camera.png">
+                    <div class="camera-desc">CLICK TO OPEN CAMERA</div>
+                </div>
+                <div class="share-message">
+                    SHARE ON SOCIAL MEDIA
+                    <img id="share-icon" src="Icons/share.png">
+                </div>
+            </div>
+
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <div class="ui-grid-a">
+                        <div class="ui-block-a">
+                            <div class="spreemart-title">SpreeMart ©</div>
+                            <div class="spreemart-copyright">All rights reserved</div>
+                        </div>
+                        <div class="ui-block-b">
+                            <div class="social-media-wrapper">
+                                <img id="social-media" src="Icons/facebook.png">
+                                <img id="social-media" src="Icons/instagram.png">
+                                <img id="social-media" src="Icons/twitter.png">
+                                <img id="social-media" src="Icons/youtube.png">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+</body>
+
+</html>
