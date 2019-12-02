@@ -4,6 +4,10 @@
     border: none !important;
 }
 
+#Promotions {
+    background-color: #f1f1f1;
+}
+
 #hamburger{
     width: 35px;
     margin-top: 8px;
@@ -87,6 +91,15 @@
 
 .promotions-row{
     padding: 5px 00;
+}
+
+.section-header {
+    font-family: "Century Gothic";
+    color: #D62828;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px 10px;
+    letter-spacing: 3px;
 }
 
 #poster{
@@ -198,6 +211,55 @@
     border-radius: 50px;
     margin-top: 5px;
     /* width: 110px; */
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 13px;
+    height: 44px;
+    padding: 1em 1em;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: bold;
+}
+
+.old-price{
+    font-family: "Century Gothic";
+    color: #A1A1A1;
+    /* font-weight: bold; */
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.discount-wrapper{
+    position: absolute;
+    margin-left: 185px;
+    top: -10px;
+}
+
+.special-promotion-text{
+    color: #707070;
+    margin: 20px 30px 0 30px;
+}
+
+.special-promotion-grid{
+    border: 1px solid #f77f00;
+    margin-bottom: 10px;
+}
+
+#special-promotion{   
+     width: 360px;
+}
+
+.special-promotion-button{
+    text-align: center;
+}
+
+#special-promotion-enter{
+    background-color: #f77f00;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 130px;
     font-family: "Century Gothic";
     color: white;
     font-size: 13px;
