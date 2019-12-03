@@ -7,11 +7,10 @@ Product price font-size: 14px */
 }
 
 .card{
-    width: 140px;
-    margin: 10px 10px;
+    margin: 20px 0px 10px 0px;
     border-radius: 10px;
     background-color: white;
-    text-align: center;
+    height: 150px;
 }
 
 .heart-wrapper{
@@ -20,15 +19,15 @@ Product price font-size: 14px */
 }
 
 #heart{
-  width: 15px;
-  margin-bottom: 105px;
-  padding-left: 9px;
+    width: 20px;
+    margin-top: 5px;
 }
 
 #check{
-margin-left: -139px;
-padding-bottom: 58px;
+    margin-left: -139px;
+    padding-bottom: 58px;
 }
+
 .card-content{
     padding: 5px 20px 5px 20px;
 }
@@ -36,18 +35,28 @@ padding-bottom: 58px;
 #product-image{
     width: 100px;
 }
-#nutella{
-margin-left: -26px;
 
+#nutella{
+    margin-left: -30px;
+    width: 150px;
+    margin-top: 8px;
 }
+
+.middle-wrapper{
+    width: 100px !important;
+}
+
+.right-wrapper{
+    width: 205px !important;
+    margin-left: -15px;
+    padding: 10px 0 10px 15px;
+}
+
 .producttitle{
-font-family: "Century Gothic";
-color: #f77f00;
-font-weight: bold;
-font-size: 14px;
-margin-top: -118px;
-margin-bottom: 2px;
-margin-left: 95px;
+    font-family: "Century Gothic";
+    color: #f77f00;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .price{
@@ -58,8 +67,7 @@ margin-left: 95px;
 }
 
 .rating1{
-    margin: 5px 0;
-    display: none;
+    margin-left: 30px;
 }
 
 #rating-star1{
@@ -67,12 +75,12 @@ margin-left: 95px;
 }
 
 #minus1{
-  height: 19.2px;
-  padding: 0.3em 0em;
-  border: 1px solid #CCCCCC;
-  border-radius: 0;
-  background-color: white;
-  margin-right: -2px;
+    height: 19.2px;
+    padding: 0.3em 0em;
+    border: 1px solid #CCCCCC;
+    border-radius: 0;
+    background-color: white;
+    margin-right: -2px;
 }
 
 #plus1{
@@ -105,9 +113,9 @@ margin-left: 95px;
 
 .quantity1{
     width: 100px;
+    margin-left: -5px;
     /* text-align: center; */
     /* display: inline; */
-    margin: auto;
 }
 
 .add-to-cart{
@@ -115,39 +123,33 @@ margin-left: 95px;
 }
 
 #add-to-cart1{
-background-color: #34AD48;
-display: inline-block;
-border-radius: 50px;
-margin-top: -63px;
-width: 59px;
-font-family: "Century Gothic";
-color: white;
-font-size: 9px;
-height: 9px;
-padding: 1em 1em;
-border: none !important;
-text-shadow: none !important;
-font-weight: bold;
-margin-left: 116px;
-margin-bottom: 44px;
+    background-color: #34AD48;
+    display: inline-block;
+    border-radius: 50px;
+    width: 59px;
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 9px;
+    height: 9px;
+    padding: 1em 1em;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: bold;
 }
 
 #BuyNow1{
-  background-color: #F77F00;
-  display: inline-block;
-  border-radius: 50px;
-  margin-top: -94px;
-  width: 59px;
-  font-family: "Century Gothic";
-  color: white;
-  font-size: 9px;
-  height: 9px;
-  padding: 1em 1em;
-  border: none !important;
-  text-shadow: none !important;
-  font-weight: bold;
-  margin-left: 198px;
-  margin-bottom: 64px;
+    background-color: #F77F00;
+    display: inline-block;
+    border-radius: 50px;
+    width: 59px;
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 9px;
+    height: 9px;
+    padding: 1em 1em;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: bold;
 }
 
 .ui-footer{
@@ -189,38 +191,38 @@ margin-bottom: 44px;
   letter-spacing: 3px;
   padding: 8px;
 }
-.icons{
 
-}
 #select-txt{
   padding-left: 8px;
   margin-left: 36px;
 }
+
 #delete-txt{
-padding: 6px;
+  padding: 6px;
 }
 
 #checkbox-mini-0{
-margin-top: 0px;
-padding-right: 61px;
+  margin-top: 0px;
+  padding-right: 61px;
 }
 
 #delete-icon{
-margin-top: 10px;
-margin-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 #share-icon{
   margin-top: 9px;
 }
-.ui-grid-acard{
-width: 338px;
-margin: 19px 1px;
-border-radius: 6px;
-background-color: white;
-text-align: center;
-height: 140px;
+
+#checkbox-select-all{
+  margin-top: 30px;
 }
+
+.left-wrapper{
+  width: 40px !important;
+}
+
 @media only screen
     and (device-width : 375px)
     and (device-height : 812px)
@@ -229,10 +231,6 @@ height: 140px;
     {
 
     }
-
-.ui-block-bex{
-  margin-top: -128px;
-}
 
 #share-2{
   width: 14px;
