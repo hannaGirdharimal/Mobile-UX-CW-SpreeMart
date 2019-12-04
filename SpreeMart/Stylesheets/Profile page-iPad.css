@@ -136,9 +136,15 @@
 }
 
 .active, .tab:hover {
-    background-color: #666 !important;
+    background-color: #D62828 !important;
     color: white !important;
 }
+
+/* .tab:hover:not(.active) {
+    background-color: #D62828 !important;
+    color: white !important;
+} */
+
 
 #c1,#c2,#c3{
     display: none;
