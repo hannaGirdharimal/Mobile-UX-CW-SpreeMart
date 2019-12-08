@@ -105,7 +105,7 @@
 }
 
 .profile-grid{
-    margin: 20px 0;
+    margin: 20px 0 0 0;
     padding: 20px 0;
 }
 
@@ -121,9 +121,14 @@
     font-family: "Century Gothic";
     color: #D62828;
     font-weight: bold;
-    font-size: 16px;
+    letter-spacing: 2px;
+    font-size: 20px;
     margin-top: 4px;
     margin-bottom: 2px;
+}
+
+#tabs{
+    padding-bottom: 20px;
 }
 
 .tab{
@@ -131,11 +136,13 @@
     border-color: #D62828 !important;
     color: #D62828 !important;
     text-shadow: none !important;
-    width: 200px;
     text-align: center !important;
+    font-family: "Century Gothic";
+    letter-spacing: 2px;
+    font-size: 20px !important;
 }
 
-.active, .tab:hover {
+.tab:hover, .tab:focus, .tab:active {
     background-color: #D62828 !important;
     color: white !important;
 }
@@ -149,6 +156,162 @@
 #c1,#c2,#c3{
     display: none;
 }
+
+.ui-body-d {
+    background-color: white;
+    border-right: 1px solid #D62828;
+    border-left: 1px solid #D62828;
+    border-bottom: 1px solid #D62828;
+}
+
+#path-icon-1{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 570px;    
+}
+
+#path-icon-2{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 20px;
+    height: 200px;    
+}
+
+.personal-information-wrapper{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.payment-information-wrapper{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.section-header{
+    font-family: "Century Gothic";
+    color: #D62828;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 10px;
+    letter-spacing: 3px;
+}
+
+.edit-wrapper{
+   margin-left: 250px;
+}
+
+#edit-icon{
+    width: 20px;
+}
+
+.edit-text{
+    font-family: "Century Gothic";
+    color: #D62828;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.info-title{
+    font-family: "Century Gothic";
+    color: #000000;
+    opacity: 50%;
+    margin: 15px 0 5px 10px;
+    font-size: 18px;
+}
+
+.info-filled{
+    font-family: "Century Gothic";
+    color: #000000;
+    margin: 5px 0 5px 10px;
+    font-size: 18px;
+}
+
+.google-maps-area{
+    margin: 10px;
+}
+
+#maps{
+    width: 610px;
+}
+
+#card-type{
+    width: 50px;
+}
+
+.loyalty-tier-wrapper{
+    margin: 20px 40px;
+}
+
+.loyalty-grid{
+    margin: 15px 0;
+}
+
+#loyalty-profile-img{
+    width: 75px;
+}
+
+#tier-line{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 73px;
+    width: 27.5%;
+}
+
+#tier-line-2{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 325px;
+    width: 29.5%;
+}
+
+#bronze-tier-image{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
+.tier-name{
+    font-family: "Century Gothic";
+    color: #969696;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.tier-name-silver{
+    font-family: "Century Gothic";
+    color: #969696;
+    font-size: 16px;
+}
+
+.tier-name-gold{
+    font-family: "Century Gothic";
+    color: #969696;
+    font-size: 16px;
+    margin-left: 135px;
+    text-align: center;
+}
+
+.silver-tier{
+    text-align: center;
+}
+
+.gold-tier{
+    text-align: right;
+}
+
+#tier-image{
+    margin: 6px 0;
+}
+
+
+
+
+
 
 .card{
     width: 220px;
