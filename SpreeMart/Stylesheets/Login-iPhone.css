@@ -1,4 +1,3 @@
-
 #Login{
     background-image:url("../Images/LoginBackground.png") ;
 }
@@ -34,7 +33,7 @@
     opacity: 90%;
 }
 
-.text-line{
+/* .text-line{
         background-color: transparent;
         color: #eeeeee;
         outline: none;
@@ -44,4 +43,20 @@
         border-right: none;
         border-bottom: solid #eeeeee 1px;
         padding: 3px 10px;
-    }
+} */
+
+#text-line{
+    background-color: white;
+    border: none !important;
+    box-shadow: none !important;
+    outline: 0;
+    border-radius: unset;
+    border-bottom: 1px solid #BDC4CC !important;
+    /* height: 60px; */
+    /* width: 200%; */
+    text-align: left;
+    /* padding: 0 40px; */
+    font-size: 16px;
+    font-family: "Century Gothic";
+    position: relative;
+}
