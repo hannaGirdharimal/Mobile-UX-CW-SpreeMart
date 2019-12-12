@@ -248,7 +248,7 @@
 }
 
 .loyalty-grid{
-    margin: 15px 0;
+    margin: 15px 0 45px 0;
 }
 
 #loyalty-profile-img{
@@ -393,6 +393,80 @@
 
 #next-icon{
     width: 30px;
+}
+
+.leaderboard-top-grid{
+    margin: 15px 0 45px 0;
+}
+
+#loyalty-profile-img-big{
+    width: 100px;
+}
+
+#leaderboard-image-number{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -55px;
+}
+
+#leaderboard-image-number-1{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -65px;
+}
+
+.leaderboard-rank-2{
+    margin-top: 15px;
+}
+
+.leaderboard-rank-1{
+    text-align: center;
+}
+
+.leaderboard-rank-3{
+    margin-top: 15px;
+    text-align: right;
+}
+
+.leaderboard-row{
+    margin: 15px 10px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    PADDING: 10px 0px 5px 10px;
+}
+
+.leader-left-wrapper{
+    width: 30% !important;
+    text-align: left;
+}
+
+.leader-middle-wrapper{
+    width: 50% !important;
+}
+
+.leader-right-wrapper{
+    width: 20% !important;
+}
+
+#leader-profile-img{
+    margin-left: 20px;
+    width: 70px;
+}
+
+.leader-name{
+    font-family: "Century Gothic";
+    color: #D62828;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+    padding: 17px 0;
+}
+
+.leader-title{
+    font-family: "Century Gothic";
+    color: #A8A8A8;
+    font-size: 18px;
 }
 
 .ui-footer{
