@@ -1,0 +1,50 @@
+
+#tabs{
+    padding-bottom: 20px;
+    width: 352px;
+    margin-left: -19px;
+}
+
+.tab{
+    background-color: white !important;
+    border-color: #D62828 !important;
+    color: #D62828 !important;
+    text-shadow: none !important;
+    text-align: center !important;
+    font-family: "Century Gothic";
+    letter-spacing: 2px;
+    font-size: 12px !important;
+}
+
+.tab:hover, .tab:focus, .tab:active {
+    background-color: #D62828 !important;
+    color: white !important;
+}
+
+.ui-body-d {
+    background-color: white;
+    border-right: 1px solid #D62828;
+    border-left: 1px solid #D62828;
+    border-bottom: 1px solid #D62828;
+}
+.Guide{
+  font-family: "Century Gothic";
+  color: #f77f00;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+#video{
+  width: 1px;
+}
+
+
+.detail{
+  font-family: "Century Gothic";
+  color: #f77f00;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+
+}
