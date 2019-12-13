@@ -120,6 +120,7 @@ Product price font-size: 14px */
 .ui-footer{
     padding: 15px 40px;
     background-color: #D62828 !important;
+    border: none;
 }
 
 .spreemart-title{

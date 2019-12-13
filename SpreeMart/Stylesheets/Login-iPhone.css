@@ -30,6 +30,16 @@ a{
     letter-spacing: 3px;
 }
 
+.ui-input-text{
+    border-width: 0 !important; 
+    border-style: none;
+    margin: 0.58em 0;
+}
+
+.ui-input-text input{
+    text-align: right !important;
+}
+
 #login-btn{
     background-color: #D62828;
     display:inline-block;
