@@ -1,4 +1,8 @@
 
+#Support{
+  background-color: #f1f1f1;
+}
+
 #tabs{
     padding-bottom: 20px;
     width: 352px;
@@ -47,4 +51,35 @@
   font-size: 14px;
   letter-spacing: 2px;
 
+}
+
+.ui-footer{
+  padding: 15px 40px !important;
+  background-color: #D62828 !important;
+}
+
+.spreemart-title{
+  font-family: "Century Gothic";
+  color: white;
+  font-size: 14px;
+  text-shadow: none !important;
+}
+
+.spreemart-copyright{
+  font-family: "Century Gothic";
+  font-style: italic;
+  font-weight: 100;
+  color: white;
+  font-size: 12px;
+  text-shadow: none !important;
+}
+
+.social-media-wrapper{
+  text-align: right;
+  margin-top: 7px;
+}
+
+#social-media{
+  width: 15px;
+  margin-left: 4px;
 }
