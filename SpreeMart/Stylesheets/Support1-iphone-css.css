@@ -1,8 +1,4 @@
 
-#Support{
-  background-color: #f1f1f1;
-}
-
 #tabs{
     padding-bottom: 20px;
     width: 352px;
@@ -31,6 +27,7 @@
     border-left: 1px solid #D62828;
     border-bottom: 1px solid #D62828;
 }
+
 .Guide{
   font-family: "Century Gothic";
   color: #f77f00;
@@ -39,47 +36,84 @@
   letter-spacing: 2px;
 }
 
-#video{
-  width: 1px;
-}
-
-
-.detail{
+#field-lbl{
   font-family: "Century Gothic";
-  color: #f77f00;
-  font-weight: bold;
-  font-size: 14px;
-  letter-spacing: 2px;
-
+  color: #000000;
+  outline-color: #707070;
+  font-weight: regular;
+  font-size: 12px;
+  opacity: 0.5;
 }
 
+
+.what{
+  font-family: "Century Gothic";
+  outline-color: #707070;
+  color: #000000;
+  font-weight: regular;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+#textarea-1{
+  height: 139px;
+}
 .ui-footer{
-  padding: 15px 40px !important;
-  background-color: #D62828 !important;
+    padding: 15px 40px;
+    background-color: #D62828 !important;
 }
 
 .spreemart-title{
-  font-family: "Century Gothic";
-  color: white;
-  font-size: 14px;
-  text-shadow: none !important;
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 14px;
+    text-shadow: none !important;
 }
 
 .spreemart-copyright{
-  font-family: "Century Gothic";
-  font-style: italic;
-  font-weight: 100;
-  color: white;
-  font-size: 12px;
-  text-shadow: none !important;
+    font-family: "Century Gothic";
+    font-style: italic;
+    font-weight: 100;
+    color: white;
+    font-size: 12px;
+    text-shadow: none !important;
 }
 
 .social-media-wrapper{
-  text-align: right;
-  margin-top: 7px;
+    text-align: right;
+    margin-top: 7px;
 }
 
 #social-media{
-  width: 15px;
-  margin-left: 4px;
+    width: 15px;
+    margin-left: 4px;
+}
+#text-box{
+      height: 132px;
+}
+
+.ui-input-text{
+    border-width: 0 !important;
+    border-style: none;
+    margin: 0.58em 0;
+}
+
+.ui-input-text input{
+    text-align: right !important;
+}
+
+#text-line{
+    background-color: white;
+    border: none !important;
+    box-shadow: none !important;
+    outline: 0;
+    border-radius: unset;
+    border-bottom: 1px solid #BDC4CC !important;
+    /* height: 60px; */
+    /* width: 200%; */
+    text-align: left;
+    /* padding: 0 40px; */
+    font-size: 16px;
+    font-family: "Century Gothic";
+    position: relative;
 }

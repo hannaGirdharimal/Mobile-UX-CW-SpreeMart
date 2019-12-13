@@ -8,6 +8,8 @@
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
         <link rel="stylesheet" type="text/css" href="Stylesheets/Support1-iphone-css.css">
+        <link rel="stylesheet" type="text/css" href="Stylesheets/main-css.css">
+
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
@@ -22,6 +24,8 @@
     <body>
 
         <div data-role="page" id="Support">
+
+          
 
             <div data-role="content">
 
@@ -44,18 +48,27 @@
                             <div class="Guide"> GUIDE TO OUR WEB APPLICATION</div>
                             <br>
 
-
-                            <video id="video" width="320" controls>
-                                <source src="mov_bbb.mp4" type="video/mp4">
+                            <video width="320" controls>
+                              <source src="mov_bbb.mp4" type="video/mp4">
                                 <source src="mov_bbb.ogg" type="video/ogg">
-                                Your browser does not support HTML5 video.
-                            </video>
+                                  Your browser does not support HTML5 video.
+                                </video>
                             <br>
                             <br>
                             <br>
                             <div class="Guide">CONTACT US</div>
+                            <br>
 
-                            <div class="detail">Email</div>
+                            <div class="text-field-wrapper">
+                                <label id="field-lbl" for="text-line Email">Email</label>
+                                <input type="text" name="text-line username" id="text-line" value="">
+                            </div>
+                            <div id ="field-lbl">Message</div>
+                            <input type="text" id="text-box">
+
+
+
+
 
 
                         </div>
