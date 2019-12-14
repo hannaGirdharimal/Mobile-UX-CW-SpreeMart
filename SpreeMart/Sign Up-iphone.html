@@ -2,13 +2,13 @@
 <html>
 
 <head>
-    <title>Login</title>
+    <title>Sign up</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <link rel="stylesheet" type="text/css" href="Stylesheets/Legend-iPhone.css">
-    <link rel="stylesheet" type="text/css" href="Stylesheets/Login-iPhone.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/Sign-up-iPhone.css">
 
 
 
@@ -22,3 +22,262 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 </head>
+
+<body>
+    <div data-role="page" id="SignUp">
+        <div data-role="content">
+            <div class="ui-grid-b">
+                <div class="ui-block-a">
+                </div>
+                <div class="ui-block-b logo-block">
+                    <div><img id="logo-icon" src="Icons/LoginLogo.png"></div>
+                    <div class="login-header">SIGN UP</div>
+                </div>
+                <div class="ui-block-c">
+                </div>
+            </div>
+            <br>
+            <div class="sign-up-message">
+                Already have an account?
+                <a id="links" href=""> Login</a>
+            </div>
+
+
+            <div class="white-box">
+                <div class="signup-progress">
+                    <img id="progress-image" src="Icons/Steps.png">
+                    <div class="ui-grid-b">
+
+                        <!-- <div class="ui-block-a">
+                            <span class="circle current-circle">
+                                <label id="progress-number">1</label>
+                                 <img id="progress-line1"src="Icons/Line 7.png">
+                            </span>
+
+                           <div class="progress-line"></div> -->
+
+                        <!-- </div>
+                        <div class="ui-block-b">
+                            <span class="circle"></span>
+                        </div>
+                        <div class="ui-block-c">
+                            <span class="circle"></span>
+                        </div> -->
+                    </div>
+                </div>
+                <br>
+
+                <div class="personal-details-heading">PERSONAL DETAILS</div>
+                <br>
+                <form>
+                    <div class="text-field-wrapper">
+                        <label id="field-lbl" for="text-line-email">Email</label>
+                        <div><input type="text" name="text-line Email" id="text-line" value=""></div>
+                    </div>
+                    <div class="ui-grid-a">
+                        <div class="ui-block-a fnameblock">
+                            <div class="text-field-wrapper">
+                                <label id="field-lbl" for="text-line-fname">First name</label>
+                                <div><input type="text" name="text-line-fname" id="text-line" class="fname" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui-block-b lnameblock">
+                            <div class="text-field-wrapper">
+                                <label id="field-lbl" for="text-line-lname">Last name</label>
+                                <div><input type="text" name="text-line-lname" id="text-line" class="fname" value="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-field-wrapper">
+                        <label id="field-lbl" for="text-line-dob">Date of Birth</label>
+                        <div><input type="date" name="text-line-dob" id="text-line" class="fname" value="">
+                        </div>
+                    </div>
+                    <div class="text-field-wrapper">
+                        <label id="field-lbl" for="text-line-num">Mobile number</label>
+                        <div><input type="tel" name="text-line-num" id="text-line" class="fname" value="">
+                        </div>
+                    </div>
+
+                    <div class="continue-button">
+                        <a href="#SignUp2" data-transition="slide" data-role="button" id="continue-btn">Continue</a>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <div data-role="footer">
+            <div data-role="navbar">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div class="spreemart-title">SpreeMart ©</div>
+                        <div class="spreemart-copyright">All rights reserved</div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div class="social-media-wrapper">
+                            <img id="social-media" src="Icons/facebook.png">
+                            <img id="social-media" src="Icons/instagram.png">
+                            <img id="social-media" src="Icons/twitter.png">
+                            <img id="social-media" src="Icons/youtube.png">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="SignUp2">
+        <div data-role="content">
+            <div class="ui-grid-b">
+                <div class="ui-block-a">
+                </div>
+                <div class="ui-block-b logo-block">
+                    <div><img id="logo-icon" src="Icons/LoginLogo.png"></div>
+                    <div class="login-header">SIGN UP</div>
+                </div>
+                <div class="ui-block-c">
+                </div>
+            </div>
+            <br>
+            <div class="sign-up-message">
+                Already have an account?
+                <a id="links" href=""> Login</a>
+            </div>
+
+
+            <div class="white-box">
+                <div class="signup-progress">
+                    <img id="progress-image" src="Icons/Steps2.png">
+                </div>
+                <br>
+                <div class="personal-details-heading">DELIVERY DETAILS</div>
+                <br>
+                <form>
+                    <div class="text-field-wrapper">
+                        <label id="field-lbl" for="text-line-address">Address</label>
+                        <div><input type="text" name="text-line-address" id="text-line" value=""></div>
+                    </div>
+
+                    <div class="google-maps">
+                        <img id="google-maps-temp" src="Icons/Google maps.png">
+                    </div>
+
+                    <div class="continue-button">
+                        <a href="#SignUp3" data-transition="slide" data-role="button" id="continue-btn">Continue</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div data-role="footer">
+            <div data-role="navbar">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div class="spreemart-title">SpreeMart ©</div>
+                        <div class="spreemart-copyright">All rights reserved</div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div class="social-media-wrapper">
+                            <img id="social-media" src="Icons/facebook.png">
+                            <img id="social-media" src="Icons/instagram.png">
+                            <img id="social-media" src="Icons/twitter.png">
+                            <img id="social-media" src="Icons/youtube.png">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="SignUp3">
+        <div data-role="content">
+            <div class="ui-grid-b">
+                <div class="ui-block-a">
+                </div>
+                <div class="ui-block-b logo-block">
+                    <div><img id="logo-icon" src="Icons/LoginLogo.png"></div>
+                    <div class="login-header">SIGN UP</div>
+                </div>
+                <div class="ui-block-c">
+                </div>
+            </div>
+            <br>
+            <div class="sign-up-message">
+                Already have an account?
+                <a id="links" href=""> Login</a>
+            </div>
+
+            <div class="white-box">
+                <div class="signup-progress">
+                    <img id="progress-image" src="Icons/Steps3.png">
+                </div>
+                <br>
+                <div class="personal-details-heading">PAYMENT DETAILS</div>
+                <br>
+                <form>
+                    <div class="text-field-wrapper">
+                        <label id="field-lbl" for="text-line-cardnum">Card Number</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a iconblock">
+                                <img id="temp-card-icon" src="Icons/Card Type.png">
+                            </div>
+                            <div class="ui-block-b cardblock">
+                                <input type="text" name="text-line-cardnum" id="text-line" class="card-num" value="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-field-wrapper">
+                        <label id="field-lbl" for="text-line-nameoncard">Name on Card</label>
+                        <div><input type="text" name="text-line-nameoncard" id="text-line" value=""></div>
+                    </div>
+
+                    <div class="ui-grid-a">
+                        <div class="ui-block-a expiryblock">
+                            <div class="text-field-wrapper">
+                                <label id="field-lbl" for="text-line-expiry">Expiry</label>
+                                <div><input type="text" name="text-line-expiry" id="text-line" class="fname" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui-block-b securityblock">
+                            <div class="text-field-wrapper">
+                                <label id="field-lbl" for="text-line-security">Security code</label>
+                                <div><input type="text" name="text-line-security" id="text-line" class="fname" value="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="submit-button">
+                        <a href="" data-transition="slide" data-role="button" id="submit-btn">Submit</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div data-role="footer">
+            <div data-role="navbar">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div class="spreemart-title">SpreeMart ©</div>
+                        <div class="spreemart-copyright">All rights reserved</div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div class="social-media-wrapper">
+                            <img id="social-media" src="Icons/facebook.png">
+                            <img id="social-media" src="Icons/instagram.png">
+                            <img id="social-media" src="Icons/twitter.png">
+                            <img id="social-media" src="Icons/youtube.png">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
