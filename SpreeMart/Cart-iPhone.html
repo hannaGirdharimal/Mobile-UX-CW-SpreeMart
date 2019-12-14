@@ -1,0 +1,151 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Cart</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="Stylesheets/Cart-iPhone-css.css">
+        <link rel="stylesheet" type="text/css" href="Stylesheets/main-iPhone.css">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <div data-role="page" id="support">
+
+            <div data-role="header">
+                <div data-role="navbar">
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a">
+                            <!-- <a href="#temporary" data-role="button" id="hamburger-link">
+                                                        <img id="hamburger" src="Icons/menu-button.png">
+                                                    </a> -->
+                            <div id="mySidenav" class="sidenav">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <a disabled="disabled" class="item-heading">Categories</a>
+                                <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
+                                <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Canned goods & soups</a>
+                                <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Dairy</a>
+                                <a href="#" class="item-heading">Promotions</a>
+                                <a href="#" class="item-heading">Support</a>
+                            </div>
+                            <span onclick="openNav()"><img id="hamburger" src="Icons/menu-button.png"></span>
+                        </div>
+                        <div class="ui-block-b">
+                            <img id="logo" src="Images/CWLOGO full.png">
+                        </div>
+                        <div class="ui-block-c">
+                            <div class="header-right-wrapper">
+                                <img id="cart" src="Icons/shopping-cart.png">
+                                <img id="profile-image" src="Icons/profile-image.png">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div data-role="content">
+
+                <div class="breadcrumb-wrapper">
+                    <div class="breadcrumb-text">Home>Cart</div>
+                </div>
+                  <br><br>
+                  <div class="header">SHOPPING CART</div>
+
+                  <div class="ui-grid-a icons">
+                    <div class="ui-block-a icons">
+                      <input type="checkbox" name="checkbox-mini-0" id="checkbox-mini-0" data-mini="true" />
+                      <span id="select-txt">Select All</span>
+                    </div>
+
+                    <div class="ui-block-b">
+                      <img id="delete-icon" src="Icons/delete.png">
+                      <span id="delete-txt">(0) Items</span>
+                    </div>
+
+                  </div>
+
+                  <div class="ui-grid-b card">
+                    <div class="ui-block-a left-wrapper">
+                      <input type="checkbox" name="checkbox-mini-0" id="checkbox-select-all" data-mini="true" />
+                    </div>
+                    <div class="ui-block-b middle-wrapper">
+                      <img id="nutella" src="Images/nutella.png">
+                    </div>
+                    <div class="ui-block-c right-wrapper">
+                      <span class="producttitle"> NUTELLA BOTTLE 200G</span>
+                      <img id="share-2" src="Icons/delete.png">
+                      <span class="price">Rs.800.00</span>
+                      <span class="rating1">
+                        <img id="rating-star1" src="Icons/rating star.png">
+                        <img id="rating-star1" src="Icons/rating star.png">
+                        <img id="rating-star1" src="Icons/rating star.png">
+                        <img id="rating-star1" src="Icons/rating star.png">
+                        <img id="rating-star1" src="Icons/rating star half-filled.png">
+                      </span>
+                    </div>
+                  </div>
+                  <hr class="hr1">
+                  <div class="ui-grid-b card">
+                    <div class="subtot">Subtotal
+                      <span class="subprice"> Rs. 1600 </span>
+                    </div>
+                    <div class="subtot1">Discount Amount
+                      <span class="subprice1"> Rs. 200 </span>
+                    </div>
+                    <div class="subtot2">Discounted Total
+                      <span class="subprice2"> Rs. 1400 </span>
+                    </div>
+                    <div class="subtot3">Net Total
+                      <span class="subprice3"> Rs. 1800 </span>
+                    </div>
+                  </div>
+                  </div>
+
+
+                  <div>
+                    <a href="#temporary" data-role="button" id="add-to-cart1">CONTINUE SHOPPING</a>
+                    <a href="#temp" data-role="button" id="BuyNow1">PROCEED TO CHECKOUT</a>
+                  </div>
+
+                  <div data-role="footer" data-position="fixed">
+                      <div data-role="navbar">
+                          <div class="ui-grid-a">
+                              <div class="ui-block-a">
+                                  <div class="spreemart-title">SpreeMart ©</div>
+                                  <div class="spreemart-copyright">All rights reserved</div>
+                              </div>
+                              <div class="ui-block-b">
+                                  <div class="social-media-wrapper">
+                                      <img id="social-media" src="Icons/facebook.png">
+                                      <img id="social-media" src="Icons/instagram.png">
+                                      <img id="social-media" src="Icons/twitter.png">
+                                      <img id="social-media" src="Icons/youtube.png">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+
+
+
+
+
+    </body>
+
+    </html>
