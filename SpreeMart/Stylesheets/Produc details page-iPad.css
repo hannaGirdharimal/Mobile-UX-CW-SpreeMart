@@ -99,7 +99,8 @@
 
 .heart-wrapper{
     text-align: left;
-    padding: 10px 0 0 15px;}
+    padding: 10px 0 0 15px;
+}
 
     #cart{
         width: 35px;
@@ -132,9 +133,24 @@
     
     .heart-wrapper{
         text-align: left;
-        padding: 10px 0 0 15px;}
+        padding: 10px 0 0 15px;
+    }
+
 #heart{
     width: 25px;
+}
+
+#heart-2{
+    width: 25px;
+    margin-left: 205px;
+}
+
+.heart-number{
+    font-family: "Century Gothic";
+    color: #D62828;
+    margin-left: 248px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .card-content{
@@ -146,9 +162,14 @@
     width: 35% !important;
 }
 
-#product-image{
+#product-image-1{
     margin: 0px 10px;
     width: 220px;
+}
+
+#share-2{
+    width: 20px;
+    margin-left: 95px;
 }
 
 .product-description-block{
@@ -166,10 +187,51 @@
     margin-bottom: 2px;
 }
 
+.product-rating-block{
+    width: 40% !important;
+    margin-top: 10px;
+}
+
+.product-review-block{
+    width: 60% !important;
+    padding-left: 20px;
+}
+
+.progress {
+    border: 1px solid #f77f00;
+    height: 13.5px !important;
+    background-color: white !important;
+    border-radius: 0 !important;
+}
+
+.progress-bar {
+    background-color: #f77f00 !important;
+}
+
 .product-category{
     font-family: "Century Gothic";
     color: #000000;
-    font-size: 12px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.star-amount{
+    width: 30% !important;
+}
+
+.bar-block{
+    width: 70% !important;
+}
+
+#text-box{
+    height: 132px;
+}
+
+.appreciate-text{
+    font-family: "Century Gothic";
+    color: black;
+    opacity: 50%;
+    font-size: 13px;
 }
 
 .rating{
@@ -185,12 +247,12 @@
 }
 
 #rating-star{
-    width: 15px;
+    width:20px;
 }
 
-.price{
+.member-deal{
     font-family: "Century Gothic";
-    color: #D62828;
+    color: #34AD48;
     font-weight: bold;
     font-size: 18px;
 }
@@ -229,13 +291,25 @@
     background-color: white;
 }
 
-.quantity{
+.quantity-1{
     margin-left: -5px;
     width: 120px;
 }
 
+.price{
+    font-family: "Century Gothic";
+    color: #D62828;
+    text-decoration: line-through;
+    font-size: 14px;
+    margin: 10px 0 2px 0;
+}
+
 .add-to-cart{
     text-align: center;
+}
+
+.button-wrapper{
+    text-align: right;
 }
 
 #add-to-cart{
@@ -271,6 +345,23 @@
     font-weight: bold;
 }
 
+#submit-review{
+    background-color: #F77F00;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: -20px;
+    position: relative;
+    width: 120px;
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 13px;
+    height: 44px;
+    padding: 1em 1em;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: bold;
+}
+
 .section-header{
     font-family: "Century Gothic";
     color: #D62828;
@@ -283,8 +374,62 @@
 .product-rating-grid{
     margin: 20px 10px;
     border-radius: 10px;
-    padding: 30px 30px 0 30px;
+    padding: 30px 30px 20px 30px;
     background-color: white;
+}
+
+.comment-pic-block{
+     width: 18% !important;
+}
+
+.comment-block{
+    width: 80% !important;
+}
+
+.comment{
+    font-family: "Century Gothic";
+    color: black;
+    opacity: 50%;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.rating-2{
+    margin-right: 10px;
+    margin-top: 5px;
+    text-align: right;
+}
+
+#comment-pic{
+    width: 70px;
+    margin-left: 7px;
+}
+
+.commenter-name{
+    font-family: "Century Gothic";
+    color: #D62828;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.see-more{
+    margin: 15px 10px;
+    font-family: "Century Gothic";
+    color: #D62828;
+    font-size: 18px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#product-image{
+    width: 145px;
+}
+
+.quantity{
+    width: 120px;
+    /* text-align: center; */
+    /* display: inline; */
+    margin: auto;
 }
 
 #myProgress {
