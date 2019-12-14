@@ -118,16 +118,17 @@
     padding: 30px;
     background-color: white;
     text-align: center;
-    height: 396px;
+    height: 430px;
     border-radius: 10px;
-    margin-left: 17px;
+    margin: 10px 100px;
 }
 
 .camera-dashed-box{
     padding: 15px;
     background-color: #F8F8F8;
-    width: 257px;
-    height: 298px;
+    width: 325px;
+    height: 325px;
+    margin: auto;
     border-style: dashed;
     border-color: #707070;
 
@@ -150,7 +151,7 @@
     font-family: "Century Gothic";
     color: #D62828;
     font-weight: bold;
-    font-size: 16px
+    font-size: 20px
 }
 
 #share-icon{

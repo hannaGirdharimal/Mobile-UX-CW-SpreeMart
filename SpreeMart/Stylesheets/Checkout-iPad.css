@@ -146,7 +146,7 @@
 }
 
 #checkbox-select-all{
-    margin-top: 0px;
+    margin-top: 0px;    z-index: 0;
 }
 
 .same-text{
