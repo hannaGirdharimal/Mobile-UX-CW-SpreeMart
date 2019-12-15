@@ -7,59 +7,22 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="Stylesheets/favourites-iPad.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/Favourites Email-iPad.css">
 
 </head>
 
 <body>
-    <div data-role="page" id="Cards">
-        <div data-role="header">
-            <div data-role="navbar">
-                <div class="ui-grid-b">
-                    <div class="ui-block-a">
+    <div data-role="page" id="Favourites-Email">
 
-                        <div id="mySidenav" class="sidenav">
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                            <a disabled="disabled" class="item-heading">Categories</a>
-                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
-                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Canned goods & soups</a>
-                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Dairy</a>
-                            <a href="#" class="item-heading">Promotions</a>
-                            <a href="#" class="item-heading">Support</a>
-                        </div>
-                        <span onclick="openNav()"><img id="hamburger" src="Icons/menu-button.png"></span>
-                    </div>
-                    <div class="ui-block-b">
-                        <img id="logo" src="Images/CWLOGO full.png">
-                    </div>
-                    <div class="ui-block-c">
-                        <div class="header-right-wrapper">
-                            <img id="cart" src="Icons/shopping-cart.png">
-                            <img id="profile-image" src="Icons/profile-image.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <div data-role="content">
-            <div class="fav-heading">
-                YOUR FAVOURITES
+            <div class="logo-background"><img id="logo" src="Images/CWLOGO full.png"></div>
+
+            <div class="top-banner">
+                Favourite Items!
             </div>
 
-            <div class="ui-grid-b icons">
-                <div class="ui-block-a">
-                    <input type="checkbox" name="checkbox-mini-0" id="checkbox-mini-0" data-mini="true" />
-                    <span id="select-txt">Select All</span>
-                </div>
-                <div class="ui-block-b">
-                    <img id="delete-icon" src="Icons/delete.png">
-                    <span id="delete-txt">(0) Items</span>
-                </div>
-                <div class="ui-block-c">
-                    <img id="share-icon" src="Icons/share.png">
-                    <span id="share-txt">(0) Items</span>
-                </div>
-            </div>
+
 
             <div class="ui-grid-a">
                 <div class="ui-block-a">
@@ -425,75 +388,31 @@
                         </div>
 
                     </div>
-                    <div class="ui-grid-b card">
 
-                        <div class="ui-block-a left-wrapper">
-                            <div class="heart-wrapper">
-                                <img id="heart" src="Icons/heart.png">
-                            </div>
-                            <input type="checkbox" name="checkbox-mini-0" id="checkbox-select-all" data-mini="true" />
-                        </div>
-                        <div class="ui-block-b middle-wrapper">
-                            <img id="nutella" src="Images/nutella.png">
-                        </div>
-                        <div class="ui-block-c right-wrapper">
-                            <span class="producttitle"> NUTELLA BOTTLE 200G</span>
-                            <img id="share-2" src="Icons/share.png">
-                            <span class="price">Rs.800.00</span>
-                            <span class="rating1">
-                                <img id="rating-star1" src="Icons/rating star.png">
-                                <img id="rating-star1" src="Icons/rating star.png">
-                                <img id="rating-star1" src="Icons/rating star.png">
-                                <img id="rating-star1" src="Icons/rating star.png">
-                                <img id="rating-star1" src="Icons/rating star half-filled.png">
-                            </span>
-                            <div class="quantity1">
-                                <fieldset class="ui-grid-b">
-                                    <div class="ui-block-a">
-                                        <a href="#temporary" data-role="button" id="minus1">-</a>
-                                    </div>
-                                    <div class="ui-block-b">
-                                        <input type="number" name="quantity" id="quantity1" value="1" />
-                                    </div>
-                                    <div class="ui-block-c">
-                                        <a href="temporary.html" data-role="button" id="plus1">+</a>
-                                    </div>
-                                </fieldset>
-                            </div>
-                            <a href="#temporary" data-role="button" id="add-to-cart1">ADD TO CART</a>
-                            <a href="#temp" data-role="button" id="BuyNow1">BUY NOW</a>
-                        </div>
-
-                    </div>
                 </div>
             </div>
 
-
-
-
-            <div data-role="footer" data-position="fixed">
-                <div data-role="navbar">
-                    <div class="ui-grid-a">
-                        <div class="ui-block-a">
-                            <div class="spreemart-title">SpreeMart ©</div>
-                            <div class="spreemart-copyright">All rights reserved</div>
+        </div>
+        <div data-role="footer">
+            <div data-role="navbar">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div class="spreemart-title">SpreeMart ©</div>
+                        <div class="spreemart-copyright">All rights reserved</div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div class="social-media-wrapper">
+                            <img id="social-media" src="Icons/facebook.png">
+                            <img id="social-media" src="Icons/instagram.png">
+                            <img id="social-media" src="Icons/twitter.png">
+                            <img id="social-media" src="Icons/youtube.png">
                         </div>
-                        <div class="ui-block-b">
-                            <div class="social-media-wrapper">
-                                <img id="social-media" src="Icons/facebook.png">
-                                <img id="social-media" src="Icons/instagram.png">
-                                <img id="social-media" src="Icons/twitter.png">
-                                <img id="social-media" src="Icons/youtube.png">
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
         </div>
-
-
     </div>
+
 
 </body>
 
