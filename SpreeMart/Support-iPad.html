@@ -1,0 +1,181 @@
+<html>
+
+<head>
+    <title>Support</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Stylesheets/Support-iPad.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div data-role="page" id="Support">
+
+        <div data-role="header">
+            <div data-role="navbar">
+                <div class="ui-grid-b">
+                    <div class="ui-block-a">
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a disabled="disabled" class="item-heading">Categories</a>
+                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
+                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Canned goods & soups</a>
+                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Dairy</a>
+                            <a href="#" class="item-heading">Promotions</a>
+                            <a href="#" class="item-heading">Support</a>
+                        </div>
+                        <span onclick="openNav()"><img id="hamburger" src="Icons/menu-button.png"></span>
+                    </div>
+                    <div class="ui-block-b">
+                        <img id="logo" src="Images/CWLOGO full.png">
+                    </div>
+                    <div class="ui-block-c">
+                        <div class="header-right-wrapper">
+                            <img id="cart" src="Icons/shopping-cart.png">
+                            <img id="profile-image" src="Icons/profile-image.png">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div data-role="content">
+
+            <div class="breadcrumb-wrapper">
+                <div class="breadcrumb-text">Home > Support</div>
+            </div>
+            <br><br>
+            <div class="container">
+                <div data-role="tabs" id="tabs">
+                    <div data-role="navbar">
+                        <ul>
+                            <li><a href="#support-details" data-ajax="false" class="tab">SUPPORT</a>
+                            </li>
+                            <li><a href="#faq" data-ajax="false" class="tab">FAQ</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div id="support-details" class="ui-body-d ui-content">
+                        <div class="Guide"> GUIDE TO OUR WEB APPLICATION</div>
+                        <br>
+                        <div class="video-holder">
+                            <video width="600" controls>
+                                <source src="mov_bbb.mp4" type="video/mp4">
+                                <source src="mov_bbb.ogg" type="video/ogg">
+                                Your browser does not support HTML5 video.
+                            </video></div>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="Guide">CONTACT US</div>
+                        <br>
+
+                        <div class="text-field-wrapper">
+                            <label id="field-lbl" for="text-line Email">Email</label>
+                            <input type="text" name="text-line username" id="text-line" value="">
+                        </div>
+                        <div id="field-lbl">Message</div>
+                        <input type="text" id="text-box">
+
+
+
+                    </div>
+                    <div id="faq" class="ui-body-d ui-content">
+                        <div class="download">Download the guide to our application <a href="link"> Here</a></div>
+
+                        <div class="grey-area">
+                            <br>
+                            <div id="collapse" data-role="collapsible">
+                                <h1>I'm a collapsible block</h1>
+                                <p>I'm the content in the collapsible block.</p>
+                            </div>
+
+                            <div id="collapse" data-role="collapsible">
+                                <h1>I'm a collapsible block</h1>
+                                <p>I'm the content in the collapsible block.</p>
+                            </div>
+
+                            <div id="collapse" data-role="collapsible">
+                                <h1>I'm a collapsible block</h1>
+                                <p>I'm the content in the collapsible block.</p>
+                            </div>
+
+                            <div id="collapse" data-role="collapsible">
+                                <h1>I'm a collapsible block</h1>
+                                <p>I'm the content in the collapsible block.</p>
+                            </div>
+
+                            <div id="collapse" data-role="collapsible">
+                                <h1>I'm a collapsible block</h1>
+                                <p>I'm the content in the collapsible block.</p>
+                            </div>
+
+                            <div id="collapse" data-role="collapsible">
+                                <h1>I'm a collapsible block</h1>
+                                <p>I'm the content in the collapsible block.</p>
+                            </div>
+
+                            <div id="collapse" data-role="collapsible">
+                                <h1>I'm a collapsible block</h1>
+                                <p>I'm the content in the collapsible block.</p>
+                            </div>
+
+                            <div id="collapse" data-role="collapsible">
+                                <h1>I'm a collapsible block</h1>
+                                <p>I'm the content in the collapsible block.</p>
+                            </div>
+
+                            <div id="collapse" data-role="collapsible">
+                                <h1>I'm a collapsible block</h1>
+                                <p>I'm the content in the collapsible block.</p>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div data-role="footer" data-position="fixed">
+                    <div data-role="navbar">
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                                <div class="spreemart-title">SpreeMart ©</div>
+                                <div class="spreemart-copyright">All rights reserved</div>
+                            </div>
+                            <div class="ui-block-b">
+                                <div class="social-media-wrapper">
+                                    <img id="social-media" src="Icons/facebook.png">
+                                    <img id="social-media" src="Icons/instagram.png">
+                                    <img id="social-media" src="Icons/twitter.png">
+                                    <img id="social-media" src="Icons/youtube.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
