@@ -118,9 +118,11 @@
         background-color: #f1f1f1;
     }
 
-    .product-detail-grid{margin: 10px 0px;
+    .product-detail-grid{
+        margin: 10px -10px;
         border-radius: 10px;
         background-color: white;
+        width: 339px;
     }
 
 
@@ -130,15 +132,17 @@
 
 #heart-2{
     width: 25px;
-    margin-left: 205px;
+    margin-left: 145px;
+    margin-top: -84px;
 }
 
-.heart-number{
+.heart-number {
     font-family: "Century Gothic";
     color: #D62828;
-    margin-left: 248px;
+    margin-left: 145px;
     font-weight: bold;
     font-size: 14px;
+    margin-top: -33px;
 }
 
 .card-content{
@@ -156,8 +160,9 @@
 }
 
 #share-2{
-    width: 20px;
-    /* margin-left: 95px; */
+    width: 17px;
+    margin-left: -11px;
+    margin-top: -30px;
 }
 
 .product-description-block{
@@ -170,7 +175,7 @@
     text-transform: uppercase;
     color: #f77f00;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 12px;
     margin-top: 4px;
     margin-bottom: 2px;
     margin-right: 90px;
@@ -216,7 +221,8 @@
 .product-category-1{
     font-family: "Century Gothic";
     color: #000000;
-    font-size: 16px;
+    font-size: 10px;
+    padding: 10px 0px 10px 0px;
 }
 
 .star-amount{
@@ -258,7 +264,7 @@
     font-family: "Century Gothic";
     color: #34AD48;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 #minus{
@@ -296,8 +302,8 @@
 }
 
 .quantity-1{
-    margin-left: -5px;
-    width: 120px;
+    margin-left: 2px;
+    width: 100px;
 }
 
 .price-1{
@@ -327,6 +333,24 @@
     background-color: #34AD48;
     display: inline-block;
     border-radius: 50px;
+    margin-top: -52px;
+    width: 86px;
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 10px;
+    height: 33px;
+    padding: -1em -60em;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: bold;
+    margin-left: -7px;
+    margin-bottom: -29px;
+}
+
+#related-add-to-cart{
+    background-color: #34AD48;
+    display: inline-block;
+    border-radius: 50px;
     margin-top: 5px;
     width: 120px;
     font-family: "Century Gothic";
@@ -344,16 +368,18 @@
     background-color: #F77F00;
     display: inline-block;
     border-radius: 50px;
-    margin-top: 5px;
-    width: 120px;
+    margin-top: -10px;
+    width: 86px;
     font-family: "Century Gothic";
     color: white;
-    font-size: 13px;
-    height: 44px;
-    padding: 1em 1em;
-    border: none !important;
+    font-size: 10px;
+    height: 33px;
+    padding: -1em 0em;
+    /* border: none !important; */
     text-shadow: none !important;
     font-weight: bold;
+    margin-left: 97px;
+    margin-bottom: 15px;
 }
 
 #submit-review{
