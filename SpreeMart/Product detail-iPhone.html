@@ -2,13 +2,14 @@
 <html>
 
 <head>
-    <title>iPad</title>
+    <title>Product Details</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="Scripts/Menu.js"></script>
     <link rel="stylesheet" type="text/css" href="Stylesheets/Product detail-iPhone.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/main-iPhone.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
@@ -55,6 +56,7 @@
 
                 <!-- Product detail section -->
                 <div class="ui-grid-a product-detail-grid">
+
                     <div class="ui-block-a product-image-block">
                         <img id="product-image-1" src="Images/milk-packet-png-1.png">
                     </div>
@@ -187,7 +189,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="ui-grid-b">
+                        <div class="ui-grid-a">
                             <div class="ui-block-a">
                                 <div class="card">
                                     <div class="heart-wrapper">
@@ -197,6 +199,13 @@
                                         <img id="product-image" src="Images/biscuit-packet.png">
                                         <div class="product-title">GOOD DAY COOKIES</div>
                                         <div class="price">Rs.800.00</div>
+                                        <div class="rating">
+                                            <img id="rating-star" src="Icons/rating star.png">
+                                            <img id="rating-star" src="Icons/rating star.png">
+                                            <img id="rating-star" src="Icons/rating star.png">
+                                            <img id="rating-star" src="Icons/rating star.png">
+                                            <img id="rating-star" src="Icons/rating star half-filled.png">
+                                        </div>
                                         <div class="quantity">
                                             <fieldset class="ui-grid-b">
                                                 <div class="ui-block-a">
@@ -223,32 +232,13 @@
                                         <img id="product-image" src="Images/biscuit-packet.png">
                                         <div class="product-title">GOOD DAY COOKIES</div>
                                         <div class="price">Rs.800.00</div>
-                                        <div class="quantity">
-                                            <fieldset class="ui-grid-b">
-                                                <div class="ui-block-a">
-                                                    <a href="#temporary" data-role="button" id="minus">-</a>
-                                                </div>
-                                                <div class="ui-block-b">
-                                                    <input type="number" name="quantity" id="quantity" value="1" />
-                                                </div>
-                                                <div class="ui-block-c">
-                                                    <a href="temporary.html" data-role="button" id="plus">+</a>
-                                                </div>
-                                            </fieldset>
+                                        <div class="rating">
+                                            <img id="rating-star" src="Icons/rating star.png">
+                                            <img id="rating-star" src="Icons/rating star.png">
+                                            <img id="rating-star" src="Icons/rating star.png">
+                                            <img id="rating-star" src="Icons/rating star.png">
+                                            <img id="rating-star" src="Icons/rating star half-filled.png">
                                         </div>
-                                        <a href="#temporary" data-role="button" id="add-to-cart">ADD TO CART</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ui-block-c">
-                                <div class="card">
-                                    <div class="heart-wrapper">
-                                        <img id="heart" src="Icons/heart.png">
-                                    </div>
-                                    <div class="card-content">
-                                        <img id="product-image" src="Images/biscuit-packet.png">
-                                        <div class="product-title">GOOD DAY COOKIES</div>
-                                        <div class="price">Rs.800.00</div>
                                         <div class="quantity">
                                             <fieldset class="ui-grid-b">
                                                 <div class="ui-block-a">
@@ -267,60 +257,35 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
 
-            </div>
-
-
-
-        </div>
-
-        <div data-role="popup" id="sharepopup">
-            <div class="share-header" style="padding: 20px 20px 0px 20px;">
-                <div class="share-title">
-                    Share this product with your friends
                 </div>
-                <div class="share-subtitle">
-                    Choose where you want to share this
                 </div>
-            </div>
-            <hr style="margin-top: 5px;border-top: 2px solid #eee;">
-            <div class="share-content" style="text-align: center;">
-                <img id="social-media-share" src="Icons/Whatsapp.png">
-                <img id="social-media-share" src="Icons/Insta.png">
-                <img id="social-media-share" src="Icons/FB.png">
-            </div>
+                <div data-role="footer" dat="fixed">
+                    <div data-role="navbar">
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                                <div class="spreemart-title">SpreeMart ©</div>
+                                <div class="spreemart-copyright">All rights reserved</div>
+                            </div>
+                            <div class="ui-block-b">
+                                    <div class="social-media-wrapper">
+                                <img id="social-media" src="Icons/facebook.png">
+                                <img id="social-media" src="Icons/instagram.png">
+                                <img id="social-media" src="Icons/twitter.png">
+                                <img id="social-media" src="Icons/youtube.png">
+                                </div>
+                            </div>
+                        </div>
 
-        </div>
-    </div>
-
-    <div data-role="footer">
-        <div data-role="navbar">
-            <div class="ui-grid-a">
-                <div class="ui-block-a">
-                    <div class="spreemart-title">SpreeMart ©</div>
-                    <div class="spreemart-copyright">All rights reserved</div>
-                </div>
-                <div class="ui-block-b">
-                    <div class="social-media-wrapper">
-                        <img id="social-media" src="Icons/facebook.png">
-                        <img id="social-media" src="Icons/instagram.png">
-                        <img id="social-media" src="Icons/twitter.png">
-                        <img id="social-media" src="Icons/youtube.png">
                     </div>
                 </div>
+
+
             </div>
-        </div>
-    </div>
 
-    </div>
+        </body>
 
-
-
-
-    </div>
-
-</body>
-
-</html>
+        </html>
