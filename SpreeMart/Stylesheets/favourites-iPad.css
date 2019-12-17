@@ -327,9 +327,29 @@
     width: 40px !important;
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {}
-
 #share-2 {
     width: 14px;
     margin-left: 25px;
+}
+
+@media only screen and (min-device-width: 1024px) {
+    .card {
+        margin-left: 70px;
+    }
+    .fav-heading {
+        margin-left: 60px;
+    }
+    #delete-icon {
+        margin-left: 110px;
+    }
+    #checkbox-mini-0 {
+        margin-top: 0px;
+        margin-left: 60px;
+    }
+    #select-txt {
+        margin-left: 100px;
+    }
+    #share-icon {
+        margin-left: 120px;
+    }
 }

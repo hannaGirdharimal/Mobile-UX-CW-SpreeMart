@@ -310,7 +310,7 @@
     margin-left: 20px;
     color: #A1A1A1;
     font-family: "Century Gothic";
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .subprice {
@@ -322,7 +322,7 @@
     margin-left: 20px;
     color: #A1A1A1;
     font-family: "Century Gothic";
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .subprice1 {
@@ -334,7 +334,7 @@
     margin-left: 20px;
     color: #A1A1A1;
     font-family: "Century Gothic";
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .subprice2 {
@@ -355,17 +355,9 @@
     color: #D62828;
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {}
-
 #share-2 {
     width: 14px;
     margin-left: 85px;
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
-    .white-box {
-        margin-right: 400px
-    }
 }
 
 .ui-footer {
@@ -397,4 +389,37 @@
 #social-media {
     width: 20px;
     margin-right: 10px;
+}
+
+@media only screen and (min-device-width: 1024px) {
+    .right-wrapper {
+        width: 500px !important;
+        margin-left: 30px;
+        padding: 30px 10px 10px 15px;
+    }
+    #share-2 {
+        width: 15px;
+        margin-left: 270px;
+    }
+    #nutella {
+        margin-left: 0px;
+    }
+    #checkbox-select-all {
+        margin-top: 55px;
+    }
+    .producttitle {
+        font-size: 18px;
+    }
+    .price {
+        font-size: 20px;
+    }
+    .rating1 {
+        margin-left: 265px;
+    }
+    #rating-star1 {
+        width: 20px;
+    }
+    .subtot3 {
+        font-size: 20px;
+    }
 }

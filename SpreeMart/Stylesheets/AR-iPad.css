@@ -2,31 +2,31 @@
     width: 103%;
 }
 
-.ui-header{
+.ui-header {
     padding: 15px 40px;
     background-color: white !important;
     border: none !important;
 }
 
-#hamburger{
+#hamburger {
     width: 35px;
     margin-top: 8px;
 }
 
-.sidenav{
-    height: 50%; 
-    width: 0; 
-    position: fixed; 
-    z-index: 1; 
-    top: 68px; 
+.sidenav {
+    height: 50%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 68px;
     left: 0;
     border-right: 1px solid #F1F1F1;
-    background-color: white; 
+    background-color: white;
     overflow-x: hidden;
-    padding-top: 60px; 
-    transition: 0.5s; 
+    padding-top: 60px;
+    transition: 0.5s;
 }
-  
+
 .sidenav a {
     width: 270px;
     font-size: 16px !important;
@@ -46,19 +46,19 @@
     transition: 0.3s;
 }
 
-.item-list{
+.item-list {
     top: -30px;
 }
 
-.item-heading{
+.item-heading {
     font-weight: 700 !important;
     top: -30px;
 }
-  
+
 .sidenav a:hover {
     color: #f1f1f1;
 }
-  
+
 .sidenav .closebtn {
     position: absolute;
     font-size: 36px !important;
@@ -70,51 +70,52 @@
     top: -25px;
 }
 
-#logo{
+#logo {
     width: 180px;
 }
 
-.header-right-wrapper{
+.header-right-wrapper {
     text-align: right;
 }
 
-#cart{
+#cart {
     width: 35px;
     margin-right: 20px;
     margin-top: 2px;
 }
 
-#profile-image{
+#profile-image {
     width: 35px;
     margin-top: 2px;
 }
 
-.breadcrumb-wrapper{
+.breadcrumb-wrapper {
     background-color: #DADADA;
     margin: -1em;
     padding: 10px 10px 10px 50px;
 }
 
-.breadcrumb-text{
+.breadcrumb-text {
     color: #4B4B4B;
     font-family: "Century Gothic";
 }
 
-.breadcrumb-active{
+.breadcrumb-active {
     color: #D62828;
     font-family: "Century Gothic";
 }
 
-#ar-poster{
+#ar-poster {
     width: 740px;
     height: 350px;
 }
-.white-box{
+
+.white-box {
     background-color: white;
     text-align: center;
 }
 
-.camera-white-box{
+.camera-white-box {
     padding: 30px;
     background-color: white;
     text-align: center;
@@ -123,7 +124,7 @@
     margin: 10px 100px;
 }
 
-.camera-dashed-box{
+.camera-dashed-box {
     padding: 15px;
     background-color: #F8F8F8;
     width: 325px;
@@ -131,22 +132,20 @@
     margin: auto;
     border-style: dashed;
     border-color: #707070;
-
 }
 
-#camera-icon{
+#camera-icon {
     margin-top: 49px;
     padding: 15px;
-
 }
 
-.camera-desc{
+.camera-desc {
     font-family: "Century Gothic";
     color: grey;
     font-size: 14px
 }
 
-.share-message{
+.share-message {
     margin-top: 20px;
     font-family: "Century Gothic";
     color: #D62828;
@@ -154,37 +153,30 @@
     font-size: 20px
 }
 
-#share-icon{
+#share-icon {
     padding-left: 6px;
 }
-                    
-.promotion-description{
+
+.promotion-description {
     font-family: "Century Gothic";
     color: grey;
     font-size: 18px;
     padding: 15px;
-}  
-
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px) 
-and (-webkit-device-pixel-ratio : 3)
-and (orientation : landscape) {.white-box{margin-right:400px}
 }
 
-.ui-footer{
+.ui-footer {
     padding: 15px 40px;
     background-color: #D62828 !important;
 }
 
-.spreemart-title{
+.spreemart-title {
     font-family: "Century Gothic";
     color: white;
     font-size: 14px;
     text-shadow: none !important;
 }
 
-.spreemart-copyright{
+.spreemart-copyright {
     font-family: "Century Gothic";
     font-style: italic;
     font-weight: 100;
@@ -193,12 +185,19 @@ and (orientation : landscape) {.white-box{margin-right:400px}
     text-shadow: none !important;
 }
 
-.social-media-wrapper{
+.social-media-wrapper {
     text-align: right;
     margin-top: 10px;
 }
 
-#social-media{
+#social-media {
     width: 20px;
     margin-right: 10px;
-} 
+}
+
+@media only screen and (min-device-width: 1024px) {
+    #ar-poster {
+        width: 1000px;
+        height: 450px;
+    }
+}
