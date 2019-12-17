@@ -110,7 +110,7 @@
     border-radius: 50px;
     background-color: white;    
     height: 60px;
-    width: 125%;
+    width: 102%;
     margin: 0.5em 0;
     text-align: left;
     padding: 5px 25px;
@@ -157,13 +157,14 @@
     top: 38%;
 } */
 
-#search{
+#searchFor{
     border: none;
     border-color: white !important;
     border-radius: 50px;
     background-color: white;
     height: 60px;
-    width: 200%;
+    width: 155%;
+    margin-left: -60px;
     text-align: left;
     padding: 0 40px;
     font-size: 16px;
@@ -179,7 +180,7 @@
     position: absolute;
     width: 35px;
     /* bottom: 30px; */
-    right: 60px;
+    right: 70px;
     top: 145px;
 }
 
@@ -197,8 +198,9 @@
 }
 
 .card{
+    display: none;
     width: 220px;
-    margin: 10px 10px;
+    margin: 10px 7px;
     border-radius: 10px;
     background-color: white;
     text-align: center;
@@ -425,4 +427,20 @@
     margin-right: 10px;
 } 
 
+.ui-input-search{
+    border-radius: 50%;
+    width: 80%;
+    border: white;
+}
 
+.ui-input-search:after {
+    display: none;
+}
+
+.dropdown-menu {
+    position: relative !important;
+}
+
+.show {
+    display: inline-block !important;
+}

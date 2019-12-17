@@ -32,6 +32,18 @@
                         </a> -->
                         <div id="mySidenav" class="sidenav">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                            <form class="ui-filterable">
+                                <input id="filterBasic-input" data-type="search">
+                            </form>
+                            <ul data-role="listview" data-filter="true" data-input="#filterBasic-input">
+                                <li style="width: 270px;">Acura</li>
+                                <li style="width: 270px;">Audi</li style="width: 270px;">
+                                <li style="width: 270px;">BMW</li style="width: 270px;">
+                                <li style="width: 270px;">Cadillac</li style="width: 270px;">
+                                <li style="width: 270px;">Ferrari</li style="width: 270px;">
+                            </ul>
+
                             <a disabled="disabled" class="item-heading">Categories</a>
                             <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
                             <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Canned goods & soups</a>
