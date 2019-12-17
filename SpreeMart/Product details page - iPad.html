@@ -17,6 +17,8 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="./Scripts/CommentSection.js"></script>
+
 
 </head>
 
@@ -118,24 +120,19 @@
                                             </div>
                                             <div class="ui-block-b bar-block">
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 25%"
-                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 75%"
-                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 50%"
-                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 40%"
-                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 10%"
-                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>
 
@@ -148,7 +145,7 @@
                                     <div class="appreciate-text">
                                         We appreciate your feedback
                                     </div>
-                                    <input type="text" id="text-box">
+                                    <input type="text" id="comment-box">
                                     <span class="rating">
                                         <img id="rating-star" src="Icons/star-border.png">
                                         <img id="rating-star" src="Icons/star-border.png">
@@ -157,23 +154,24 @@
                                         <img id="rating-star" src="Icons/star-border.png">
                                     </span>
                                     <div class="button-wrapper">
-                                        <a href="#temporary" data-role="button" id="submit-review">SUBMIT</a>
+                                        <a href="#temporary" data-role="button" id="submit-review" onclick="handleSubmit()">SUBMIT</a>
                                     </div>
                                 </div>
 
                             </div>
 
-                            <div class="ui-grid-a" style="margin-bottom: 10px;">
+                            <div id="comment-list">
+
+                            </div>
+
+                            <!-- <div class="ui-grid-a" style="margin-bottom: 10px;">
                                 <div class="ui-block-a comment-pic-block">
                                     <img id="comment-pic" src="Images/jan-profile-circle.png">
                                     <div class="commenter-name">Janet Miller</div>
                                 </div>
                                 <div class="ui-block-b comment-block">
                                     <div class="comment">
-                                        Everything corresponds to the description. The seller is good. I'm happy with
-                                        it!!
-                                        Everything corresponds to the description. The seller is good. I'm happy with
-                                        it!!
+                                        Everything corresponds to the description. The seller is good. I'm happy with it!! Everything corresponds to the description. The seller is good. I'm happy with it!!
                                     </div>
                                     <div class="rating-2">
                                         <img id="rating-star" src="Icons/star-border.png">
@@ -183,19 +181,16 @@
                                         <img id="rating-star" src="Icons/star-border.png">
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
-                            <div class="ui-grid-a" style="margin-bottom: 10px;">
+                            <!-- <div class="ui-grid-a" style="margin-bottom: 10px;">
                                 <div class="ui-block-a comment-pic-block">
                                     <img id="comment-pic" src="Images/jan-profile-circle.png">
                                     <div class="commenter-name">Janet Miller</div>
                                 </div>
                                 <div class="ui-block-b comment-block">
                                     <div class="comment">
-                                        Everything corresponds to the description. The seller is good. I'm happy with
-                                        it!!
-                                        Everything corresponds to the description. The seller is good. I'm happy with
-                                        it!!
+                                        Everything corresponds to the description. The seller is good. I'm happy with it!! Everything corresponds to the description. The seller is good. I'm happy with it!!
                                     </div>
                                     <div class="rating-2">
                                         <img id="rating-star" src="Icons/star-border.png">
@@ -205,7 +200,7 @@
                                         <img id="rating-star" src="Icons/star-border.png">
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
                             <div class="see-more">
                                 See more <img id="" src="Icons/icons8-expand-arrow-96.png">
@@ -238,8 +233,7 @@
                                                             <a href="#temporary" data-role="button" id="minus">-</a>
                                                         </div>
                                                         <div class="ui-block-b">
-                                                            <input type="number" name="quantity" id="quantity"
-                                                                value="1" />
+                                                            <input type="number" name="quantity" id="quantity" value="1" />
                                                         </div>
                                                         <div class="ui-block-c">
                                                             <a href="temporary.html" data-role="button" id="plus">+</a>
@@ -265,8 +259,7 @@
                                                             <a href="#temporary" data-role="button" id="minus">-</a>
                                                         </div>
                                                         <div class="ui-block-b">
-                                                            <input type="number" name="quantity" id="quantity"
-                                                                value="1" />
+                                                            <input type="number" name="quantity" id="quantity" value="1" />
                                                         </div>
                                                         <div class="ui-block-c">
                                                             <a href="temporary.html" data-role="button" id="plus">+</a>
@@ -292,8 +285,7 @@
                                                             <a href="#temporary" data-role="button" id="minus">-</a>
                                                         </div>
                                                         <div class="ui-block-b">
-                                                            <input type="number" name="quantity" id="quantity"
-                                                                value="1" />
+                                                            <input type="number" name="quantity" id="quantity" value="1" />
                                                         </div>
                                                         <div class="ui-block-c">
                                                             <a href="temporary.html" data-role="button" id="plus">+</a>
@@ -330,7 +322,7 @@
 
             </div>
         </div>
-        
+
         <div data-role="footer">
             <div data-role="navbar">
                 <div class="ui-grid-a">
