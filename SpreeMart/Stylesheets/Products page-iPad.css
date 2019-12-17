@@ -198,7 +198,7 @@
 }
 
 .card{
-    display: none;
+    display: inline-block;
     width: 220px;
     margin: 10px 7px;
     border-radius: 10px;
@@ -443,4 +443,12 @@
 
 .show {
     display: inline-block !important;
+}
+
+.show-card {
+    display: inline-block;
+}
+
+.hide-card {
+    display: none;
 }
