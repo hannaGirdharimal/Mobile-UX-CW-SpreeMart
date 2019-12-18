@@ -119,6 +119,7 @@
 
 #product-image{
     width: 100px;
+    height: 100px;
 }
 
 .product-title{
@@ -128,6 +129,8 @@
     font-size: 12px;
     margin-top: 4px;
     margin-bottom: 2px;
+    max-height: 15px;
+    overflow-y: hidden;
 }
 
 .price{
@@ -265,7 +268,7 @@
     width: 345px;
     margin-left: -15px;
 }   
-}
+
 
 .ui-footer{
     padding: 15px 40px;

@@ -128,13 +128,12 @@
 }
 
 #checkbox-mini-0 {
-    margin-top: 0px;
+    margin-top: -1px;
     padding-right: 61px;
 }
 
 #delete-icon {
-    margin-top: 10px;
-    margin-left: 76px;
+    margin-left: 140px;
 }
 
 #checkbox-select-all {
@@ -176,9 +175,8 @@
 }
 
 #nutella {
-    margin-left: -30px;
-    width: 150px;
-    margin-top: 8px;
+    width: 125px;
+    margin-top: 15px;
 }
 
 .middle-wrapper {
@@ -206,7 +204,7 @@
 }
 
 .rating1 {
-    margin-left: 90px;
+    float: right;
 }
 
 #rating-star1 {
@@ -357,7 +355,7 @@
 
 #share-2 {
     width: 14px;
-    margin-left: 85px;
+    float: right;
 }
 
 .ui-footer {
@@ -399,7 +397,7 @@
     }
     #share-2 {
         width: 15px;
-        margin-left: 270px;
+        float: right;
     }
     #nutella {
         margin-left: 0px;
@@ -414,12 +412,15 @@
         font-size: 20px;
     }
     .rating1 {
-        margin-left: 265px;
+        float: right;
     }
     #rating-star1 {
         width: 20px;
     }
     .subtot3 {
         font-size: 20px;
+    }
+    #delete-icon {
+        margin-left: 250px;
     }
 }
