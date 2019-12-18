@@ -570,3 +570,58 @@
   text-shadow: none !important;
   font-weight: bold;
 }
+
+.ui-popup-container {
+    top: 115px !important;
+    left: 23px !important;
+}
+
+#sharepopup {
+    width: 330px;
+    height: 245px;
+    background-color: white;
+    border-color: white;
+}
+
+.share-title {
+    font-family: "Century Gothic";
+    color: #0D0C0C;
+    font-size: 16px;
+    text-align: center;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.share-subtitle {
+    font-family: "Century Gothic";
+    color: #A1A1A1;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: none;
+}
+
+.share-content{
+    padding: 15px 25px;
+}
+
+#social-media-share {
+    margin-right: 25px;
+    width: 45px;
+}
+
+#submit-mail {
+    background-color: #F77F00;
+    display: inline-block;
+    border-radius: 50px;
+    position: relative;
+    width: 120px;
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 13px;
+    height: 44px;
+    padding: 1em 1em;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: bold;
+}
