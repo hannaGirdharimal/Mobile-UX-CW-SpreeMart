@@ -12,15 +12,16 @@
 #delete-txt{
   padding: 6px;
   margin-left: 0px;
+  
 }
 
 #checkbox-mini-0{
-  margin-top: 0px;
+  margin-top: -2px;
   padding-right: 61px;
 }
 
 #delete-icon{
-  margin-top: 10px;
+  margin-top: 0px;
   margin-left: 76px;
 }
 
@@ -93,7 +94,8 @@
 }
 
 .rating1{
-    margin-left: 30px;
+    /* margin-left: 30px; */
+    float:right;
 }
 
 #rating-star1{
@@ -251,5 +253,6 @@
 
 #share-2{
   width: 14px;
-  margin-left: 25px;
+  /* margin-left: 25px; */
+  float: right;
 }
