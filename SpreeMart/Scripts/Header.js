@@ -22,8 +22,26 @@ $(document).ready(function() {
         window.location.href = 'support-ipad.html';
     });
 
-    $('#item-list3').click(() => {
-        window.location.href = 'Products page-ipad.html';
+    $('#logo').click(() => {
+        window.location.href = 'Landing page-ipad.html';
     });
+
+    $('#cart').click(() => {
+        window.location.href = 'Cart-ipad.html';
+    });
+
+    $('#dropdown-profile').click(() => {
+        window.location.href = 'Profile page-ipad.html';
+    });
+
+    $('#dropdown-fav').click(() => {
+        window.location.href = 'Favourites-ipad.html';
+    });
+
+    $('#dropdown-logout').click(() => {
+        window.location.href = 'login-ipad.html';
+    });
+
+
 
 });

@@ -46,7 +46,20 @@
                     <div class="ui-block-c">
                         <div class="header-right-wrapper">
                             <img id="cart" src="Icons/shopping-cart.png">
-                            <img id="profile-image" src="Icons/profile-image.png">
+                            <!-- <img id="profile-image" src="Icons/profile-image.png"> -->
+                            <span class="dropdown">
+                                <a class="my-drop dropdown-toggle" href="#" role="button"
+                                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <img id="profile-image" src="Icons/profile-image.png">
+                                </a>
+
+                                <div class="dropdown-menu-profile" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" id="dropdown-profile" >My Profile</a>
+                                    <a class="dropdown-item" id="dropdown-fav" >My Favourites</a>
+                                    <a class="dropdown-item" id="dropdown-logout" >Logout</a>
+                                </div>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -121,24 +134,19 @@
                                             </div>
                                             <div class="ui-block-b bar-block">
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 25%"
-                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 75%"
-                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 50%"
-                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 40%"
-                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" style="width: 10%"
-                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>
 
@@ -160,8 +168,7 @@
                                         <img id="rating-star" src="Icons/star-border.png">
                                     </span>
                                     <div class="button-wrapper">
-                                        <a href="#temporary" data-role="button" id="submit-review"
-                                            onclick="handleSubmit()">SUBMIT</a>
+                                        <a href="#temporary" data-role="button" id="submit-review" onclick="handleSubmit()">SUBMIT</a>
                                     </div>
                                 </div>
 
@@ -240,8 +247,7 @@
                                                             <a href="#temporary" data-role="button" id="minus">-</a>
                                                         </div>
                                                         <div class="ui-block-b">
-                                                            <input type="number" name="quantity" id="quantity"
-                                                                value="1" />
+                                                            <input type="number" name="quantity" id="quantity" value="1" />
                                                         </div>
                                                         <div class="ui-block-c">
                                                             <a href="temporary.html" data-role="button" id="plus">+</a>
@@ -267,8 +273,7 @@
                                                             <a href="#temporary" data-role="button" id="minus">-</a>
                                                         </div>
                                                         <div class="ui-block-b">
-                                                            <input type="number" name="quantity" id="quantity"
-                                                                value="1" />
+                                                            <input type="number" name="quantity" id="quantity" value="1" />
                                                         </div>
                                                         <div class="ui-block-c">
                                                             <a href="temporary.html" data-role="button" id="plus">+</a>
@@ -294,8 +299,7 @@
                                                             <a href="#temporary" data-role="button" id="minus">-</a>
                                                         </div>
                                                         <div class="ui-block-b">
-                                                            <input type="number" name="quantity" id="quantity"
-                                                                value="1" />
+                                                            <input type="number" name="quantity" id="quantity" value="1" />
                                                         </div>
                                                         <div class="ui-block-c">
                                                             <a href="temporary.html" data-role="button" id="plus">+</a>
