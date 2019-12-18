@@ -23,7 +23,7 @@ $(document).ready(function () {
                    '<img id="nutella" src="'+Products[i].img_url+'">'+
                  '</div>'+
                  '<div class="ui-block-c right-wrapper">'+
-                   '<span class="producttitle"> Rs. '+ Products[i].title+'</span>'+
+                   '<span class="producttitle">'+ Products[i].title+'</span>'+
                    '<img id="share-2" src="Icons/delete.png">'+
                     '<br>'+
                    '<span class="price">'+ Products[i].price+'</span>'+
@@ -51,11 +51,15 @@ $(document).ready(function () {
       localStorage.clear('addtocartList');
       location.reload();
     });
+    
+    var checkedItemsList=[];
 
     $(".product-check").change(function () {
        
         if(this.checked) {
-            subtotal += parseInt($('.price').eq($('.product-check').index(this)).text());
+            var itemprice=parseInt($('.price').eq($('.product-check').index(this)).text());
+            subtotal += itemprice;
+            checkedItemsList.push(itemprice);
             NetTotal=subtotal;
             document.getElementsByClassName('subprice')[0].innerText='Rs.'+subtotal;
             document.getElementsByClassName('subprice3')[0].innerHTML='Rs. '+NetTotal;
@@ -63,12 +67,23 @@ $(document).ready(function () {
         }
 
         if(!this.checked) {
-            subtotal -= parseInt($('.price').eq($('.product-check').index(this)).text());
+          var itemprice=parseInt($('.price').eq($('.product-check').index(this)).text());
+            subtotal -= itemprice;
             NetTotal=subtotal;
-            
+           
+            for( var i = 0; i < checkedItemsList.length; i++){ 
+              if ( checkedItemsList[i] === itemprice) {
+                 checkedItemsList.splice(i, 1); 
+              }
+           }
             document.getElementsByClassName('subprice')[0].innerHTML='Rs. '+subtotal;
             document.getElementsByClassName('subprice3')[0].innerHTML='Rs. '+NetTotal;
         }
-        
     });
+
+    document.getElementById("BuyNow1").addEventListener("click", function () {
+      localStorage.setItem("PriceList",checkedItemsList);
+      window.location.href = 'Checkout-iPhone.html';
+    }); 
+
 });
