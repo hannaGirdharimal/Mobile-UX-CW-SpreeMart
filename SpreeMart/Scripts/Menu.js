@@ -61,3 +61,13 @@ function changeImage() {
         image.src = "Icons/unfilled-heart.png";
     }
 }
+
+$(document).ready(function() {
+    // Hide all dropdowns initially.
+    $('.dropdown').hide();
+    
+    // Bind click event
+    $('.image-holder').click(function() {   
+        $(this).children('.dropdown').slideToggle('slow');
+    });
+});
