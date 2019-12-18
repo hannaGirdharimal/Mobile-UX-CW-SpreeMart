@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>iPad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="Scripts/Menu.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        .row {
+            width: 103%;
+        }
+        
+        .ui-header {
+            padding: 15px 40px;
+            background-color: white !important;
+            border: none !important;
+        }
+        
+        #hamburger {
+            width: 35px;
+            margin-top: 8px;
+        }
+        
+        .sidenav {
+            height: 50%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 68px;
+            left: 0;
+            border-right: 1px solid #F1F1F1;
+            background-color: white;
+            overflow-x: hidden;
+            padding-top: 60px;
+            transition: 0.5s;
+        }
+        
+        .sidenav a {
+            width: 270px;
+            font-size: 16px !important;
+            font-family: "Century Gothic";
+            color: #4B4B4B;
+            font-weight: 100;
+            border-left: none;
+            border-color: #f1f1f1 !important;
+            border-bottom: 1px solid #f1f1f1 !important;
+            text-align: left;
+            background-color: white !important;
+            padding: 8px 8px 8px 20px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+        
+        .item-list {
+            top: -30px;
+        }
+        
+        .item-heading {
+            font-weight: 700 !important;
+            top: -30px;
+        }
+        
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+        
+        .sidenav .closebtn {
+            position: absolute;
+            font-size: 36px !important;
+            /* margin-left: 50px; */
+            background-color: white;
+            border: none;
+            right: 5px;
+            text-align: right;
+            top: -25px;
+        }
+        
+        #logo {
+            width: 180px;
+        }
+        
+        .header-right-wrapper {
+            text-align: right;
+        }
+        
+        #cart {
+            width: 35px;
+            margin-right: 20px;
+            margin-top: 2px;
+        }
+        
+        #profile-image {
+            width: 35px;
+            margin-top: 2px;
+        }
+        
+        .breadcrumb-wrapper {
+            background-color: #DADADA;
+            margin: -1em;
+            padding: 10px 10px 10px 50px;
+        }
+        
+        .breadcrumb-text {
+            color: #4B4B4B;
+            font-family: "Century Gothic";
+        }
+        
+        .breadcrumb-active {
+            color: #D62828;
+            font-family: "Century Gothic";
+        }
+    </style>
+
+</head>
+
+<body>
+    <div data-role="page" id="Product-detail">
+        <div data-role="header">
+            <div data-role="navbar">
+                <div class="ui-grid-b">
+                    <div class="ui-block-a">
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a disabled="disabled" class="item-heading">Categories</a>
+                            <a href="Products page-iPad.html" class="item-list">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
+                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Canned goods & soups</a>
+                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Dairy</a>
+                            <a href="#" class="item-heading">Promotions</a>
+                            <a href="#" class="item-heading">Support</a>
+                        </div>
+                        <span onclick="openNav()"><img id="hamburger" src="Icons/menu-button.png"></span>
+                    </div>
+                    <div class="ui-block-b">
+                        <img id="logo" src="Images/CWLOGO full.png">
+                    </div>
+                    <div class="ui-block-c">
+                        <div class="header-right-wrapper">
+                            <img id="cart" src="Icons/shopping-cart.png">
+                            <img id="profile-image" src="Icons/profile-image.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
