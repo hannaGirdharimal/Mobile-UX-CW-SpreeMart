@@ -12,7 +12,7 @@ $(document).ready(function () {
     noOfItems = IDs.length;
   }
 
-  
+
 
   document.getElementById('share-txt').innerHTML = '(' + noOfItems + ')' + 'Items';
   document.getElementById('delete-txt').innerHTML = '(' + noOfItems + ')' + 'Items'
@@ -166,7 +166,6 @@ $(document).ready(function () {
         ({
           type: "POST",
           url: "https://api.sendgrid.com/v3/mail/send",
-          dataType: 'json',
           contentType: "application/json; charset=utf-8",
           async: false,
           data: JSON.stringify(Emaildata),
@@ -174,7 +173,7 @@ $(document).ready(function () {
             xhr.setRequestHeader('Authorization', "Bearer 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 ");
           },
           success: function () {
-            console.log('Thanks for your comment!');
+            alert('Email Successfully sent !');
           }
         });
     }
