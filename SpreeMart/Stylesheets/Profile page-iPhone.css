@@ -90,14 +90,14 @@
     position: absolute;
     margin-top: 15px;
     margin-left: 20px;
-    height: 570px;    
+    height: 570px;
 }
 
 #path-icon-2{
     position: absolute;
     margin-top: 25px;
     margin-left: 20px;
-    height: 200px;    
+    height: 200px;
 }
 
 .personal-information-wrapper{
@@ -293,7 +293,7 @@
 .pagination {
     display: inline-block;
   }
-  
+
 #pagination-number {
     font-family: "Century Gothic";
     color:black;
@@ -304,12 +304,12 @@
     text-decoration: none;
 }
 
-/*   
+/*
 .pagination a.active {
     background-color: #4CAF50;
     color: white;
 } */
-  
+
 .pagination a:hover:not(.active) {
     text-align: center;
     background-color: #D62828;
@@ -427,6 +427,39 @@
 #social-media{
     width: 20px;
     margin-right: 10px;
-} 
+}
+.open>.dropdown-menu-profile {
+    display: block;
+    position: fixed;
+}
 
+.dropdown-menu-profile {
+    display: none;
+    right: 40px;
+    width: 150px;
+    height: 137px;
+    z-index: 1000000000000000000000;
+    background: white;
+    margin-top: 10px;
+}
 
+.dropdown-item {
+    border-bottom: 1px solid gray;
+    border-width: 0;
+    padding: 8px 18px;
+    background-color: white !important;
+    width: 150px;
+    font-family: "Century Gothic";
+    font-weight: 100 !important;
+    color: #4B4B4B !important;
+    font-size: 16px !important;
+    text-align: left;
+}
+
+.my-drop {
+    background-color: white !important;
+    border-width: 0;
+    padding: 0 0em;
+    margin: 0em 0;
+    -webkit-box-shadow: none !important;
+}

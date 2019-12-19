@@ -13,19 +13,19 @@
 
 
 .sidenav{
-    height: 50%; 
-    width: 0; 
-    position: fixed; 
-    z-index: 1; 
-    top: 68px; 
+    height: 50%;
+    width: 0;
+    position: fixed;
+    z-index: 3; 
+    top: 68px;
     left: 0;
     border-right: 1px solid #F1F1F1;
-    background-color: white; 
+    background-color: white;
     overflow-x: hidden;
-    padding-top: 60px; 
-    transition: 0.5s; 
+    padding-top: 60px;
+    transition: 0.5s;
 }
-  
+
 .sidenav a {
     width: 270px;
     font-size: 16px !important;
@@ -53,11 +53,11 @@
     font-weight: 700 !important;
     top: -30px;
 }
-  
+
 .sidenav a:hover {
     color: #f1f1f1;
 }
-  
+
 .sidenav .closebtn {
     position: absolute;
     font-size: 36px !important;
@@ -131,4 +131,4 @@
 #social-media{
     width: 15px;
     margin-left: 4px;
-} 
+}

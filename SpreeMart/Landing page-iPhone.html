@@ -13,6 +13,8 @@
     <script type="text/javascript" src="Scripts/Populate.js"></script>
     <link rel="stylesheet" type="text/css" href="Stylesheets/Landing page-iPhone.css">
     <link rel="stylesheet" type="text/css" href="Stylesheets/main-iPhone.css">
+    <script type="text/javascript" src="Scripts/header-iphone.js"></script>
+    <script src="Scripts/Menu.js"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -27,36 +29,46 @@
 
 <body>
     <div data-role="page" id="Landing-page">
-        <div data-role="header">
-            <div data-role="navbar">
-                <div class="ui-grid-b">
-                    <div class="ui-block-a">
-                        <!-- <a href="#temporary" data-role="button" id="hamburger-link">
-                            <img id="hamburger" src="Icons/menu-button.png">
-                        </a> -->
-                        <div id="mySidenav" class="sidenav">
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                            <a disabled="disabled" class="item-heading">Categories</a>
-                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
-                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Canned goods & soups</a>
-                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Dairy</a>
-                            <a href="#" class="item-heading">Promotions</a>
-                            <a href="#" class="item-heading">Support</a>
-                        </div>
-                        <span onclick="openNav()"><img id="hamburger" src="Icons/menu-button.png"></span>
-                    </div>
-                    <div class="ui-block-b">
-                        <img id="logo" src="Images/CWLOGO full.png">
-                    </div>
-                    <div class="ui-block-c">
-                        <div class="header-right-wrapper">
-                            <img id="cart" src="Icons/shopping-cart.png">
-                            <img id="profile-image" src="Icons/profile-image.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div data-role="header">
+          <div data-role="navbar">
+              <div class="ui-grid-b">
+                  <div class="ui-block-a">
+                      <div id="mySidenav" class="sidenav">
+                          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                          <a disabled="disabled" class="item-heading">Categories</a>
+                          <a id="item-list1">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
+                          <a id="item-list2">&nbsp; &nbsp; &nbsp; Canned goods & soups</a>
+                          <a id="item-list3">&nbsp; &nbsp; &nbsp; Dairy</a>
+                          <a id="item-promotion">Promotions</a>
+                          <a id="item-support">Support</a>
+                      </div>
+                      <span onclick="openNav()"><img id="hamburger" src="Icons/menu-button.png"></span>
+                  </div>
+                  <div class="ui-block-b">
+                      <img id="logo" src="Images/CWLOGO full.png">
+                  </div>
+                  <div class="ui-block-c">
+                      <div class="header-right-wrapper">
+                          <img id="cart" src="Icons/shopping-cart.png">
+                          <!-- <img id="profile-image" src="Icons/profile-image.png"> -->
+                          <span class="dropdown">
+                              <a class="my-drop dropdown-toggle" href="#" role="button"
+                                  id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                  aria-expanded="false">
+                                  <img id="profile-image" src="Icons/profile-image.png">
+                              </a>
+
+                              <div class="dropdown-menu-profile" aria-labelledby="dropdownMenuLink">
+                                  <a class="dropdown-item" id="dropdown-profile" >My Profile</a>
+                                  <a class="dropdown-item" id="dropdown-fav" >My Favourites</a>
+                                  <a class="dropdown-item" id="dropdown-logout" >Logout</a>
+                              </div>
+                          </span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
         <div data-role="content">
             <!-- <img id="slider-image-1" src="Images/groceries.jpg"> -->
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -474,7 +486,7 @@
                             </div>
                             <div class="ui-block-b">
                                 <img id="promotion-poster" src="Images/Promotion card.png">
-                            </div> 
+                            </div>
                         </div> -->
                     </div>
                 </div>
@@ -487,7 +499,7 @@
                                 </div>
                                 <div class="ui-block-b">
                                     <img id="promotion-poster" src="Images/Promotion card.png">
-                                </div> 
+                                </div>
                             </div> -->
                         </div>
                     </div>

@@ -89,7 +89,7 @@
     font-size: 16px;
     margin: 10px 10px;
     margin-left: -9px;
-    letter-spacing: 3px;    
+    letter-spacing: 3px;
 }
 
 
@@ -168,7 +168,7 @@
 }
 
 .ui-input-text{
-    border-width: 0 !important; 
+    border-width: 0 !important;
     border-style: none;
     margin: 0.58em 0;
 }
@@ -220,9 +220,9 @@
     margin-bottom: 10px;
 }
 
-#special-promotion{   
+#special-promotion{
     width: 335px;
-    margin-left: -9px;  
+    margin-left: -9px;
 }
 
 .special-promotion-button{
@@ -267,7 +267,7 @@
 #promotion-poster{
     width: 345px;
     margin-left: -15px;
-}   
+}
 
 
 .ui-footer{
@@ -299,6 +299,39 @@
 #social-media{
     width: 20px;
     margin-right: 10px;
-} 
+}
+.open>.dropdown-menu-profile {
+    display: block;
+    position: fixed;
+}
 
+.dropdown-menu-profile {
+    display: none;
+    right: 40px;
+    width: 150px;
+    height: 137px;
+    z-index: 1000000000000000000000;
+    background: white;
+    margin-top: 10px;
+}
 
+.dropdown-item {
+    border-bottom: 1px solid gray;
+    border-width: 0;
+    padding: 8px 18px;
+    background-color: white !important;
+    width: 150px;
+    font-family: "Century Gothic";
+    font-weight: 100 !important;
+    color: #4B4B4B !important;
+    font-size: 16px !important;
+    text-align: left;
+}
+
+.my-drop {
+    background-color: white !important;
+    border-width: 0;
+    padding: 0 0em;
+    margin: 0em 0;
+    -webkit-box-shadow: none !important;
+}
