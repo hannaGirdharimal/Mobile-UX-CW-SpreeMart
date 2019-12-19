@@ -8,7 +8,7 @@ $(document).ready(function() {
 
     document.getElementById('delete-txt').innerHTML = '(' + noOfItems + ')' + 'Items';
 
-    for (cartItem of AddToCartIDArray) {
+    for (cartItem of AddToCartIDArray) { 
         var cartProduct;
         console.log(cartItem);
         for (var i = 0; i < Products.length; i++) {

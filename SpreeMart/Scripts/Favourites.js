@@ -1,49 +1,58 @@
 $(document).ready(function () {
 
   const IDs = localStorage.getItem("FavouritesList");
-  const FavouriteIDList=IDs.split(",");
+  var noOfItems;
+  var FavouriteIDList
 
-  const noOfItems = FavouriteIDList.length;
+  if (IDs.length != 0) {
+    FavouriteIDList = IDs.split(",");
+    noOfItems = FavouriteIDList.length;
+  } else {
+    FavouriteIDList = []
+    noOfItems = IDs.length;
+  }
+
   
-  document.getElementById('share-txt').innerHTML='(' + noOfItems + ')' + 'Items';
-  document.getElementById('delete-txt').innerHTML='(' + noOfItems + ')' + 'Items'
 
-  var ProductImgLinks= [
+  document.getElementById('share-txt').innerHTML = '(' + noOfItems + ')' + 'Items';
+  document.getElementById('delete-txt').innerHTML = '(' + noOfItems + ')' + 'Items'
+
+  var ProductImgLinks = [
     {
       "product_id": "1",
-      "link" : "https://i.ibb.co/n7TpH85/lays.png",
+      "link": "https://i.ibb.co/n7TpH85/lays.png",
     },
     {
       "product_id": "2",
-      "link" : "https://i.ibb.co/51Px6NZ/strawberry.png",
+      "link": "https://i.ibb.co/51Px6NZ/strawberry.png",
     },
     {
       "product_id": "3",
-      "link" : "https://i.ibb.co/mvM5VN4/cheese.png",
+      "link": "https://i.ibb.co/mvM5VN4/cheese.png",
     },
     {
       "product_id": "4",
-      "link" : "https://i.ibb.co/h7p7Dsq/cheerios.png",
+      "link": "https://i.ibb.co/h7p7Dsq/cheerios.png",
     },
     {
       "product_id": "5",
-      "link" : "https://i.ibb.co/hKJdTJN/jam.png",
+      "link": "https://i.ibb.co/hKJdTJN/jam.png",
     },
     {
       "product_id": "6",
-      "link" : "https://i.ibb.co/Mpb7kWt/coconut.png",
+      "link": "https://i.ibb.co/Mpb7kWt/coconut.png",
     },
     {
       "product_id": "7",
-      "link" : "https://i.ibb.co/6tXb3Tb/corn.png",
+      "link": "https://i.ibb.co/6tXb3Tb/corn.png",
     },
     {
       "product_id": "8",
-      "link" : "https://i.ibb.co/sKXFhtt/handwash.png",
+      "link": "https://i.ibb.co/sKXFhtt/handwash.png",
     },
     {
       "product_id": "9",
-      "link" : "https://i.ibb.co/JxdSnxT/noodles.png ",
+      "link": "https://i.ibb.co/JxdSnxT/noodles.png ",
     }
   ]
 
@@ -57,7 +66,7 @@ $(document).ready(function () {
         const CartHTML = '<div class="ui-grid-b card">' +
           '<div class="ui-block-a left-wrapper">' +
           '<div class="heart-wrapper">' +
-          '<img id="heart" src="Icons/heart.png">' +
+          '<img id="heart" class="heart-icon" src="Icons/heart.png">' +
           '</div>' +
           '<div class=" ui-checkbox"><input type="checkbox" name="checkbox-mini-0" id="checkbox-select-all" data-mini="true">' +
           '</div>' +
@@ -67,7 +76,7 @@ $(document).ready(function () {
           '</div>' +
           '<div class="ui-block-c right-wrapper">' +
           '<span class="producttitle">' + Products[i].title + '</span>' +
-          '<div hidden class="product-id">'+Products[i].product_id+'</div>'+
+          '<div hidden class="product-id">' + Products[i].product_id + '</div>' +
           '<img id="share-2" src="Icons/share.png">' +
           '<br>' +
           '<span class="price"> Rs. ' + Products[i].price + '</span>' +
@@ -104,38 +113,54 @@ $(document).ready(function () {
 
   }
 
+  $(".heart-icon").click(function () {
+
+    var prodID = $('.product-id').eq($('.heart-icon').index(this)).text()
+
+    for (var i = 0; i < FavouriteIDList.length; i++) {
+      if (FavouriteIDList[i] === prodID) {
+        FavouriteIDList.splice(i, 1);
+      }
+    }
+
+    localStorage.setItem('FavouritesList', FavouriteIDList);
+
+    location.reload();
+
+  });
+
   $('#submit-mail').click(function () {
 
     var emailToSend = $('#mail-to').val();
 
     console.log(FavouriteIDList.length);
 
-  for (EmailfavouriteID of FavouriteIDList) {
+    for (EmailfavouriteID of FavouriteIDList) {
 
       for (var i = 0; i < Products.length; i++) {
         if (Products[i].product_id === EmailfavouriteID) {
-        var Emaildata = {
-          "from": {
-            "email": "spreemart1@gmail.com"
-          },
-          "personalizations": [
-            {
-              "to": [
-                {
-                  "email": emailToSend
+          var Emaildata = {
+            "from": {
+              "email": "spreemart1@gmail.com"
+            },
+            "personalizations": [
+              {
+                "to": [
+                  {
+                    "email": emailToSend
+                  }
+                ],
+                "dynamic_template_data": {
+                  "Prod_title": Products[i].title,
+                  "prod_img": ProductImgLinks[i].link,
+                  "Prod_Price": Products[i].price
                 }
-              ],
-              "dynamic_template_data": {
-                "Prod_title": Products[i].title,
-                "prod_img": ProductImgLinks[i].link,
-                "Prod_Price":Products[i].price
-              }
-            }],
-          "template_id": "d-04a9d735ed454201a08f2700b86a26b7"
+              }],
+            "template_id": "d-04a9d735ed454201a08f2700b86a26b7"
+          }
+          break;
         }
-        break;
       }
-    }
 
       $.ajax
         ({
@@ -150,9 +175,12 @@ $(document).ready(function () {
           },
           success: function () {
             console.log('Thanks for your comment!');
-          }});
-        }
+          }
+        });
+    }
 
-   });
   });
+
+
+});
 
