@@ -186,6 +186,7 @@
   text-shadow: none !important;
   font-weight: bold;
 }
+
 .open>.dropdown-menu-profile {
     display: block;
     position: fixed;

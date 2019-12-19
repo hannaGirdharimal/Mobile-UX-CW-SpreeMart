@@ -77,7 +77,7 @@ Product price font-size: 14px */
 }
 
 #minus1{
-    height: 19.2px;
+    height: 30.5px;
     padding: 0.3em 0em;
     border: 1px solid #CCCCCC;
     border-radius: 0;
@@ -86,7 +86,7 @@ Product price font-size: 14px */
 }
 
 #plus1{
-    height: 19.2px;
+    height: 30.5px;
     padding: 0.3em 0em;
     border: 1px solid #CCCCCC;
     border-radius: 0;
@@ -97,7 +97,7 @@ Product price font-size: 14px */
 .ui-input-text{
     border-width: 0 !important;
     border-style: none;
-    margin: 0.58em 0;
+    margin: 0.65em 0;
 }
 
 .ui-input-text input{
@@ -127,12 +127,10 @@ Product price font-size: 14px */
 #add-to-cart1{
     background-color: #34AD48;
     display: inline-block;
-    border-radius: 50px;
-    width: 59px;
+    border-radius: 50px; 
     font-family: "Century Gothic";
     color: white;
     font-size: 9px;
-    height: 9px;
     padding: 1em 1em;
     border: none !important;
     text-shadow: none !important;
@@ -143,11 +141,9 @@ Product price font-size: 14px */
     background-color: #F77F00;
     display: inline-block;
     border-radius: 50px;
-    width: 59px;
     font-family: "Century Gothic";
     color: white;
     font-size: 9px;
-    height: 9px;
     padding: 1em 1em;
     border: none !important;
     text-shadow: none !important;
@@ -225,7 +221,7 @@ Product price font-size: 14px */
   width: 40px !important;
 }
 
-.open> .dropdown-menu-profile {
+.open>.dropdown-menu-profile {
     display: block;
     position: fixed;
 }
@@ -271,4 +267,4 @@ Product price font-size: 14px */
     and (device-width : 375px)
     and (device-height : 812px)
     and (-webkit-device-pixel-ratio : 3)
-    and (orientation : portrait)
+    and (orientation : portrait){}
