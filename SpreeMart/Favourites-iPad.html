@@ -47,16 +47,15 @@
                             <img id="cart" src="Icons/shopping-cart.png">
                             <!-- <img id="profile-image" src="Icons/profile-image.png"> -->
                             <span class="dropdown">
-                                <a class="my-drop dropdown-toggle" href="#" role="button"
-                                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">
+                                <a class="my-drop dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <img id="profile-image" src="Icons/profile-image.png">
                                 </a>
 
                                 <div class="dropdown-menu-profile" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" id="dropdown-profile" >My Profile</a>
-                                    <a class="dropdown-item" id="dropdown-fav" >My Favourites</a>
-                                    <a class="dropdown-item" id="dropdown-logout" >Logout</a>
+                                    <a class="dropdown-item" id="dropdown-profile">My Profile</a>
+                                    <a class="dropdown-item" id="dropdown-fav">My Favourites</a>
+                                    <a class="dropdown-item" id="dropdown-logout">Logout</a>
                                 </div>
                             </span>
                         </div>
@@ -79,7 +78,9 @@
                     <span id="delete-txt">(0) Items</span>
                 </div>
                 <div class="ui-block-c">
-                    <img id="share-icon" src="Icons/share.png">
+                    <a href="#sharepopup" data-rel="popup">
+                        <img id="share-icon" src="Icons/share.png">
+                    </a>
                     <span id="share-txt">(0) Items</span>
                 </div>
             </div>
@@ -488,35 +489,58 @@
                         </div>
 
                     </div>
-                </div>
-            </div>
 
-
-
-
-            <div data-role="footer" data-position="fixed">
-                <div data-role="navbar">
-                    <div class="ui-grid-a">
-                        <div class="ui-block-a">
-                            <div class="spreemart-title">SpreeMart ©</div>
-                            <div class="spreemart-copyright">All rights reserved</div>
-                        </div>
-                        <div class="ui-block-b">
-                            <div class="social-media-wrapper">
-                                <img id="social-media" src="Icons/facebook.png">
-                                <img id="social-media" src="Icons/instagram.png">
-                                <img id="social-media" src="Icons/twitter.png">
-                                <img id="social-media" src="Icons/youtube.png">
+                    <div data-role="popup" id="sharepopup">
+                        <div class="share-header" style="padding: 20px 20px 0px 20px;">
+                            <div class="share-title">
+                                Share this product with your friends
+                            </div>
+                            <div class="share-subtitle">
+                                Choose who you want to share this with
                             </div>
                         </div>
+                        <hr style="margin-top: 5px;border-top: 2px solid #eee;">
+                        <div class="share-content">
+                            <div class="ui-grid-a">
+                                <div class="ui-block-a" style="width: 25% !important;">
+                                    <img id="social-media-share" src="Icons/mail-red.png">
+                                </div>
+                                <div class="ui-block-b" style="width: 75% !important;">
+                                    <input type="text" name="mail" id="mail-to" value="" />
+                                    <div style="float: right;">
+                                        <a href="#temporary" data-role="button" id="submit-mail">SEND</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+
+
+
+                    <div data-role="footer" data-position="fixed">
+                        <div data-role="navbar">
+                            <div class="ui-grid-a">
+                                <div class="ui-block-a">
+                                    <div class="spreemart-title">SpreeMart ©</div>
+                                    <div class="spreemart-copyright">All rights reserved</div>
+                                </div>
+                                <div class="ui-block-b">
+                                    <div class="social-media-wrapper">
+                                        <img id="social-media" src="Icons/facebook.png">
+                                        <img id="social-media" src="Icons/instagram.png">
+                                        <img id="social-media" src="Icons/twitter.png">
+                                        <img id="social-media" src="Icons/youtube.png">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+
             </div>
-        </div>
-
-
-    </div>
 
 </body>
 

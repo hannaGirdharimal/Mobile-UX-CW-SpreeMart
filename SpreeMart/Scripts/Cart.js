@@ -75,6 +75,7 @@ $(document).ready(function() {
                     checkedItemsList.splice(i, 1);
                 }
             }
+            
             document.getElementsByClassName('subprice')[0].innerHTML = 'Rs. ' + subtotal;
             document.getElementsByClassName('subprice3')[0].innerHTML = 'Rs. ' + NetTotal;
         }

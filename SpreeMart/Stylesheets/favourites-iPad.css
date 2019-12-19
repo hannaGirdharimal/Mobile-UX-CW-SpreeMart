@@ -226,7 +226,7 @@
     text-align: center;
 }
 
-#add-to-cart1 {
+#add-to-cart{
     background-color: #34AD48;
     display: inline-block;
     border-radius: 50px;
@@ -331,6 +331,63 @@
     width: 14px;
     margin-left: 25px;
 }
+
+.ui-popup-container {
+    top: 115px !important;
+    left: 140px !important;
+}
+
+#sharepopup {
+    width: 500px;
+    height: 225px;
+    background-color: white;
+    border-color: white;
+}
+
+.share-title {
+    font-family: "Century Gothic";
+    color: #0D0C0C;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.share-subtitle {
+    font-family: "Century Gothic";
+    color: #A1A1A1;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: none;
+}
+
+.share-content {
+    padding: 15px 40px;
+}
+
+#social-media-share {
+    margin-right: 25px;
+    width: 60px;
+}
+
+
+#submit-mail {
+    background-color: #F77F00;
+    display: inline-block;
+    border-radius: 50px;
+    position: relative;
+    width: 120px;
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 13px;
+    height: 44px;
+    padding: 1em 1em;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: bold;
+}
+
 
 @media only screen and (min-device-width: 1024px) {
     .card {

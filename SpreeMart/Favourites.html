@@ -9,6 +9,7 @@
   <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
   <script type="text/javascript" src="Scripts/Product.js"></script>
   <script type="text/javascript" src="Scripts/Favourites.js"></script>
+  <script type="text/javascript" src="Scripts/Landing.js"></script>
   <link rel="stylesheet" type="text/css" href="Stylesheets/favourites-css.css">
   <link rel="stylesheet" type="text/css" href="Stylesheets/main-iPhone.css">
   <script type="text/javascript" src="Scripts/header-iphone.js"></script>
@@ -82,7 +83,9 @@
           <span id="delete-txt">(0) Items</span>
         </div>
         <div class="ui-block-c">
-          <img id="share-icon" src="Icons/share.png">
+          <a href="#sharepopup" data-rel="popup">
+            <img id="share-icon" src="Icons/share.png">
+          </a>
           <span id="share-txt">(0) Items</span>
         </div>
       </div>
@@ -132,7 +135,6 @@
         </div>
 
       </div> -->
-
       <!--
       <div class="ui-grid-b card">
         <div class="ui-block-a left-wrapper">
@@ -253,28 +255,55 @@
         </div>
 
       </div> -->
-    </div>
 
-    <div data-role="footer" data-position="fixed">
-      <div data-role="navbar">
-        <div class="ui-grid-a">
-          <div class="ui-block-a">
-            <div class="spreemart-title">SpreeMart ©</div>
-            <div class="spreemart-copyright">All rights reserved</div>
+      <div data-role="popup" id="sharepopup">
+        <div class="share-header" style="padding: 20px 20px 0px 20px;">
+          <div class="share-title">
+            Share this product with your friends
           </div>
-          <div class="ui-block-b">
-            <div class="social-media-wrapper">
-              <img id="social-media" src="Icons/facebook.png">
-              <img id="social-media" src="Icons/instagram.png">
-              <img id="social-media" src="Icons/twitter.png">
-              <img id="social-media" src="Icons/youtube.png">
+          <div class="share-subtitle">
+            Choose who you want to share this with
+          </div>
+        </div>
+        <hr style="margin-top: 5px;border-top: 2px solid #eee;">
+        <div class="share-content">
+          <div class="ui-grid-a">
+            <div class="ui-block-a" style="width: 25% !important;">
+              <img id="social-media-share" src="Icons/mail-red.png">
+            </div>
+            <div class="ui-block-b" style="width: 75% !important;">
+              <input type="text" name="mail" id="mail-to" value="" />
+              <div style="float: right;">
+                <a href="#temporary" data-role="button" id="submit-mail">SEND</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+        </div>
     </div>
 
-  </div>
+        <div data-role="footer" data-position="fixed">
+          <div data-role="navbar">
+            <div class="ui-grid-a">
+              <div class="ui-block-a">
+                <div class="spreemart-title">SpreeMart ©</div>
+                <div class="spreemart-copyright">All rights reserved</div>
+              </div>
+              <div class="ui-block-b">
+                <div class="social-media-wrapper">
+                  <img id="social-media" src="Icons/facebook.png">
+                  <img id="social-media" src="Icons/instagram.png">
+                  <img id="social-media" src="Icons/twitter.png">
+                  <img id="social-media" src="Icons/youtube.png">
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
 
 
 </body>
