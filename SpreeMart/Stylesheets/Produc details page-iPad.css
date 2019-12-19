@@ -592,13 +592,13 @@
     -webkit-box-shadow: none !important;
 }
 
-.rating {
+.rating-star {
     unicode-bidi: bidi-override;
     direction: rtl;
     display: inline;
 }
 
-.rating>span {
+.rating-star>span {
     font-size: 30px;
     display: inline-block;
     position: relative;
