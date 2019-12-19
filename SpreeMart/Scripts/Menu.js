@@ -71,3 +71,4 @@ $(document).ready(function() {
         $(this).children('.dropdown').slideToggle('slow');
     });
 });
+

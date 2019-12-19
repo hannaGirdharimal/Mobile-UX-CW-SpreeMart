@@ -5,9 +5,12 @@
     <title>iPad</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js" ></script>
     <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="Scripts/Menu.js"></script>
+    <script type="text/javascript" src="Scripts/Promotion.js"></script>
+    <script type="text/javascript" src="Scripts/Landing.js"></script>
+    <script type="text/javascript" src="Scripts/PopulatePromotions.js"></script>
     <link rel="stylesheet" type="text/css" href="Stylesheets/Promotions page-iPad.css">
 
     <!-- Latest compiled and minified CSS -->
@@ -34,7 +37,7 @@
                         <div id="mySidenav" class="sidenav">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                             <a disabled="disabled" class="item-heading">Categories</a>
-                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
+                            <a href="Support-iPad.html" class="item-list">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
                             <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Canned goods & soups</a>
                             <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Dairy</a>
                             <a href="#" class="item-heading">Promotions</a>
@@ -62,11 +65,13 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="ui-grid-a promotions-row">
-                            <div class="ui-block-a">
-                                <img id="poster" src="Images/Promotion card 2.png">
+                            <div class="ui-block-a promos">
+                                <img id="poster" class="promotion-test" src="Images/Promotion card 2.png">
+                                <div hidden class="promotion-id">1</div>
                             </div>
-                            <div class="ui-block-b">
-                                <img id="poster" src="Images/Promotion card.png">
+                            <div class="ui-block-b promos">
+                                <img id="poster" class="promotion-test" src="Images/Promotion card.png">
+                                <div hidden class="promotion-id">2</div>
                             </div>
                         </div>
                     </div>
@@ -74,8 +79,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="ui-grid-a promotions-row">
-                            <div class="ui-block-a">
-                                <img id="poster" src="Images/Promotion card.png">
+                            <div class="ui-block-a promos">
+                                <img id="poster" class="promotion-test" src="Images/Promotion card.png">
+                                <div hidden class="promotion-id">1</div>
                             </div>
                             <div class="ui-block-b">
                                 <img id="poster" src="Images/Promotion card 2.png">

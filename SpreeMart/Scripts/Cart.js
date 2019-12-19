@@ -83,6 +83,8 @@ $(document).ready(function () {
 
     document.getElementById("BuyNow1").addEventListener("click", function () {
       localStorage.setItem("PriceList",checkedItemsList);
+      localStorage.setItem("Subtotal", subtotal);
+      console.log(subtotal);
       window.location.href = 'Checkout-iPhone.html';
     }); 
 

@@ -7,6 +7,13 @@ $(document).ready(function () {
         window.location.href = 'Product detail-iPhone.html';
     });
 
+    $(".promotion-test").click(function () {
+        const SelectedID = $(this).next(".promotion-id").text();
+        console.log(SelectedID);
+        localStorage.setItem("selectedPromotionID", SelectedID);
+        window.location.href = 'Promotion detail page-iPad.html';
+    });
+
     var addButtons = document.querySelectorAll("[id='add-to-cart']");
 
     for (addBtn of addButtons) {
