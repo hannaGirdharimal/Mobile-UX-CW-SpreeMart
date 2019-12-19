@@ -406,6 +406,8 @@
     -webkit-box-shadow: none !important;
 }
 
+
+
 @media only screen and (min-device-width: 1024px) {
     .card-grid {
         margin-left: 61px;
@@ -414,5 +416,18 @@
     #first-slider{
         width: 1025px ;
     }
+
+    .land{
+        margin-top: 80px;
+    }
    
+    #search-icon {
+        position: absolute;
+    width: 35px;
+    bottom: 30px;
+    right: 82px;
+    top: 507px;
+    }
+    
+
 }
