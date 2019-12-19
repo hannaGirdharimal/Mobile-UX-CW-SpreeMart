@@ -120,11 +120,15 @@
 #select-txt {
     padding-left: 8px;
     margin-left: 36px;
+    font-family: "Century Gothic";
+    font-size: 20px;
 }
 
 #delete-txt {
     padding: 6px;
     margin-left: 0px;
+    font-family: "Century Gothic";
+    font-size: 20px;
 }
 
 #checkbox-mini-0 {
