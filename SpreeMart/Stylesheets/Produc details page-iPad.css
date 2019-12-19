@@ -592,21 +592,21 @@
     -webkit-box-shadow: none !important;
 }
 
-.rating {
+.rating-star {
     unicode-bidi: bidi-override;
     direction: rtl;
     display: inline;
 }
 
-.rating > span {
+.rating-star > span {
     font-size: 30px;
     display: inline-block;
     position: relative;
     width: 0.8em;
 }
 
-.rating > span:hover:before,
-.rating > span:hover ~ span:before {
+.rating-star > span:hover:before,
+.rating-star > span:hover ~ span:before {
      content: "\2605";
      color: #F77F00;
      position: absolute;
