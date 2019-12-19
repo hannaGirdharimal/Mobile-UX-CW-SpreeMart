@@ -12,6 +12,8 @@
     <script type="text/javascript" src="Scripts/Landing.js"></script>
     <script type="text/javascript" src="Scripts/Populate.js"></script>
     <link rel="stylesheet" type="text/css" href="Stylesheets/Landing page-iPad.css">
+    <script type="text/javascript" src="Scripts/Header.js"></script>
+    <script src="Scripts/Menu.js"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -30,29 +32,14 @@
             <div data-role="navbar">
                 <div class="ui-grid-b">
                     <div class="ui-block-a">
-                        <!-- <a href="#temporary" data-role="button" id="hamburger-link">
-                            <img id="hamburger" src="Icons/menu-button.png">
-                        </a> -->
                         <div id="mySidenav" class="sidenav">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-                            <form class="ui-filterable">
-                                <input id="filterBasic-input" data-type="search">
-                            </form>
-                            <ul data-role="listview" data-filter="true" data-input="#filterBasic-input">
-                                <li style="width: 270px;">Acura</li>
-                                <li style="width: 270px;">Audi</li style="width: 270px;">
-                                <li style="width: 270px;">BMW</li style="width: 270px;">
-                                <li style="width: 270px;">Cadillac</li style="width: 270px;">
-                                <li style="width: 270px;">Ferrari</li style="width: 270px;">
-                            </ul>
-
                             <a disabled="disabled" class="item-heading">Categories</a>
-                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
-                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Canned goods & soups</a>
-                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Dairy</a>
-                            <a href="#" class="item-heading">Promotions</a>
-                            <a href="#" class="item-heading">Support</a>
+                            <a id="item-list1">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
+                            <a id="item-list2">&nbsp; &nbsp; &nbsp; Canned goods & soups</a>
+                            <a id="item-list3">&nbsp; &nbsp; &nbsp; Dairy</a>
+                            <a id="item-promotion">Promotions</a>
+                            <a id="item-support">Support</a>
                         </div>
                         <span onclick="openNav()"><img id="hamburger" src="Icons/menu-button.png"></span>
                     </div>
@@ -62,7 +49,20 @@
                     <div class="ui-block-c">
                         <div class="header-right-wrapper">
                             <img id="cart" src="Icons/shopping-cart.png">
-                            <img id="profile-image" src="Icons/profile-image.png">
+                            <!-- <img id="profile-image" src="Icons/profile-image.png"> -->
+                            <span class="dropdown">
+                                <a class="my-drop dropdown-toggle" href="#" role="button"
+                                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <img id="profile-image" src="Icons/profile-image.png">
+                                </a>
+
+                                <div class="dropdown-menu-profile" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" id="dropdown-profile" >My Profile</a>
+                                    <a class="dropdown-item" id="dropdown-fav" >My Favourites</a>
+                                    <a class="dropdown-item" id="dropdown-logout" >Logout</a>
+                                </div>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                                     </div>
                                     <div class="card-content">
                                         <img id="product-image" src="Images/biscuit-packet.png">
-                                          <div class="product-title">GOOD DAY COOKIES</div>
+                                        <div class="product-title">GOOD DAY COOKIES</div>
                                         <div hidden class="product-id">1</div>
                                         <div class="price">Rs.800.00</div>
                                         <div class="rating">
@@ -155,7 +155,7 @@
                                     </div>
                                     <div class="card-content">
                                         <img id="product-image" src="Images/biscuit-packet.png">
-                                          <div class="product-title">GOOD DAY COOKIES</div>
+                                        <div class="product-title">GOOD DAY COOKIES</div>
                                         <div hidden class="product-id">1</div>
                                         <div class="price">Rs.800.00</div>
                                         <div class="rating">
@@ -189,7 +189,7 @@
                                     </div>
                                     <div class="card-content">
                                         <img id="product-image" src="Images/biscuit-packet.png">
-                                          <div class="product-title">GOOD DAY COOKIES</div>
+                                        <div class="product-title">GOOD DAY COOKIES</div>
                                         <div hidden class="product-id">1</div>
                                         <div class="price">Rs.800.00</div>
                                         <div class="rating">
@@ -258,7 +258,7 @@
                                     </div>
                                     <div class="card-content">
                                         <img id="product-image" src="Images/biscuit-packet.png">
-                                          <div class="product-title">GOOD DAY COOKIES</div>
+                                        <div class="product-title">GOOD DAY COOKIES</div>
                                         <div hidden class="product-id">1</div>
                                         <div class="old-price">Rs.800.00</div>
                                         <div class="price">Rs.560.00</div>
@@ -296,7 +296,7 @@
                                     </div>
                                     <div class="card-content">
                                         <img id="product-image" src="Images/biscuit-packet.png">
-                                          <div class="product-title">GOOD DAY COOKIES</div>
+                                        <div class="product-title">GOOD DAY COOKIES</div>
                                         <div hidden class="product-id">1</div>
                                         <div class="old-price">Rs.800.00</div>
                                         <div class="price">Rs.560.00</div>
@@ -334,7 +334,7 @@
                                     </div>
                                     <div class="card-content">
                                         <img id="product-image" src="Images/biscuit-packet.png">
-                                          <div class="product-title">GOOD DAY COOKIES</div>
+                                        <div class="product-title">GOOD DAY COOKIES</div>
                                         <div hidden class="product-id">1</div>
                                         <div class="old-price">Rs.800.00</div>
                                         <div class="price">Rs.560.00</div>

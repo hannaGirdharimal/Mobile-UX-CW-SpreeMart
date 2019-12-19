@@ -7,7 +7,8 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <link rel="stylesheet" type="text/css" href="Stylesheets/Support-iPad.css">
-
+    <script type="text/javascript" src="Scripts/Header.js"></script>
+    <script src="Scripts/Menu.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
@@ -30,11 +31,11 @@
                         <div id="mySidenav" class="sidenav">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                             <a disabled="disabled" class="item-heading">Categories</a>
-                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
-                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Canned goods & soups</a>
-                            <a href="#" class="item-list">&nbsp; &nbsp; &nbsp; Dairy</a>
-                            <a href="#" class="item-heading">Promotions</a>
-                            <a href="#" class="item-heading">Support</a>
+                            <a id="item-list1">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
+                            <a id="item-list2">&nbsp; &nbsp; &nbsp; Canned goods & soups</a>
+                            <a id="item-list3">&nbsp; &nbsp; &nbsp; Dairy</a>
+                            <a id="item-promotion">Promotions</a>
+                            <a id="item-support">Support</a>
                         </div>
                         <span onclick="openNav()"><img id="hamburger" src="Icons/menu-button.png"></span>
                     </div>
@@ -44,11 +45,23 @@
                     <div class="ui-block-c">
                         <div class="header-right-wrapper">
                             <img id="cart" src="Icons/shopping-cart.png">
-                            <img id="profile-image" src="Icons/profile-image.png">
+                            <!-- <img id="profile-image" src="Icons/profile-image.png"> -->
+                            <span class="dropdown">
+                                <a class="my-drop dropdown-toggle" href="#" role="button"
+                                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <img id="profile-image" src="Icons/profile-image.png">
+                                </a>
+
+                                <div class="dropdown-menu-profile" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" id="dropdown-profile" >My Profile</a>
+                                    <a class="dropdown-item" id="dropdown-fav" >My Favourites</a>
+                                    <a class="dropdown-item" id="dropdown-logout" >Logout</a>
+                                </div>
+                            </span>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 
