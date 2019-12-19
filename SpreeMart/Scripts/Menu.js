@@ -52,23 +52,3 @@ function RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-function changeImage() {
-    var image = document.getElementById('heart');
-    if (image.src.match("Icons/unfilled-heart.png")) {
-        image.src = "Icons/heart.png";
-    }
-    else {
-        image.src = "Icons/unfilled-heart.png";
-    }
-}
-
-$(document).ready(function() {
-    // Hide all dropdowns initially.
-    $('.dropdown').hide();
-    
-    // Bind click event
-    $('.image-holder').click(function() {   
-        $(this).children('.dropdown').slideToggle('slow');
-    });
-});
-

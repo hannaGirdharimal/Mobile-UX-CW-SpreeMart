@@ -63,7 +63,6 @@ $(document).ready(function() {
             NetTotal = subtotal;
             document.getElementsByClassName('subprice')[0].innerText = 'Rs.' + subtotal;
             document.getElementsByClassName('subprice3')[0].innerHTML = 'Rs. ' + NetTotal;
-
         }
 
         if (!this.checked) {
