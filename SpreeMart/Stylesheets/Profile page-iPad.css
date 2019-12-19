@@ -549,3 +549,25 @@
     margin: 0em 0;
     -webkit-box-shadow: none !important;
 }
+
+@media only screen and (min-device-width: 1024px) {
+    .block-1{
+        width: 65% !important;
+    }
+    .block-2{
+        width: 30% !important;
+    }
+    .google-maps-area{
+        margin-left: 50px;
+    }
+    #tier-line-2 {
+        margin-left: 438px;
+        width: 34.5%;
+    }
+    #tier-line {
+        width: 34.5%;
+    }
+    .edit-wrapper {
+        margin-left: 290px;
+    }
+}
