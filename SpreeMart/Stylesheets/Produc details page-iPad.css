@@ -591,3 +591,23 @@
     margin: 0em 0;
     -webkit-box-shadow: none !important;
 }
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    display: inline;
+}
+
+.rating > span {
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    width: 0.8em;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+     content: "\2605";
+     color: #F77F00;
+     position: absolute;
+}
