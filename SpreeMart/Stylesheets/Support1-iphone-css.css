@@ -22,7 +22,7 @@
 }
 
 .ui-body-d {
-    background-color: white;
+    background-color: #f1f1f1;
     border-right: 1px solid #D62828;
     border-left: 1px solid #D62828;
     border-bottom: 1px solid #D62828;
@@ -108,7 +108,6 @@
     box-shadow: none !important;
     outline: 0;
     border-radius: unset;
-    border-bottom: 1px solid #BDC4CC !important;
     /* height: 60px; */
     /* width: 200%; */
     text-align: left;
@@ -167,4 +166,23 @@
 
 .ui-icon-plus:after{
       background-image: "Icons/collapse-plus.png";
+}
+
+
+.button-wrapper{
+  text-align: right;
+}
+
+#place-submit {
+  width: 125px;
+  background-color: #F77F00;
+  display: inline-block;
+  border-radius: 50px;
+  font-family: "Century Gothic";
+  color: white;
+  font-size: 13px;
+  padding: 1em 1em;
+  border: none !important;
+  text-shadow: none !important;
+  font-weight: bold;
 }
