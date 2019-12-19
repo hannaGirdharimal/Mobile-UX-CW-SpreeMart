@@ -1,6 +1,32 @@
 $(document).ready(function () {
     let eventData;
-    populatePromotion()
+    populatePromotion();
+
+    $("#scrollToBest").click(function(){
+      var elmnt = document.getElementById("bestSellers");
+      elmnt.scrollIntoView();
+    });
+    $("#scrollToPersonalized").click(function(){
+      var elmnt = document.getElementById("personalized");
+      elmnt.scrollIntoView();
+    });
+    $("#scrollToEnding").click(function(){
+      var elmnt = document.getElementById("ending");
+      elmnt.scrollIntoView();
+    });
+    $("#scrollToDiscount").click(function(){
+      var elmnt = document.getElementById("discounted");
+      elmnt.scrollIntoView();
+    });
+    $("#scrollToSpecial").click(function(){
+      var elmnt = document.getElementById("special");
+      elmnt.scrollIntoView();
+    });
+    $("#scrollToUpcoming").click(function(){
+      var elmnt = document.getElementById("upcoming");
+      elmnt.scrollIntoView();
+    });
+
 });
 
  function populatePromotion(){
@@ -11,13 +37,3 @@ $(document).ready(function () {
     }
 }
 
-// function createProductCard(data) {
-//     var card = [
-//         '<img id="product-image" src="', data.img_url, '">',
-//         '<div class="product-title">', data.title, '</div>',
-//         '<div class="price">Rs.', data.price, '</div>'    
-//     ];
-
-//     return card.join
-
-// }

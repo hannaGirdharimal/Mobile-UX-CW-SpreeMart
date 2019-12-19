@@ -14,7 +14,7 @@
 }
 
 .sidenav {
-    height: 50%;
+    height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -103,7 +103,8 @@
 }
 
 #poster {
-    width: 350px;
+    width: 325px;
+    margin-bottom: 10px;
 }
 
 #Cards {
@@ -334,5 +335,34 @@
     border-width: 0;
     padding: 0 0em;
     margin: 0em 0;
+    box-shadow: none !important;
     -webkit-box-shadow: none !important;
+}
+
+.filter-wrapper{
+    border: none;
+    border-color: white !important;
+    border-radius: 50px;
+    background-color: white;    
+    height: 60px;
+    width: 45%;
+    margin: 0.5em 0;
+    text-align: left;
+    padding: 5px 25px;
+    font-size: 16px;
+    font-family: "Century Gothic";
+    position: relative;
+}
+
+#select-choice-1-button{
+    background-color: white;
+    border: none !important;
+    box-shadow: none !important;
+    outline: 0;
+    text-align: left;
+    margin-top: 0px;
+    font-size: 18px;
+    font-family: "Century Gothic";
+    color: #D62828;
+    font-weight: 100;
 }

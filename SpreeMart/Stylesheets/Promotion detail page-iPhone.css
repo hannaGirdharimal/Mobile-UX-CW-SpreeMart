@@ -13,8 +13,8 @@
     margin-top: 8px;
 }
 
-.sidenav{
-    height: 50%;
+.sidenav {
+    height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -406,7 +406,6 @@ margin-top: -24px;
 /* margin-left: 185px; */
 /* top: -10px; */
 /* text-align: end; */
-}
 }
 
 .discount-rating{
