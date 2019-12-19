@@ -421,7 +421,7 @@
 .rating-2 {
     margin-right: 10px;
     margin-top: 5px;
-    text-align: right;
+    text-align: left;
 }
 
 #comment-pic {
@@ -598,16 +598,40 @@
     display: inline;
 }
 
-.rating > span {
+.rating>span {
     font-size: 30px;
     display: inline-block;
     position: relative;
     width: 0.8em;
 }
 
-.rating > span:hover:before,
-.rating > span:hover ~ span:before {
-     content: "\2605";
-     color: #F77F00;
-     position: absolute;
+.rating>span:hover:before,
+.rating>span:hover~span:before {
+    content: "\2605";
+    color: #F77F00;
+    position: absolute;
+}
+
+@media only screen and (min-device-width: 1024px) {
+    #share-2 {
+        margin-left: 120px;
+    }
+    .product-title {
+        font-size: 18px;
+    }
+    #heart-2 {
+        margin-left: 320px;
+    }
+    .heart-number {
+        margin-left: 365px;
+    }
+    #product-image-1 {
+        margin: 30px 0px 0px 40px;
+    }
+    .appreciate-text {
+        font-size: 15px;
+    }
+    .rating-2 {
+        text-align: left;
+    }
 }

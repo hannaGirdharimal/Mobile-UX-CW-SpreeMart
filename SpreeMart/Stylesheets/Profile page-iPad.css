@@ -243,6 +243,11 @@
     width: 610px;
 }
 
+#gmap_canvas {
+    width: 610px;
+    height: 280px;
+}
+
 #card-type {
     width: 50px;
 }
@@ -613,14 +618,14 @@
 }
 
 @media only screen and (min-device-width: 1024px) {
-    .block-1{
+    .block-1 {
         width: 65% !important;
     }
-    .block-2{
+    .block-2 {
         width: 30% !important;
     }
-    .google-maps-area{
-        margin-left: 50px;
+    .google-maps-area {
+        margin-left: 20px;
     }
     #tier-line-2 {
         margin-left: 438px;
@@ -631,5 +636,9 @@
     }
     .edit-wrapper {
         margin-left: 290px;
+    }
+    #gmap_canvas {
+        width: 810px;
+        height: 280px;
     }
 }
