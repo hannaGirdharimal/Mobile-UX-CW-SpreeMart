@@ -127,7 +127,7 @@ Product price font-size: 14px */
 #add-to-cart{
     background-color: #34AD48;
     display: inline-block;
-    border-radius: 50px; 
+    border-radius: 50px;
     font-family: "Century Gothic";
     color: white;
     font-size: 9px;
@@ -193,10 +193,19 @@ Product price font-size: 14px */
 #select-txt{
   padding-left: 8px;
   margin-left: 36px;
+  font-family: "Century Gothic";
+  font-size: 14px;
 }
 
 #delete-txt{
   padding: 6px;
+  font-family: "Century Gothic";
+  font-size: 14px;
+}
+
+#share-txt{
+  font-family: "Century Gothic";
+  font-size: 14px;
 }
 
 #checkbox-mini-0{
