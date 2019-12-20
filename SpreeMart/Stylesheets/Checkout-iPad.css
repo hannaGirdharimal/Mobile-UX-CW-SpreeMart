@@ -374,3 +374,51 @@ button:focus {
         -webkit-box-shadow: none !important;
     }
 }
+
+
+.summary-head{
+    background-color: #DADADA;
+    height: 35px;
+    margin: 20px -10px 10px -15px;
+}
+
+.col-header{
+    font-family: "Century Gothic";
+    font-weight: 600;
+    color: #D62828;
+    font-size: 16px;
+    margin: 5px 10px;
+}
+
+.summary-content{
+    margin-left: -15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #707070;
+}
+
+.col-content{
+    font-family: "Century Gothic";
+    color: #020202;
+    font-size: 14px;
+    margin: 5px 10px;
+}
+
+.summary-footer{
+    margin-left: -15px;
+}
+
+.col-footer{
+    font-family: "Century Gothic";
+    color: #020202;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 10px;
+}
+
+.col-footer-2{
+    font-family: "Century Gothic";
+    color: #D62828;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 10px;
+}
