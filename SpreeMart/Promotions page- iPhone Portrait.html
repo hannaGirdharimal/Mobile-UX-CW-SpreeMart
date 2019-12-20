@@ -1,105 +1,133 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <title>Promotions Page - iPhone Portrait</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-        <script src="Scripts/Menu.js"></script>
-        <link rel="stylesheet" type="text/css" href="Stylesheets/Promotions%20page-iPhone%20Portrait.css">
-        <script type="text/javascript" src="Scripts/header-iphone.js"></script>
-        <script src="Scripts/Menu.js"></script>
+<head>
+    <title>Promotions Page - iPhone Portrait</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="Scripts/Menu.js"></script>
+    <script type="text/javascript" src="Scripts/Promotion.js"></script>
+    <script type="text/javascript" src="Scripts/Landing.js"></script>
+    <script type="text/javascript" src="Scripts/PopulatePromotions.js"></script>
+    <link rel="stylesheet" type="text/css" href="Stylesheets/Promotions%20page-iPhone%20Portrait.css">
+    <script type="text/javascript" src="Scripts/header-iphone.js"></script>
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    </head>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <body>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
 
-        <div data-role="page" id="Promotions" data-position="fixed">
-          <div data-role="header">
-              <div data-role="navbar">
-                  <div class="ui-grid-b">
-                      <div class="ui-block-a">
-                          <div id="mySidenav" class="sidenav">
-                              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                              <a disabled="disabled" class="item-heading">Categories</a>
-                              <a id="item-list1">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
-                              <a id="item-list2">&nbsp; &nbsp; &nbsp; Canned goods & soups</a>
-                              <a id="item-list3">&nbsp; &nbsp; &nbsp; Dairy</a>
-                              <a id="item-promotion">Promotions</a>
-                              <a id="item-support">Support</a>
-                          </div>
-                          <span onclick="openNav()"><img id="hamburger" src="Icons/menu-button.png"></span>
-                      </div>
-                      <div class="ui-block-b">
-                          <img id="logo" src="Images/CWLOGO full.png">
-                      </div>
-                      <div class="ui-block-c">
-                          <div class="header-right-wrapper">
-                              <img id="cart" src="Icons/shopping-cart.png">
-                              <!-- <img id="profile-image" src="Icons/profile-image.png"> -->
-                              <span class="dropdown">
-                                  <a class="my-drop dropdown-toggle" href="#" role="button"
-                                      id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                                      aria-expanded="false">
-                                      <img id="profile-image" src="Icons/profile-image.png">
-                                  </a>
+<body>
 
-                                  <div class="dropdown-menu-profile" aria-labelledby="dropdownMenuLink">
-                                      <a class="dropdown-item" id="dropdown-profile" >My Profile</a>
-                                      <a class="dropdown-item" id="dropdown-fav" >My Favourites</a>
-                                      <a class="dropdown-item" id="dropdown-logout" >Logout</a>
-                                  </div>
-                              </span>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-            <div data-role="content">
-                <div class="container">
-                    <div class="section-header">
-                        POPULAR PROMOTIONS
+    <div data-role="page" id="Promotions" data-position="fixed">
+        <div data-role="header">
+            <div data-role="navbar">
+                <div class="ui-grid-b">
+                    <div class="ui-block-a">
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a disabled="disabled" class="item-heading">Categories</a>
+                            <a id="item-list1">&nbsp; &nbsp; &nbsp; Bread & Bakery</a>
+                            <a id="item-list2">&nbsp; &nbsp; &nbsp; Canned goods & soups</a>
+                            <a id="item-list3">&nbsp; &nbsp; &nbsp; Dairy</a>
+                            <a id="item-promotion">Promotions</a>
+                            <a id="item-support">Support</a>
+                        </div>
+                        <span onclick="openNav()"><img id="hamburger" src="Icons/menu-button.png"></span>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="ui-grid-a promotions-row">
-                                <div class="ui-block-a">
-                                    <img id="poster" src="Images/Promotion card 2.png">
+                    <div class="ui-block-b">
+                        <img id="logo" src="Images/CWLOGO full.png">
+                    </div>
+                    <div class="ui-block-c">
+                        <div class="header-right-wrapper">
+                            <img id="cart" src="Icons/shopping-cart.png">
+                            <!-- <img id="profile-image" src="Icons/profile-image.png"> -->
+                            <span class="dropdown">
+                                <a class="my-drop dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img id="profile-image" src="Icons/profile-image.png">
+                                </a>
+
+                                <div class="dropdown-menu-profile" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" id="dropdown-profile">My Profile</a>
+                                    <a class="dropdown-item" id="dropdown-fav">My Favourites</a>
+                                    <a class="dropdown-item" id="dropdown-logout">Logout</a>
                                 </div>
-                                <div class="line-spacing">
-                                </div>
-                                <div class="ui-block-b">
-                                    <img id="poster" src="Images/Promotion card.png">
-                                </div>
-                            </div>
+                            </span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div data-role="content">
+            <div class="container">
+                <div class="filter-wrapper">
+                    <div class="dropdown">
+                        <button class="dropdown-toggle" type="button" id="select-choice-1-button"
+                            data-toggle="dropdown"><span class="dropdown-toggle-text">All</span>
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">All</a></li>
+                            <li><a id="scrollToBest">Best Sellers</a></li>
+                            <li><a id="scrollToPersonalized">Personalized Promotion</a></li>
+                            <li><a id="scrollToDiscount">Discounted Items</a></li>
+                            <li><a id="scrollToEnding">Ending Soon</a></li>
+                            <li><a id="scrollToSpecial">Special Promotion</a></li>
+                            <li><a id="scrollToUpcoming">Upcoming Promotions</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="bestSellers">
                     <div class="section-header">
-                        JUST FOR YOU
+                        BEST SELLERS
                     </div>
 
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="ui-grid-a promotions-row">
-                                <div class="ui-block-a">
-                                    <img id="poster" src="Images/Promotion card.png">
-                                </div>
-                                <div class="line-spacing">
-                                </div>
-                            </div>
-                        </div>
+                    <div class="row promos">
+                        <img id="poster" class="promotion-test" src="Images/Comfort-promotion.jpg">
+                        <div hidden class="promotion-id">1</div>
+                    </div>
+                    <div class="row promos">
+                        <img id="poster" class="promotion-test" src="Images/Milk-promotion.jpg">
+                        <div hidden class="promotion-id">2</div>
                     </div>
 
+                    <div class="row promos">
+                        <img id="poster" class="promotion-test" src="Images/Bakery-promotion.jpg">
+                        <div hidden class="promotion-id">1</div>
+                    </div>
+                    <div class="row promos">
+                        <img id="poster" class="promotion-test" src="Images/Vim-promotion.jpg">
+                        <div hidden class="promotion-id">1</div>
+
+                    </div>
+                </div>
+
+                <div id="personalized">
+                    <div class="section-header">
+                        PERSONALIZED PROMOTIONS
+                    </div>
+
+                    <div class="row promos">
+                        <img id="poster" class="promotion-test" src="Images/Morning-promotion.jpg">
+                        <div hidden class="promotion-id">1</div>
+                    </div>
+                    <div class="row promos">
+                        <img id="poster" class="promotion-test" src="Images/Hamper-promotion.jpg">
+                        <div hidden class="promotion-id">1</div>
+                    </div>
+
+                </div>
+
+                <div id="discounted">
                     <div class="section-header">
                         DISCOUNTED ITEMS
                     </div>
@@ -108,13 +136,17 @@
                             <div class="ui-grid-a">
                                 <div class="ui-block-a">
                                     <div class="card">
-                                      <div class="discount-wrapper">
-                  											<img id="discount-percent" src="Icons/Discount-item.png">
-                  										</div>
+                                        <div class="discount-wrapper">
+                                            <img id="discount-percent" src="Icons/Discount-item.png">
+                                        </div>
+                                        <div class="heart-wrapper">
+                                            <img id="heart" class="heart-icon" src="Icons/unfilled-heart.png">
+                                        </div>
                                         <div class="card-content">
                                             <img id="product-image" src="Images/biscuit-packet.png">
                                             <div class="product-title">GOOD DAY COOKIES</div>
-                                            <div class="price">Rs.800.00</div>
+                                            <div class="old-price">Rs.800.00</div>
+                                            <div class="price">Rs.560.00</div>
                                             <div class="rating">
                                                 <img id="rating-star" src="Icons/rating star.png">
                                                 <img id="rating-star" src="Icons/rating star.png">
@@ -141,13 +173,17 @@
                                 </div>
                                 <div class="ui-block-b">
                                     <div class="card">
-                                      <div class="discount-wrapper">
-                  											<img id="discount-percent" src="Icons/Discount-item.png">
-                  										</div>
+                                        <div class="discount-wrapper">
+                                            <img id="discount-percent" src="Icons/Discount-item.png">
+                                        </div>
+                                        <div class="heart-wrapper">
+                                            <img id="heart" class="heart-icon" src="Icons/unfilled-heart.png">
+                                        </div>
                                         <div class="card-content">
                                             <img id="product-image" src="Images/biscuit-packet.png">
                                             <div class="product-title">GOOD DAY COOKIES</div>
-                                            <div class="price">Rs.800.00</div>
+                                            <div class="old-price">Rs.800.00</div>
+                                            <div class="price">Rs.560.00</div>
                                             <div class="rating">
                                                 <img id="rating-star" src="Icons/rating star.png">
                                                 <img id="rating-star" src="Icons/rating star.png">
@@ -172,152 +208,72 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
 
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="ui-grid-a">
-                                <div class="ui-block-a">
-                                    <div class="card">
-                                      <div class="discount-wrapper">
-                                        <img id="discount-percent" src="Icons/Discount-item.png">
-                                      </div>
-                                        <div class="card-content">
-                                            <img id="product-image" src="Images/biscuit-packet.png">
-                                            <div class="product-title">GOOD DAY COOKIES</div>
-                                            <div class="price">Rs.800.00</div>
-                                            <div class="rating">
-                                                <img id="rating-star" src="Icons/rating star.png">
-                                                <img id="rating-star" src="Icons/rating star.png">
-                                                <img id="rating-star" src="Icons/rating star.png">
-                                                <img id="rating-star" src="Icons/rating star.png">
-                                                <img id="rating-star" src="Icons/rating star half-filled.png">
-                                            </div>
-                                            <div class="quantity">
-                                                <fieldset class="ui-grid-b">
-                                                    <div class="ui-block-a">
-                                                        <a href="#temporary" data-role="button" id="minus">-</a>
-                                                    </div>
-                                                    <div class="ui-block-b">
-                                                        <input type="number" name="quantity" id="quantity" value="1" />
-                                                    </div>
-                                                    <div class="ui-block-c">
-                                                        <a href="temporary.html" data-role="button" id="plus">+</a>
-                                                    </div>
-                                                </fieldset>
-                                            </div>
-                                            <a href="#temporary" data-role="button" id="add-to-cart">ADD TO CART</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ui-block-b">
-                                    <div class="card">
-                                      <div class="discount-wrapper">
-                                        <img id="discount-percent" src="Icons/Discount-item.png">
-                                      </div>
-                                        <div class="card-content">
-                                            <img id="product-image" src="Images/biscuit-packet.png">
-                                            <div class="product-title">GOOD DAY COOKIES</div>
-                                            <div class="price">Rs.800.00</div>
-                                            <div class="rating">
-                                                <img id="rating-star" src="Icons/rating star.png">
-                                                <img id="rating-star" src="Icons/rating star.png">
-                                                <img id="rating-star" src="Icons/rating star.png">
-                                                <img id="rating-star" src="Icons/rating star.png">
-                                                <img id="rating-star" src="Icons/rating star half-filled.png">
-                                            </div>
-                                            <div class="quantity">
-                                                <fieldset class="ui-grid-b">
-                                                    <div class="ui-block-a">
-                                                        <a href="#temporary" data-role="button" id="minus">-</a>
-                                                    </div>
-                                                    <div class="ui-block-b">
-                                                        <input type="number" name="quantity" id="quantity" value="1" />
-                                                    </div>
-                                                    <div class="ui-block-c">
-                                                        <a href="temporary.html" data-role="button" id="plus">+</a>
-                                                    </div>
-                                                </fieldset>
-                                            </div>
-                                            <a href="#temporary" data-role="button" id="add-to-cart">ADD TO CART</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="section-header">
-                        ENDING SOON
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="ui-grid-a promotions-row">
-                                <div class="ui-block-a">
-                                    <img id="poster" src="Images/Promotion card 2.png">
-                                </div>
-                                <div class="line-spacing">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section-header">
-                        SPECIAL PROMOTION
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="ui-grid-a special-promotion-grid">
-                                <div class="ui-block-a">
-                                    <img id="special-promotion" src="Images/Special promotion.png">
-                                </div>
-                                <div class="ui-block-b">
-                                    <!--
-<div class="special-promotion-text">
-Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-</div>
--->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="section-header">
-                        UPCOMING PROMOTIONS
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="ui-grid-a promotions-row">
-                                <div class="ui-block-a">
-                                    <img id="poster" src="Images/Promotion card 2.png">
-                                </div>
-                                <div class="line-spacing">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-role="footer">
-                        <div data-role="navbar">
-                            <div class="ui-grid-a">
-                                <div class="ui-block-a">
-                                    <div class="spreemart-title">SpreeMart ©</div>
-                                    <div class="spreemart-copyright">All rights reserved</div>
-                                </div>
-                                <div class="ui-block-b">
-                                    <div class="social-media-wrapper">
-                                        <img id="social-media" src="Icons/facebook.png">
-                                        <img id="social-media" src="Icons/instagram.png">
-                                        <img id="social-media" src="Icons/twitter.png">
-                                        <img id="social-media" src="Icons/youtube.png">
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
-                </body>
 
-            </html>
+                <div id="ending">
+                    <div class="section-header" id="#ending">
+                        ENDING SOON
+                    </div>
+
+                    <div class="row promos">
+                        <img id="poster" class="promotion-test" src="Images/Vim-promotion.jpg">
+                        <div hidden class="promotion-id">1</div>
+                    </div>
+                    <div class="row promos">
+                        <img id="poster" class="promotion-test" src="Images/Bakery-promotion.jpg">
+                        <div hidden class="promotion-id">1</div>
+                    </div>
+
+                </div>
+
+                <div id="special">
+                    <div class="section-header">
+                        SPECIAL PROMOTION
+                    </div>
+
+                    <div class="row promos">
+                        <img id="special-promotion" src="Images/Special promotion.png">
+                    </div>
+
+
+                </div>
+
+                <div id="upcoming">
+                    <div class="section-header">
+                        UPCOMING PROMOTIONS
+                    </div>
+
+                    <div class="row promos">
+                        <img id="poster" src="Images/UpPoster.jpg">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div data-role="footer">
+            <div data-role="navbar">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div class="spreemart-title">SpreeMart ©</div>
+                        <div class="spreemart-copyright">All rights reserved</div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div class="social-media-wrapper">
+                            <img id="social-media" src="Icons/facebook.png">
+                            <img id="social-media" src="Icons/instagram.png">
+                            <img id="social-media" src="Icons/twitter.png">
+                            <img id="social-media" src="Icons/youtube.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
