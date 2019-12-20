@@ -8,6 +8,16 @@
     text-align: center;
 }
 
+.camera-button{
+    position: fixed;
+    top: 658px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    margin-left: 23pc;
+    opacity: 70%;
+}
+
 .camera-white-box {
     padding: 30px;
     background-color: white;
@@ -61,6 +71,17 @@
     .white-box {
         margin-right: 400px
     }
+
+    .camera-button {
+        position: fixed;
+        top: 161px;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+        margin-left: 21pc;
+        opacity: 70%;
+    }
+    
 }
 
 .open>.dropdown-menu-profile {

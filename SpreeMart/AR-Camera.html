@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <script type="text/javascript" src="Scripts/AR.js"></script>
+    <script type="text/javascript" src="Scripts/html2canvas.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="Stylesheets/ar-css.css">
+</head>
+
+<body>
+    <div class="camera-button">
+        <img id="camera-click" src="Icons/ios11-camera-mode-icon.png">
+    </div>
+
+    <div class="back-button">
+        <img id="ba" src="Icons/ios11-camera-mode-icon.png">
+    </div>
+
+
+    <!-- Define your 3d scene and enabled ar.js -->
+    <div id='container' style="height:812px;width:375px;">
+        <a-scene embedded arjs='sourceType: webcam;'>
+
+            <a-assets>
+                <img id="AR-image" src="Icons/LoginLogo2.png">
+            </a-assets>
+
+            <a-image src="#AR-image"></a-image>
+
+            <a-marker-camera type='pattern' url='Images/pattern-home.patt'></a-marker-camera>
+
+            <a-camera-static />
+
+        </a-scene>
+    </div>
+
+
+</body>
