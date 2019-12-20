@@ -52,6 +52,8 @@ function RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
+$(document).ready(function () {
 $('#continue-from').click(() => {
   window.location.href = 'Landing page-iPad.html';
+});
 });

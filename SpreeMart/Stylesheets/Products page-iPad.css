@@ -494,6 +494,107 @@
     -webkit-box-shadow: none !important;
 }
 
+
+.ui-popup-container {
+    top: 349px !important;
+    left: 229px !important;
+}
+
+#sharepopup {
+    width: 500px;
+    height: 225px;
+    background-color: white;
+    border-color: white;
+}
+
+.share-title {
+    font-family: "Century Gothic";
+    color: #0D0C0C;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.share-subtitle {
+    font-family: "Century Gothic";
+    color: #A1A1A1;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: none;
+}
+
+.share-content {
+    padding: 15px 40px;
+}
+
+#social-media-share {
+    margin-right: 25px;
+    width: 60px;
+}
+
+.ui-footer {
+    padding: 15px 40px;
+    background-color: #D62828 !important;
+}
+
+.spreemart-title {
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 14px;
+    text-shadow: none !important;
+}
+
+.spreemart-copyright {
+    font-family: "Century Gothic";
+    font-style: italic;
+    font-weight: 100;
+    color: white;
+    font-size: 14px;
+    text-shadow: none !important;
+}
+
+.social-media-wrapper {
+    text-align: right;
+    margin-top: 10px;
+}
+
+#social-media {
+    width: 20px;
+    margin-right: 10px;
+}
+
+#submit-mail {
+    background-color: #F77F00;
+    display: inline-block;
+    border-radius: 50px;
+    position: relative;
+    width: 120px;
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 13px;
+    height: 44px;
+    padding: 1em 1em;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: bold;
+}
+
+#submit-mail2 {
+    background-color: #34AD48;
+    display: inline-block;
+    border-radius: 50px;
+    position: relative;
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 13px;
+    padding: 1em 1em;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: bold;
+}
+
 @media only screen and (min-device-width: 1024px) {
     .container-pads {
         padding-left: 100px;

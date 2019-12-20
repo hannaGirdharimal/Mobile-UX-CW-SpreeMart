@@ -42,6 +42,9 @@ $(document).ready(function() {
         window.location.href = 'login-ipad.html';
     });
 
+    $('#continue-from').click(() => {
+        window.location.href = 'Landing page-iPad.html';
+      });
 
 
 });
