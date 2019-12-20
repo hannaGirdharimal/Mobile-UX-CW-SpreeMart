@@ -7,6 +7,7 @@ Product price font-size: 14px */
 }
 
 .card{
+    display: inline-block;
     width: 140px;
     margin: 10px 10px;
     border-radius: 10px;
@@ -16,7 +17,7 @@ Product price font-size: 14px */
 
 .heart-wrapper{
     text-align: left;
-    padding: 2px 0 0 10px;
+    padding: 6px 0 0 10px;
 }
 
 #heart{
@@ -29,6 +30,7 @@ Product price font-size: 14px */
 
 #product-image{
     width: 100px;
+    height:  100px;
 }
 
 .product-title{
@@ -38,6 +40,8 @@ Product price font-size: 14px */
     font-size: 12px;
     margin-top: 4px;
     margin-bottom: 2px;
+    max-height: 15px;
+    overflow-y: hidden;
 }
 
 .price{
@@ -178,7 +182,7 @@ Product price font-size: 14px */
 }
 
 .product-grid{
-    margin: 35px 20px 10px 20px;
+    margin: 25px 25px 5px -5px;
 }
 
 .filter-wrapper{
@@ -202,8 +206,8 @@ Product price font-size: 14px */
     box-shadow: none !important;
     outline: 0;
     text-align: left;
-    margin-top: -5px;
-    font-size: 18px;
+    font-size: 12px;
+    margin-left: -20px;
     font-family: "Century Gothic";
     color: #D62828;
     font-weight: 100;
@@ -303,8 +307,70 @@ Product price font-size: 14px */
     margin: 0em 0;
     -webkit-box-shadow: none !important;
 }
+
+.dropdown-menu {
+    position: relative !important;
+}
+
+.show {
+    display: inline-block !important;
+}
+
+.show-card {
+    display: inline-block;
+}
+
+.hide-card {
+    display: none;
+}
+
+#searchFor {
+    border: none;
+    border-width: 0;
+    border-color: white !important;
+    border-radius: 50px;
+    border-top: white !important;
+    background-color: white;
+    height: 59px;
+    width: 155%;
+    margin-left: -40px;
+
+    /* border-width: 0; */
+    text-align: left;
+    /* padding: 0 40px; */
+    font-size: 14px;
+    font-family: "Century Gothic";
+    position: relative;
+}
+
+.ui-body-inherit
+{
+    border-color: #fff !important;
+    border-radius: 50px;
+}
+
+.ui-input-text {
+    border-radius: 50px;
+}
+
+#search-icon {
+    position: absolute;
+    width: 35px;
+    /* bottom: 30px; */
+    right: 70px;
+    top: 127px;
+}
+
+.ui-input-search:after {
+    left: 13.3125em;
+}
+
+.ui-btn.ui-input-clear, .ui-input-text.ui-input-has-clear .ui-btn.ui-input-clear {
+    right: 46px !important;
+}
+
 @media only screen
     and (device-width : 375px)
     and (device-height : 812px)
     and (-webkit-device-pixel-ratio : 3)
-    and (orientation : portrait)
+    and (orientation : portrait){}

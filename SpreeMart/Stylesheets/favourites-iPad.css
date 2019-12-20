@@ -141,8 +141,7 @@
 }
 
 #nutella {
-    margin-left: -30px;
-    width: 150px;
+    width: 100px;
     margin-top: 8px;
 }
 
@@ -179,7 +178,7 @@
 }
 
 #minus1 {
-    height: 19.2px;
+    height: 30.2px;
     padding: 0.3em 0em;
     border: 1px solid #CCCCCC;
     border-radius: 0;
@@ -188,7 +187,7 @@
 }
 
 #plus1 {
-    height: 19.2px;
+    height: 30.2px;
     padding: 0.3em 0em;
     border: 1px solid #CCCCCC;
     border-radius: 0;
@@ -209,8 +208,8 @@
 #quantity1 {
     border: 1px solid #CCCCCC;
     border-radius: 0;
-    height: 31px;
-    margin-top: -1px;
+    height: 31px;   
+     margin-top: -0.5px;
     font-size: 14px;
     background-color: white;
 }
@@ -230,11 +229,9 @@
     background-color: #34AD48;
     display: inline-block;
     border-radius: 50px;
-    width: 59px;
     font-family: "Century Gothic";
     color: white;
     font-size: 9px;
-    height: 9px;
     padding: 1em 1em;
     border: none !important;
     text-shadow: none !important;
@@ -245,11 +242,9 @@
     background-color: #F77F00;
     display: inline-block;
     border-radius: 50px;
-    width: 59px;
     font-family: "Century Gothic";
     color: white;
     font-size: 9px;
-    height: 9px;
     padding: 1em 1em;
     border: none !important;
     text-shadow: none !important;
@@ -311,12 +306,10 @@
 }
 
 #delete-icon {
-    margin-top: 10px;
     margin-left: 10px;
 }
 
 #share-icon {
-    margin-top: 9px;
 }
 
 #checkbox-select-all {
@@ -334,7 +327,7 @@
 
 .ui-popup-container {
     top: 115px !important;
-    left: 140px !important;
+    left: 265px !important;
 }
 
 #sharepopup {

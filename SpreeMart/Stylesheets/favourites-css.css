@@ -214,12 +214,10 @@ Product price font-size: 14px */
 }
 
 #delete-icon{
-  margin-top: 10px;
   margin-left: 10px;
 }
 
 #share-icon{
-  margin-top: 9px;
 }
 
 #checkbox-select-all{
@@ -305,7 +303,6 @@ Product price font-size: 14px */
     font-family: "Century Gothic";
     color: white;
     font-size: 13px;
-    height:13px;
     padding: 1em 1em;
     border: none !important;
     text-shadow: none !important;

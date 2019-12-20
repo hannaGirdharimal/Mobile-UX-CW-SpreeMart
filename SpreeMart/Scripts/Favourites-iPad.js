@@ -106,8 +106,11 @@ $(document).ready(function () {
           '</div>' +
           '</div>'
 
-      
-          document.getElementsByClassName('card-area')[0].innerHTML += CartHTML;
+          if (i % 2 !== 0) {
+            document.getElementsByClassName('card-area-1')[0].innerHTML += CartHTML;
+          } else {
+            document.getElementsByClassName('card-area-2')[0].innerHTML += CartHTML;
+          }
         break;
       }
 

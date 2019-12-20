@@ -1,10 +1,34 @@
 $(document).ready(function () {
 
+    var path = window.location.pathname;
+    var page = path.split("/").pop();
+    
+    console.log(page)
     $(".product-title").click(function () {
         const SelectedID = $(this).next(".product-id").text();
         console.log(SelectedID);
         localStorage.setItem("selectedProductID", SelectedID);
-        window.location.href = 'Product detail-iPhone.html';
+        
+        if (page === "Products%20page-ipad.html") {
+            
+            window.location.href = 'Product details page - iPad.html';    
+        }
+        
+
+        if (page === "Landing%20page-ipad.html") {
+           
+            window.location.href = 'Product details page - iPad.html';
+        }
+
+        if (page==-"product-iphone.html") {
+            window.location.href = 'Product detail-iPhone.html';
+        }
+        
+        if (page== "Landing%20page-iPhone.html") {
+            window.location.href = 'Product detail-iPhone.html';
+        }
+
+
     });
 
     $(".promotion-test").click(function () {
@@ -20,14 +44,14 @@ $(document).ready(function () {
         addBtn.addEventListener("click", function () {
             const addtoCartID = $(this).prevAll(".product-id").text();
             let addtocartlist = localStorage.getItem("addtocartList");
-            let newAddtocart= '';
+            let newAddtocart = '';
             if (!addtocartlist) {
                 newAddtocart = `${addtoCartID}`;
             } else {
-                newAddtocart= `${addtocartlist},${addtoCartID}`;
+                newAddtocart = `${addtocartlist},${addtoCartID}`;
             }
-        
-           localStorage.setItem("addtocartList", newAddtocart);   
+
+            localStorage.setItem("addtocartList", newAddtocart);
 
         });
     }
