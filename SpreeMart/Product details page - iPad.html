@@ -8,6 +8,11 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="Scripts/Menu.js"></script>
+    <script src="Scripts/Cart.js"></script>
+    <script src="Scripts/Product.js"></script>
+    <script src="Scripts/ProductDetails.js"></script>
+    <script type="text/javascript" src="Scripts/Populate.js"></script>
+    <script type="text/javascript" src="Scripts/Landing.js"></script>
     <link rel="stylesheet" type="text/css" href="Stylesheets/Produc details page-iPad.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -110,7 +115,7 @@
                                         </div>
                                     </fieldset>
                                 </div>
-                                <a href="#addtocart" data-role="button" data-rel="popup" id="add-to-cart">ADD TO CART</a>
+                                <a href="#addtocartPopup" data-role="button" data-rel="popup" id="add-to-cart">ADD TO CART</a>
                                 <a href="#temporary" data-role="button" id="buy-now">BUY NOW</a>
                             </div>
                         </div>
@@ -345,7 +350,7 @@
                 </div>
             </div>
 
-            <div data-role="popup" id="addtocart">
+            <div data-role="popup" id="addtocartPopup">
                 <div class="share-header" style="padding: 20px 20px 0px 20px;">
                     <div class="share-title">
                         Successfully added to cart!
