@@ -339,11 +339,11 @@
     -webkit-box-shadow: none !important;
 }
 
-.filter-wrapper{
+.filter-wrapper {
     border: none;
     border-color: white !important;
     border-radius: 50px;
-    background-color: white;    
+    background-color: white;
     height: 60px;
     width: 45%;
     margin: 0.5em 0;
@@ -354,7 +354,7 @@
     position: relative;
 }
 
-#select-choice-1-button{
+#select-choice-1-button {
     background-color: white;
     border: none !important;
     box-shadow: none !important;
@@ -365,4 +365,13 @@
     font-family: "Century Gothic";
     color: #D62828;
     font-weight: 100;
+}
+
+@media only screen and (min-device-width: 1024px) {
+    /* .promotions-row {
+        text-align: center;
+    } */
+    #poster {
+        width: 420px;
+    }
 }

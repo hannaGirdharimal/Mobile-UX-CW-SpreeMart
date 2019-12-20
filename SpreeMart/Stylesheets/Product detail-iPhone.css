@@ -2,13 +2,13 @@
     width: 103%;
 }
 
-.ui-header{
+.ui-header {
     padding: 15px 40px;
     background-color: white !important;
     border: none !important;
 }
 
-#hamburger{
+#hamburger {
     width: 35px;
     margin-top: 8px;
 }
@@ -46,11 +46,11 @@
     transition: 0.3s;
 }
 
-.item-list{
+.item-list {
     top: -30px;
 }
 
-.item-heading{
+.item-heading {
     font-weight: 700 !important;
     top: -30px;
 }
@@ -70,67 +70,66 @@
     top: -25px;
 }
 
-#logo{
+#logo {
     width: 180px;
 }
 
-.header-right-wrapper{
+.header-right-wrapper {
     text-align: right;
 }
 
-#cart{
+#cart {
     width: 35px;
     margin-right: 20px;
     margin-top: 2px;
 }
 
-#profile-image{
+#profile-image {
     width: 35px;
     margin-top: 2px;
 }
 
-.card{
-  width: 140px;
-  margin: 11px 8px;
-  border-radius: 10px;
-  background-color: white;
-  text-align: center;
-  margin-right: 71px;
+.card {
+    width: 140px;
+    margin: 11px 8px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin-right: 71px;
 }
 
-.heart-wrapper{
-  text-align: left;
-  padding: 2px 0 0 10px;
+.heart-wrapper {
+    text-align: left;
+    padding: 2px 0 0 10px;
 }
 
-    #cart{
-        width: 35px;
-        margin-right: 20px;
-        margin-top: 2px;
-    }
+#cart {
+    width: 35px;
+    margin-right: 20px;
+    margin-top: 2px;
+}
 
-    #profile-image{
-        width: 35px;
-        margin-top: 2px;
-    }
+#profile-image {
+    width: 35px;
+    margin-top: 2px;
+}
 
-    #Product-detail{
-        background-color: #f1f1f1;
-    }
+#Product-detail {
+    background-color: #f1f1f1;
+}
 
-    .product-detail-grid{
-        margin: 10px -10px;
-        border-radius: 10px;
-        background-color: white;
-        width: 339px;
-    }
+.product-detail-grid {
+    margin: 10px -10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 339px;
+}
 
-
-#heart{
+#heart {
     width: 15px;
 }
 
-#heart-2{
+#heart-2 {
     width: 25px;
     margin-left: 145px;
     margin-top: -84px;
@@ -145,32 +144,32 @@
     margin-top: -33px;
 }
 
-.card-content{
+.card-content {
     padding: 5px 20px 5px 20px;
 }
 
-.product-image-block{
+.product-image-block {
     margin: 10px 2px;
     width: 35% !important;
 }
 
-#product-image-1{
+#product-image-1 {
     margin: 0px 5px;
     width: 100px;
 }
 
-#share-2{
+#share-2 {
     width: 17px;
     margin-left: -11px;
     margin-top: -30px;
 }
 
-.product-description-block{
+.product-description-block {
     margin: 20px 10px;
     width: 55% !important;
 }
 
-.product-title-1{
+.product-title-1 {
     font-family: "Century Gothic";
     text-transform: uppercase;
     color: #f77f00;
@@ -181,21 +180,21 @@
     margin-right: 90px;
 }
 
-.product-title{
-  font-family: "Century Gothic";
-  color: #f77f00;
-  font-weight: bold;
-  font-size: 16px;
-  margin-top: 4px;
-  margin-bottom: 2px;
+.product-title {
+    font-family: "Century Gothic";
+    color: #f77f00;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 2px;
 }
 
-.product-rating-block{
+.product-rating-block {
     width: 40% !important;
     margin-top: 10px;
 }
 
-.product-review-block{
+.product-review-block {
     width: 60% !important;
     padding-left: 20px;
 }
@@ -211,63 +210,63 @@
     background-color: #f77f00 !important;
 }
 
-.product-category{
+.product-category {
     font-family: "Century Gothic";
     color: #000000;
     font-size: 16px;
     margin-bottom: 10px;
 }
 
-.product-category-1{
+.product-category-1 {
     font-family: "Century Gothic";
     color: #000000;
     font-size: 10px;
     padding: 10px 0px 10px 0px;
 }
 
-.star-amount{
+.star-amount {
     width: 30% !important;
 }
 
-.bar-block{
+.bar-block {
     width: 70% !important;
 }
 
-#text-box{
+#comment-box {
     height: 132px;
 }
 
-.appreciate-text{
+.appreciate-text {
     font-family: "Century Gothic";
     color: black;
     opacity: 50%;
     font-size: 13px;
 }
 
-.rating{
+.rating {
     margin: 5px 0;
 }
 
-.average-rating{
+.average-rating {
     font-family: "Century Gothic";
     font-weight: bold;
     font-size: 12px;
-    color:  #A1A1A1;
+    color: #A1A1A1;
     margin: 5px;
 }
 
-#rating-star{
-    width:15px;
+#rating-star {
+    width: 15px;
 }
 
-.member-deal{
+.member-deal {
     font-family: "Century Gothic";
     color: #34AD48;
     font-weight: bold;
     font-size: 12px;
 }
 
-#minus{
+#minus {
     height: 32.3px;
     padding: 0.3em 0em;
     border: 1px solid #CCCCCC;
@@ -276,7 +275,7 @@
     margin-right: -2px;
 }
 
-#plus{
+#plus {
     height: 32.3px;
     padding: 0.3em 0em;
     border: 1px solid #CCCCCC;
@@ -285,28 +284,28 @@
     margin-left: -2px;
 }
 
-.ui-input-text{
+.ui-input-text {
     border-width: 0 !important;
     border-style: none;
     margin: 0.57em 0;
 }
 
-.ui-input-text input{
+.ui-input-text input {
     text-align: center !important;
 }
 
-#quantity{
+#quantity {
     border: 1px solid #CCCCCC;
     border-radius: 0;
     background-color: white;
 }
 
-.quantity-1{
+.quantity-1 {
     margin-left: 2px;
     width: 100px;
 }
 
-.price-1{
+.price-1 {
     font-family: "Century Gothic";
     color: #D62828;
     text-decoration: line-through;
@@ -314,22 +313,22 @@
     margin: 10px 0 2px 0;
 }
 
-.price{
+.price {
     font-family: "Century Gothic";
     color: #070707;
     font-weight: bold;
     font-size: 18px;
 }
 
-.add-to-cart{
+.add-to-cart {
     text-align: center;
 }
 
-.button-wrapper{
+.button-wrapper {
     text-align: right;
 }
 
-#add-to-cart{
+#add-to-cart {
     background-color: #34AD48;
     display: inline-block;
     border-radius: 50px;
@@ -347,7 +346,7 @@
     margin-bottom: -29px;
 }
 
-#related-add-to-cart{
+#related-add-to-cart {
     background-color: #34AD48;
     display: inline-block;
     border-radius: 50px;
@@ -364,7 +363,7 @@
     margin-left: -5px;
 }
 
-#buy-now{
+#buy-now {
     background-color: #F77F00;
     display: inline-block;
     border-radius: 50px;
@@ -382,7 +381,7 @@
     margin-bottom: 15px;
 }
 
-#submit-review{
+#submit-review {
     background-color: #F77F00;
     display: inline-block;
     border-radius: 50px;
@@ -399,7 +398,7 @@
     font-weight: bold;
 }
 
-.section-header{
+.section-header {
     font-family: "Century Gothic";
     color: #D62828;
     font-weight: bold;
@@ -408,39 +407,39 @@
     letter-spacing: 3px;
 }
 
-.product-rating-grid{
+.product-rating-grid {
     margin: 20px 0px;
     border-radius: 10px;
     padding: 30px 10px 20px 10px;
     background-color: white;
 }
 
-.comment-pic-block{
-     width: 18% !important;
+.comment-pic-block {
+    width: 18% !important;
 }
 
-.comment-block{
+.comment-block {
     width: 80% !important;
 }
 
-.comment{
+.comment {
     font-family: "Century Gothic";
     color: black;
     opacity: 50%;
     font-size: 13px;
 }
 
-.rating-2{
+.rating-2 {
     margin-right: 10px;
     margin-top: 5px;
     text-align: right;
 }
 
-#comment-pic{
+#comment-pic {
     width: 45px;
 }
 
-.commenter-name{
+.commenter-name {
     font-family: "Century Gothic";
     color: #D62828;
     font-size: 12px;
@@ -448,7 +447,7 @@
     margin-left: 3px;
 }
 
-.see-more{
+.see-more {
     margin: 20px 10px 0 10px;
     font-family: "Century Gothic";
     color: #D62828;
@@ -457,11 +456,11 @@
     text-align: center;
 }
 
-#product-image{
+#product-image {
     width: 100px;
 }
 
-.quantity{
+.quantity {
     width: 120px;
     /* text-align: center; */
     /* display: inline; */
@@ -474,27 +473,27 @@
     border-color: #F77F00;
     margin-top: 5px;
     margin-left: 80px;
-  }
+}
 
 #myBar {
     width: 30%;
     height: 10px;
     background-color: #F77F00;
-  }
+}
 
 .ui-popup-container {
     top: 115px !important;
     left: 140px !important;
 }
 
-#sharepopup{
+#sharepopup {
     width: 500px;
     height: 225px;
     background-color: white;
     border-color: white;
 }
 
-.share-title{
+.share-title {
     font-family: "Century Gothic";
     color: #0D0C0C;
     font-size: 18px;
@@ -504,7 +503,7 @@
     font-weight: bold;
 }
 
-.share-subtitle{
+.share-subtitle {
     font-family: "Century Gothic";
     color: #A1A1A1;
     font-size: 15px;
@@ -512,27 +511,23 @@
     text-shadow: none;
 }
 
-#social-media-share{
+#social-media-share {
     margin-right: 25px;
 }
 
-
-
-
-
-.ui-footer{
+.ui-footer {
     padding: 15px 40px;
     background-color: #D62828 !important;
 }
 
-.spreemart-title{
+.spreemart-title {
     font-family: "Century Gothic";
     color: white;
     font-size: 14px;
     text-shadow: none !important;
 }
 
-.spreemart-copyright{
+.spreemart-copyright {
     font-family: "Century Gothic";
     font-style: italic;
     font-weight: 100;
@@ -541,34 +536,35 @@
     text-shadow: none !important;
 }
 
-.social-media-wrapper{
+.social-media-wrapper {
     text-align: right;
     margin-top: 10px;
 }
 
-#social-media{
+#social-media {
     width: 20px;
     margin-right: 10px;
 }
-.old-price{
-  font-weight: bold;
-  font-size: 14px;
+
+.old-price {
+    font-weight: bold;
+    font-size: 14px;
 }
 
-#other-promo-add-to-cart{
-  background-color: #34AD48;
-  display:inline-block;
-  border-radius: 50px;
-  margin-top: 2px;
-  width: 100px;
-  font-family: "Century Gothic";
-  color: white;
-  font-size: 11px;
-  height: 35px;
-  padding: 1em 1em;
-  border: none !important;
-  text-shadow: none !important;
-  font-weight: bold;
+#other-promo-add-to-cart {
+    background-color: #34AD48;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: 2px;
+    width: 100px;
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 11px;
+    height: 35px;
+    padding: 1em 1em;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: bold;
 }
 
 .ui-popup-container {
@@ -601,7 +597,7 @@
     text-shadow: none;
 }
 
-.share-content{
+.share-content {
     padding: 15px 25px;
 }
 
@@ -625,6 +621,7 @@
     text-shadow: none !important;
     font-weight: bold;
 }
+
 .open>.dropdown-menu-profile {
     display: block;
     position: fixed;

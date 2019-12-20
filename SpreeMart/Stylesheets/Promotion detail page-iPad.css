@@ -438,3 +438,9 @@
     margin: 0em 0;
     -webkit-box-shadow: none !important;
 }
+
+@media only screen and (min-device-width: 1024px) {
+    #promotion-image {
+        margin: 20px 0px 0px 40px;
+    }
+}

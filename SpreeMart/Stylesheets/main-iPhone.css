@@ -1,23 +1,21 @@
-.ui-header{
+.ui-header {
     padding: 11px 15px;
     background-color: white !important;
     border: none !important;
 }
 
-#hamburger{
+#hamburger {
     width: 26px;
     margin-top: 8px;
     margin-left: 5px;
 }
 
-
-
 .sidenav {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 3; 
-    top: 68px;
+    z-index: 20;
+    top: 55px;
     left: 0;
     border-right: 1px solid #F1F1F1;
     background-color: white;
@@ -45,11 +43,11 @@
     transition: 0.3s;
 }
 
-.item-list{
+.item-list {
     top: -30px;
 }
 
-.item-heading{
+.item-heading {
     font-weight: 700 !important;
     top: -30px;
 }
@@ -69,52 +67,52 @@
     top: -25px;
 }
 
-#logo{
+#logo {
     margin-left: -39px;
     width: 162px;
     text-align: center;
 }
 
-.header-right-wrapper{
+.header-right-wrapper {
     text-align: right;
 }
 
-#cart{
+#cart {
     width: 25px;
     margin-right: 20px;
     margin-top: 2px;
 }
 
-#profile-image{
+#profile-image {
     width: 25px;
     margin-top: 2px;
 }
 
-.breadcrumb-wrapper{
+.breadcrumb-wrapper {
     background-color: #DADADA;
     margin: -1em;
     padding: 10px 10px 10px 50px;
 }
 
-.breadcrumb-text{
+.breadcrumb-text {
     color: #4B4B4B;
     font-family: "Century Gothic";
 }
 
-.ui-footer{
+.ui-footer {
     padding: 15px 40px;
     background-color: #D62828 !important;
     border: none;
 }
 
-.spreemart-title{
+.spreemart-title {
     font-family: "Century Gothic";
     color: white;
     font-size: 14px;
     text-shadow: none !important;
 }
 
-.spreemart-copyright{
+.spreemart-copyright {
     font-family: "Century Gothic";
     font-style: italic;
     font-weight: 100;
@@ -123,12 +121,12 @@
     text-shadow: none !important;
 }
 
-.social-media-wrapper{
+.social-media-wrapper {
     text-align: right;
     margin-top: 7px;
 }
 
-#social-media{
+#social-media {
     width: 15px;
     margin-left: 4px;
 }

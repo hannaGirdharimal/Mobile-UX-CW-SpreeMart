@@ -22,13 +22,9 @@ function handleSubmit() {
            <div class="comment">
                ${cmt}
            </div>
-           <div class="rating-2">
-               <img id="rating-star" src="Icons/star-border.png">
-               <img id="rating-star" src="Icons/star-border.png">
-               <img id="rating-star" src="Icons/star-border.png">
-               <img id="rating-star" src="Icons/star-border.png">
-               <img id="rating-star" src="Icons/star-border.png">
-           </div>
+           <div class="rating-star2">
+             <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+             </div>
        </div>
    </div>`
     });
