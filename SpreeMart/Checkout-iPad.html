@@ -10,7 +10,9 @@
     <script src="Scripts/Menu.js"></script>
     <link rel="stylesheet" type="text/css" href="Stylesheets/Checkout-iPad.css">
     <script type="text/javascript" src="Scripts/Header.js"></script>
-
+    <script type="text/javascript" src="Scripts/Checkout.js"></script>
+    <script type="text/javascript" src="Scripts/checkout-spreemart.js"></script>
+    <script type="text/javascript" src="Scripts/Product.js"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -48,16 +50,15 @@
                             <img id="cart" src="Icons/shopping-cart.png">
                             <!-- <img id="profile-image" src="Icons/profile-image.png"> -->
                             <span class="dropdown">
-                                <a class="my-drop dropdown-toggle" href="#" role="button"
-                                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">
+                                <a class="my-drop dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <img id="profile-image" src="Icons/profile-image.png">
                                 </a>
 
                                 <div class="dropdown-menu-profile" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" id="dropdown-profile" >My Profile</a>
-                                    <a class="dropdown-item" id="dropdown-fav" >My Favourites</a>
-                                    <a class="dropdown-item" id="dropdown-logout" >Logout</a>
+                                    <a class="dropdown-item" id="dropdown-profile">My Profile</a>
+                                    <a class="dropdown-item" id="dropdown-fav">My Favourites</a>
+                                    <a class="dropdown-item" id="dropdown-logout">Logout</a>
                                 </div>
                             </span>
                         </div>
@@ -140,7 +141,8 @@
                                 <input type="text" name="text-line-email" id="text-line" value="">
                             </div>
                             <div class="ui-grid-a google-maps-area">
-                                <iframe width="145" height="85" class="map" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.22524976987!2d79.91029571437664!3d6.863587495040019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25a7be9542ee9%3A0x33249104fc164e83!2s69%2C%20420%20Old%20Kottawa%20Rd%2C%20Nugegoda!5e0!3m2!1sen!2slk!4v1576429053645!5m2!1sen!2slk"
+                                <iframe class="map" id="gmap_canvas"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.22524976987!2d79.91029571437664!3d6.863587495040019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25a7be9542ee9%3A0x33249104fc164e83!2s69%2C%20420%20Old%20Kottawa%20Rd%2C%20Nugegoda!5e0!3m2!1sen!2slk!4v1576429053645!5m2!1sen!2slk"
                                     frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                             </div>
 
@@ -164,6 +166,12 @@
                                 <div class="col-header">TOTAL</div>
                             </div>
                         </div>
+
+
+                        <div class="product-price">
+
+                        </div>
+                        <!--                         
                         <div class="ui-grid-b summary-content">
                             <div class="ui-block-a">
                                 <div class="col-content">Nutella 300g Jar</div>
@@ -185,12 +193,13 @@
                             <div class="ui-block-b">
                                 <div class="col-content">Rs. 450.00</div>
                             </div>
-                        </div>
+                        </div> -->
+
                         <div class="ui-grid-b summary-footer">
                             <div class="ui-block-a">
                             </div>
                             <div class="ui-block-b">
-                                <div class="col-footer">Sub Total</div>
+                                <div id="sub-total" class="col-footer">Sub Total</div>
                             </div>
                             <div class="ui-block-b">
                                 <div class="col-footer">Rs.750.00</div>
@@ -213,7 +222,7 @@
                                 <div class="col-footer-2">Net Total</div>
                             </div>
                             <div class="ui-block-b">
-                                <div class="col-footer-2">Rs.600.00</div>
+                                <div id="net-total" class="col-footer-2">Rs.600.00</div>
                             </div>
                         </div>
                     </div>
@@ -259,7 +268,8 @@
 
                             </div>
                             <div class="ui-block-b" style="margin-top: 10px;">
-                                <input type="checkbox" name="checkbox-mini-0" id="checkbox-select-all" data-mini="true" />
+                                <input type="checkbox" name="checkbox-mini-0" id="checkbox-select-all"
+                                    data-mini="true" />
                                 <span class="same-text">Same as Personal address</span>
                                 <div class="text-field-wrapper" style="margin-top: 33px;">
                                     <label id="field-lbl" for="text-line-email">Name on card*</label>
@@ -267,7 +277,8 @@
                                     <div class="text-answer">Savindu Jayasinghe</div>
                                 </div>
                                 <div class="text-field-wrapper" style="margin-top: 33px;">
-                                    <input type="checkbox" name="checkbox-mini-0" id="checkbox-select-all" data-mini="true" />
+                                    <input type="checkbox" name="checkbox-mini-0" id="checkbox-select-all"
+                                        data-mini="true" />
                                     <span class="terms-text">I have read and agreed to the Terms and Conditions</span>
                                 </div>
                             </div>

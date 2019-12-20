@@ -93,7 +93,7 @@ $(document).ready(function() {
         localStorage.setItem("PriceList", checkedItemsList);
         localStorage.setItem("NameList", checkedNameList);
         localStorage.setItem("NetTotal", NetTotal);
-        window.location.href = 'Checkout-iPhone.html';
+        window.location.href = 'Checkout-iPad.html';
     });
 
 });
