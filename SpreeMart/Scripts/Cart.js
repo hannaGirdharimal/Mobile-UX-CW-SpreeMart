@@ -53,13 +53,16 @@ $(document).ready(function() {
     });
 
     var checkedItemsList = [];
+    var checkedNameList=[];
 
     $(".product-check").change(function() {
 
         if (this.checked) {
             var itemprice = parseInt($('.price').eq($('.product-check').index(this)).text());
+            var itemName=$('.producttitle').eq($('.product-check').index(this)).text()
             subtotal += itemprice;
             checkedItemsList.push(itemprice);
+            checkedNameList.push(itemName)
             NetTotal = subtotal;
             document.getElementsByClassName('subprice')[0].innerText = 'Rs.' + subtotal;
             document.getElementsByClassName('subprice3')[0].innerHTML = 'Rs. ' + NetTotal;
@@ -67,12 +70,17 @@ $(document).ready(function() {
 
         if (!this.checked) {
             var itemprice = parseInt($('.price').eq($('.product-check').index(this)).text());
+            var itemName=$('.producttitle').eq($('.product-check').index(this)).text()
             subtotal -= itemprice;
             NetTotal = subtotal;
 
             for (var i = 0; i < checkedItemsList.length; i++) {
                 if (checkedItemsList[i] === itemprice) {
                     checkedItemsList.splice(i, 1);
+                }
+                
+                if (checkedNameList[i] === itemName) {
+                    checkedNameList.splice(i, 1);
                 }
             }
             
@@ -83,8 +91,8 @@ $(document).ready(function() {
 
     document.getElementById("BuyNow1").addEventListener("click", function() {
         localStorage.setItem("PriceList", checkedItemsList);
-        localStorage.setItem("Subtotal", subtotal);
-        console.log(subtotal);
+        localStorage.setItem("NameList", checkedNameList);
+        localStorage.setItem("NetTotal", NetTotal);
         window.location.href = 'Checkout-iPhone.html';
     });
 

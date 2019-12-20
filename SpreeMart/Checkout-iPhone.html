@@ -10,6 +10,9 @@
     <script src="Scripts/Menu.js"></script>
     <link rel="stylesheet" type="text/css" href="Stylesheets/Checkout-iPhone.css">
     <link rel="stylesheet" type="text/css" href="Stylesheets/main-iPhone.css">
+    <script type="text/javascript" src="Scripts/Checkout.js"></script>
+    <script type="text/javascript" src="Scripts/checkout-spreemart.js"></script>
+    <script type="text/javascript" src="Scripts/Product.js"></script>
     <script type="text/javascript" src="Scripts/header-iphone.js"></script>
     <script src="Scripts/Menu.js"></script>
 
@@ -162,7 +165,10 @@
                                 <div class="col-header">TOTAL</div>
                             </div>
                         </div>
-                        <div class="ui-grid-b summary-content">
+                         <div class="product-price">
+
+                        </div>
+                        <!-- <div class="ui-grid-b summary-content">
                             <div class="ui-block-a">
                                 <div class="col-content">Nutella 300g Jar</div>
                             </div>
@@ -183,7 +189,7 @@
                             <div class="ui-block-b">
                                 <div class="col-content">Rs. 450.00</div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="ui-grid-b summary-footer">
                             <div class="ui-block-a">
                             </div>
@@ -191,7 +197,7 @@
                                 <div class="col-footer">Sub Total</div>
                             </div>
                             <div class="ui-block-b">
-                                <div class="col-footer">Rs.750.00</div>
+                                <div id="sub-total" class="col-footer">Rs.750.00</div>
                             </div>
                         </div>
                         <div class="ui-grid-b summary-footer">
@@ -201,7 +207,7 @@
                                 <div class="col-footer">Discount</div>
                             </div>
                             <div class="ui-block-b">
-                                <div class="col-footer">Rs.150.00</div>
+                                <div class="col-footer">Rs.0.00</div>
                             </div>
                         </div>
                         <div class="ui-grid-b summary-footer">
@@ -211,7 +217,7 @@
                                 <div class="col-footer-2">Net Total</div>
                             </div>
                             <div class="ui-block-b">
-                                <div class="col-footer-2">Rs.600.00</div>
+                                <div id="net-total" class="col-footer-2">Rs.600.00</div>
                             </div>
                         </div>
                     </div>
@@ -290,6 +296,31 @@
                         <a href="#temporary" data-role="button" id="place-order">PLACE ORDER</a>
                     </div>
                 </div>
+
+                <div data-role="popup" id="successpop">
+                    <div class="share-header" style="padding: 20px 20px 0px 20px;">
+                      <div class="share-title">
+                        Share this product with your friends
+                      </div>
+                      <div class="share-subtitle">
+                        Choose who you want to share this with
+                      </div>
+                    </div>
+                    <hr style="margin-top: 5px;border-top: 2px solid #eee;">
+                    <div class="share-content">
+                      <div class="ui-grid-a">
+                        <div class="ui-block-a" style="width: 25% !important;">
+                          <img id="social-media-share" src="Icons/mail-red.png">
+                        </div>
+                        <div class="ui-block-b" style="width: 75% !important;">
+                          <input type="text" name="mail" id="mail-to" value="" />
+                          <div style="float: right;">
+                            <a href="#temporary" data-role="button" id="submit-mail">SEND</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
 
 
             </div>
