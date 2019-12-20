@@ -657,3 +657,27 @@
     margin: 0em 0;
     -webkit-box-shadow: none !important;
 }
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    #share-2 {
+        width: 17px;
+        margin-left: 208px;
+        margin-top: -42px;
+    }
+
+    .card {
+        width: 247px !important;
+        margin: 10px 32px !important;
+        border-radius: 10px;
+        background-color: white;
+        text-align: center;
+    }   
+
+    .product-detail-grid {
+        margin: 10px 137px;
+        border-radius: 10px;
+        background-color: white;
+        width: 443px;
+    }
+}

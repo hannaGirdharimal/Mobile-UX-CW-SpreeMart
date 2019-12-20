@@ -13,8 +13,6 @@ $(document).ready(function () {
             
             window.location.href = 'Product details page - iPad.html';    
         }
-        
-
         if (page === "Landing%20page-ipad.html") {
            
             window.location.href = 'Product details page - iPad.html';
@@ -38,6 +36,10 @@ $(document).ready(function () {
         window.location.href = 'Promotion detail page-iPad.html';
     });
 
+    $("#special-promotion").click(function(){
+        window.location.href = 'AR-iPhone.html';
+        
+    });
     var addButtons = document.querySelectorAll("[id='add-to-cart']");
 
     for (addBtn of addButtons) {

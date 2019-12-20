@@ -6,6 +6,18 @@ Product price font-size: 14px */
     background-color: #f1f1f1;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    
+    .card {
+        width: 247px !important;
+        margin: 10px 32px !important;
+        border-radius: 10px;
+        background-color: white;
+        text-align: center;
+    }
+
+}
+
 .card{
     display: inline-block;
     width: 140px;

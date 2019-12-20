@@ -222,3 +222,31 @@
     margin: 0em 0;
     -webkit-box-shadow: none !important;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+  #tabs {
+    padding-bottom: 20px;
+    width: 471px;
+    margin-left: 112px;
+}
+
+.tab {
+  background-color: white !important;
+  border-color: #D62828 !important;
+  color: #D62828 !important;
+  text-shadow: none !important;
+  text-align: center !important;
+  font-family: "Century Gothic";
+  letter-spacing: 2px;
+  font-size: 12px !important;
+}
+
+.grey-area {
+  background-color: #F1F1F1;
+  width: 318px;
+  height: 507px;
+  padding: 20px;
+  margin-left: 55px;
+}
+
+}

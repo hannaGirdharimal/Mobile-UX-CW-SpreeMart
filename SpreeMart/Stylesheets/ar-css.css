@@ -69,7 +69,13 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
     .white-box {
-        margin-right: 400px
+        background-color: white;
+        text-align: center;
+        width: 382px;
+    }
+
+    .poster-card{
+        margin-left: 185px;
     }
 
     .camera-button {
@@ -80,6 +86,16 @@
         z-index: 1;
         margin-left: 21pc;
         opacity: 70%;
+    }
+
+    .camera-white-box {
+        padding: 30px;
+        background-color: white;
+        text-align: center;
+        width: 315px;
+        height: 396px;
+        border-radius: 10px;
+        margin-left: 207px;
     }
     
 }

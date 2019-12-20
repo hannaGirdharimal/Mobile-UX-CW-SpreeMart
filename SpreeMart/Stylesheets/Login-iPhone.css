@@ -146,3 +146,45 @@
     color: black;
     font-size: 18px;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    #Login{
+        background-image:url("../Images/back2.jpg") ;
+    }
+
+    .white-box {
+        padding: 30px;
+        background-color: rgb(255, 255, 255, .9);
+        text-align: center;
+        width: 321px;
+        height: 480px;
+        border-radius: 10px;
+        margin-left: 204px;
+        margin-top: 25px;
+    }
+
+    .login-header {
+        margin-top: -20px;
+        font-family: "Century Gothic";
+        color: #D62828;
+        font-weight: bold;
+        font-size: 41px;
+        letter-spacing: 3px;
+        margin-left: 30px;
+    }
+
+    #logo-icon {
+        width: 147px;
+        height: 129px;
+        margin-left: 26px;
+    }
+
+    .sign-up-message {
+        margin-left: 240px;
+        margin-top: -9px;
+        font-family: "Century Gothic";
+        color: #A4A0A0;
+        font-size: 14px;
+        font-weight: normal;
+    }
+}

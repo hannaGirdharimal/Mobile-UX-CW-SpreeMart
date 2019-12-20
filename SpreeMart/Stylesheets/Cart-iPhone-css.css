@@ -289,7 +289,33 @@
     {
 
     }
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
 
+    #add-to-cart1 {
+      background-color: #F77F00;
+      display: inline-block;
+      border-radius: 50px;
+      width: 167px;
+      font-family: "Century Gothic";
+      color: white;
+      font-size: 12px;
+      height: 35px;
+      padding: 1em 1em;
+      border: none !important;
+      text-shadow: none !important;
+      font-weight: bold;
+      margin-left: 315px;
+  }
+
+  .card {
+    margin-left: 100px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: white;
+    height: 150px;
+    width: 535px;
+}
+}
 #share-2{
   width: 14px;
   /* margin-left: 25px; */

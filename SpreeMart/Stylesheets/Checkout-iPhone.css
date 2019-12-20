@@ -215,10 +215,6 @@ button:focus {outline:0;}
 
 
 
-
-
-
-
 .ui-footer{
     padding: 15px 40px;
     background-color: #D62828 !important;
@@ -332,4 +328,86 @@ button:focus {outline:0;}
     font-size: 14px;
     font-weight: bold;
     margin: 5px 10px;
+}
+
+#checkbox-select-all-terms{
+    margin-top: 0px;  
+    z-index: 0;
+    margin-left: 6px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .card {
+        width: 320px;
+        /* max-height: 335px; */
+        margin: 10px 180px;
+        padding: 10px 15px 15px 15px;
+        border-radius: 10px;
+        background-color: white;
+        text-align: center;
+    }
+
+    .section-header {
+        font-family: "Century Gothic";
+        color: #D62828;
+        font-weight: bold;
+        font-size: 22px;
+        margin: 10px 186px;
+        letter-spacing: 3px;
+    }
+
+    .long-card {
+        width: 498px;
+        margin: 10px 87px;
+        padding: 10px 15px 15px 15px;
+        border-radius: 10px;
+        background-color: white;
+        text-align: center;
+    }
+    
+    .same-text-2 {
+        font-family: "Century Gothic";
+        color: #D62828;
+        font-size: 14px;
+        margin-left: -223px;
+    }
+
+    #place-order {
+        width: 125px;
+    background-color: #34AD48;
+    margin-left: 453px;
+    display: block;
+    border-radius: 50px;
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 13px;
+    padding: 1em 1em;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: bold;
+}
+    }
+
+    .terms-text {
+        font-family: "Century Gothic";
+        color: black;
+        opacity: 50%;
+        font-size: 11.3px;
+        margin-left: 290px;
+        display: block;
+    }   
+
+    .terms-check{
+        margin-left: 251px;
+        margin-top: -5px;
+    }
+    
+   
+    #checkbox-select-all-terms{
+        margin-top: -5px;
+    z-index: 0;
+    margin-left: 247px;
+}
+    }
+
 }

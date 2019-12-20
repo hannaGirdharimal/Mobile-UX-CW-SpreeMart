@@ -493,3 +493,51 @@ margin-top: -24px;
     margin: 0em 0;
     -webkit-box-shadow: none !important;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    #share-2 {
+        width: 17px;
+        margin-left: 208px;
+        margin-top: -42px;
+    }
+
+    .card {
+        width: 247px !important;
+        margin: 10px 32px !important;
+        border-radius: 10px;
+        background-color: white;
+        text-align: center;
+    }   
+
+.promotion-detail-grid {
+    /* margin: 10px 10px; */
+    border-radius: 10px;
+    background-color: white;
+    width: 405px;
+    margin-right: 29px;
+    margin-left: 122px;
+}
+
+    .product-detail-grid {
+        margin: 10px 137px;
+        border-radius: 10px;
+        background-color: white;
+        width: 443px;
+    }
+
+    .discount-wrapper {
+        position: absolute;
+        margin-left: 209px;
+        margin-top: -24px;
+    }
+    
+    .promotion-detail-rate-grid {
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 30px 30px 0 30px;
+        background-color: white;
+        width: 337px;
+        margin-left: 147px;
+    }
+}   
+
