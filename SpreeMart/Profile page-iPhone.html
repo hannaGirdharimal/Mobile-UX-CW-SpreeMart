@@ -8,6 +8,7 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="Scripts/Menu.js"></script>
+    <script type="text/javascript" src="Scripts/Leaderboard.js"></script>
     <link rel="stylesheet" type="text/css" href="Stylesheets/Profile page-iPhone.css">
     <link rel="stylesheet" type="text/css" href="Stylesheets/main-iPhone.css">
     <script type="text/javascript" src="Scripts/header-iphone.js"></script>
@@ -328,19 +329,25 @@
 
                             <div id="leaderboard" class="ui-body-d ui-content">
                                 <div class="loyalty-tier-wrapper">
-                                    <div class="ui-grid-b leaderboard-top-grid">
-                                        <div class="ui-block-a leaderboard-rank-2">
-                                            <img id="loyalty-profile-img" src="Images/Chad-Profile-pic-circle.png">
-                                            <img id="leaderboard-image-number" src="Icons/number 2.png">
-                                        </div>
-                                        <div class="ui-block-b leaderboard-rank-1">
+                                    <div class="ui-grid-a leaderboard-top-grid">
+                                        <div class="ui-block-a leaderboard-rank-1">
                                             <img id="loyalty-profile-img-big" src="Images/jan-profile-circle.png">
-                                            <img id="leaderboard-image-number-1" src="Icons/number 1.png">
+                                            <div id="coin-wrapper">
+                                                <img id="coin-img" src="Icons/coin.png">
+                                                <span class="leader-score">
+                                                    300
+                                                </span>
+                                            </div>
                                         </div>
-                                        <div class="ui-block-c leaderboard-rank-3">
-                                            <img id="loyalty-profile-img" src="Images/Hayley-profile-pic-circle.png">
-                                            <img id="leaderboard-image-number" src="Icons/number 3.png">
+                                        <div class="ui-block-b leaderboard-rank-2">
+                                            <div class="leaderboard-profile-name">
+                                                JANE DOE
+                                            </div>
+                                            <img id="badge-img" src="Icons/star-badge.png">
+                                            <img id="badge-img" src="Icons/trophy-badge.png">
+                                            <img id="badge-img" src="Icons/check-badge.png">
                                         </div>
+
                                     </div>
                                 </div>
                                 <div class="order-history">
@@ -351,56 +358,185 @@
                                                 <div class="leader-title"> Shopper</div>
                                             </div>
                                             <div class="ui-block-c leader-right-wrapper">
-                                                <div class="leader-title"> Loyalty Points</div>
-                                            </div>
-                                        </div>
-                                        <div class="ui-grid-b leaderboard-row">
-                                            <div class="ui-block-a leader-left-wrapper">
-                                                <img id="leader-profile-img" src="Images/Hayley-profile-pic-circle.png">
-                                            </div>
-                                            <div class="ui-block-b leader-middle-wrapper">
-                                                <div class="leader-name"> Michael Scott</div>
-                                            </div>
-                                            <div class="ui-block-c leader-right-wrapper">
-                                                <div class="leader-name"> 10,347</div>
+                                                <div class="points-title"> Loyalty Points</div>
                                             </div>
                                         </div>
 
-                                        <div class="ui-grid-b leaderboard-row">
-                                            <div class="ui-block-a leader-left-wrapper">
-                                                <img id="leader-profile-img" src="Images/Hayley-profile-pic-circle.png">
+                                        <div class="ui-grid-a">
+                                            <div class="ui-block-a" style="width: 1% !important;">
+                                                <div class="row-no">1</div>
                                             </div>
-                                            <div class="ui-block-b leader-middle-wrapper">
-                                                <div class="leader-name"> Michael Scott</div>
-                                            </div>
-                                            <div class="ui-block-c leader-right-wrapper">
-                                                <div class="leader-name"> 10,347</div>
+                                            <div class="ui-block-b" style="width: 99% !important;">
+                                                <div class="ui-grid-b leaderboard-row">
+                                                    <div class="ui-block-a leader-left-wrapper">
+
+                                                        <img id="leader-profile-img"
+                                                            src="Images/Hayley-profile-pic-circle.png">
+                                                    </div>
+                                                    <div class="ui-block-b leader-middle-wrapper">
+                                                        <div class="leader-name"> John Cena</div>
+                                                    </div>
+                                                    <div class="ui-block-c leader-right-wrapper">
+                                                        <div id="coin-wrapper-2">
+                                                            <img id="coin-img" src="Icons/coin.png">
+                                                            <span class="leader-score">
+                                                                315
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
                                             </div>
                                         </div>
 
-                                        <div class="ui-grid-b leaderboard-row">
-                                            <div class="ui-block-a leader-left-wrapper">
-                                                <img id="leader-profile-img" src="Images/Hayley-profile-pic-circle.png">
+                                        <div class="ui-grid-a">
+                                            <div class="ui-block-a" style="width: 1% !important;">
+                                                <div class="row-no">2</div>
                                             </div>
-                                            <div class="ui-block-b leader-middle-wrapper">
-                                                <div class="leader-name"> Michael Scott</div>
+                                            <div class="ui-block-b" style="width: 99% !important;">
+                                                <div class="ui-grid-b leaderboard-row-2">
+                                                    <div class="ui-block-a leader-left-wrapper">
+
+                                                        <img id="leader-profile-img"
+                                                            src="Images/Hayley-profile-pic-circle.png">
+                                                    </div>
+                                                    <div class="ui-block-b leader-middle-wrapper">
+                                                        <div class="leader-name-2"> Suzi Welsh</div>
+                                                    </div>
+                                                    <div class="ui-block-c leader-right-wrapper">
+                                                        <div id="coin-wrapper-2">
+                                                            <img id="coin-img" src="Icons/coin.png">
+                                                            <span class="leader-score">
+                                                                275
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
                                             </div>
-                                            <div class="ui-block-c leader-right-wrapper">
-                                                <div class="leader-name"> 10,347</div>
+                                        </div>
+
+                                        <div class="ui-grid-a">
+                                            <div class="ui-block-a" style="width: 1% !important;">
+                                                <div class="row-no">3</div>
+                                            </div>
+                                            <div class="ui-block-b" style="width: 99% !important;">
+                                                <div class="ui-grid-b leaderboard-row">
+                                                    <div class="ui-block-a leader-left-wrapper">
+
+                                                        <img id="leader-profile-img"
+                                                            src="Images/Hayley-profile-pic-circle.png">
+                                                    </div>
+                                                    <div class="ui-block-b leader-middle-wrapper">
+                                                        <div class="leader-name"> Ashley Wu</div>
+                                                    </div>
+                                                    <div class="ui-block-c leader-right-wrapper">
+                                                        <div id="coin-wrapper-2">
+                                                            <img id="coin-img" src="Icons/coin.png">
+                                                            <span class="leader-score">
+                                                                107
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="ui-grid-a">
+                                            <div class="ui-block-a" style="width: 1% !important;">
+                                                <div class="row-no">4</div>
+                                            </div>
+                                            <div class="ui-block-b" style="width: 99% !important;">
+                                                <div class="ui-grid-b leaderboard-row-2">
+                                                    <div class="ui-block-a leader-left-wrapper">
+
+                                                        <img id="leader-profile-img"
+                                                            src="Images/Hayley-profile-pic-circle.png">
+                                                    </div>
+                                                    <div class="ui-block-b leader-middle-wrapper">
+                                                        <div class="leader-name-2"> Rose Anne</div>
+                                                    </div>
+                                                    <div class="ui-block-c leader-right-wrapper">
+                                                        <div id="coin-wrapper-2">
+                                                            <img id="coin-img" src="Icons/coin.png">
+                                                            <span class="leader-score">
+                                                                85
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="ui-grid-a">
+                                            <div class="ui-block-a" style="width: 1% !important;">
+                                                <div class="row-no">5</div>
+                                            </div>
+                                            <div class="ui-block-b" style="width: 99% !important;">
+                                                <div class="ui-grid-b leaderboard-row">
+                                                    <div class="ui-block-a leader-left-wrapper">
+
+                                                        <img id="leader-profile-img"
+                                                            src="Images/Hayley-profile-pic-circle.png">
+                                                    </div>
+                                                    <div class="ui-block-b leader-middle-wrapper">
+                                                        <div class="leader-name"> Mary Jane</div>
+                                                    </div>
+                                                    <div class="ui-block-c leader-right-wrapper">
+                                                        <div id="coin-wrapper-2">
+                                                            <img id="coin-img" src="Icons/coin.png">
+                                                            <span class="leader-score">
+                                                                81
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="ui-grid-a">
+                                            <div class="ui-block-a" style="width: 1% !important;">
+                                                <div class="row-no">6</div>
+                                            </div>
+                                            <div class="ui-block-b" style="width: 99% !important;">
+                                                <div class="ui-grid-b leaderboard-row-2">
+                                                    <div class="ui-block-a leader-left-wrapper">
+
+                                                        <img id="leader-profile-img"
+                                                            src="Images/Hayley-profile-pic-circle.png">
+                                                    </div>
+                                                    <div class="ui-block-b leader-middle-wrapper">
+                                                        <div class="leader-name-2"> Nora Lee</div>
+                                                    </div>
+                                                    <div class="ui-block-c leader-right-wrapper">
+                                                        <div id="coin-wrapper-2">
+                                                            <img id="coin-img" src="Icons/coin.png">
+                                                            <span class="leader-score">
+                                                                76
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
                                             </div>
                                         </div>
 
                                         <div class="pagination-wrapper">
                                             <div class="pagination">
                                                 <!-- <a href="#" id="pagination-number">&laquo;</a> -->
-                                                <a href="#" id="pagination-number"><img id="next-icon" src="Icons/next.png"></a>
+                                                <a href="#" id="pagination-number"><img id="next-icon"
+                                                        src="Icons/next.png"></a>
                                                 <a href="#" id="pagination-number">1</a>
                                                 <a href="#" id="pagination-number">2</a>
                                                 <a href="#" id="pagination-number">3</a>
                                                 <a href="#" id="pagination-number">4</a>
                                                 <a href="#" id="pagination-number">5</a>
                                                 <a href="#" id="pagination-number">6</a>
-                                                <a href="#" id="pagination-number"><img id="next-icon" src="Icons/next2.png"></a>
+                                                <a href="#" id="pagination-number"><img id="next-icon"
+                                                        src="Icons/next2.png"></a>
                                                 <!-- <a href="#" id="pagination-number">&raquo;</a> -->
                                             </div>
                                         </div>

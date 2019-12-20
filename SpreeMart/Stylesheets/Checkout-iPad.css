@@ -52,7 +52,6 @@
 
 .item-heading {
     font-weight: 700 !important;
-    top: -30px;
 }
 
 .sidenav a:hover {
@@ -341,40 +340,41 @@ button:focus {
     .terms-text {
         font-size: 14px;
     }
-    .open>.dropdown-menu-profile {
-        display: block;
-        position: fixed;
-    }
-    .dropdown-menu-profile {
-        display: none;
-        right: 40px;
-        width: 150px;
-        height: 137px;
-        z-index: 1000000000000000000000;
-        background: white;
-        margin-top: 10px;
-    }
-    .dropdown-item {
-        border-bottom: 1px solid gray;
-        border-width: 0;
-        padding: 8px 18px;
-        background-color: white !important;
-        width: 150px;
-        font-family: "Century Gothic";
-        font-weight: 100 !important;
-        color: #4B4B4B !important;
-        font-size: 16px !important;
-        text-align: left;
-    }
-    .my-drop {
-        background-color: white !important;
-        border-width: 0;
-        padding: 0 0em;
-        margin: 0em 0;
-        -webkit-box-shadow: none !important;
-    }
+
 }
 
+.open>.dropdown-menu-profile {
+    display: block;
+    position: fixed;
+}
+.dropdown-menu-profile {
+    display: none;
+    right: 40px;
+    width: 150px;
+    height: 137px;
+    z-index: 1000000000000000000000;
+    background: white;
+    margin-top: 10px;
+}
+.dropdown-item {
+    border-bottom: 1px solid gray;
+    border-width: 0;
+    padding: 8px 18px;
+    background-color: white !important;
+    width: 150px;
+    font-family: "Century Gothic";
+    font-weight: 100 !important;
+    color: #4B4B4B !important;
+    font-size: 16px !important;
+    text-align: left;
+}
+.my-drop {
+    background-color: white !important;
+    border-width: 0;
+    padding: 0 0em;
+    margin: 0em 0;
+    -webkit-box-shadow: none !important;
+}
 
 .summary-head{
     background-color: #DADADA;
