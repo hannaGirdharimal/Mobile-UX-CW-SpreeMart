@@ -555,6 +555,20 @@
     font-weight: bold;
 }
 
+#submit-mail2 {
+    background-color: #34AD48;
+    display: inline-block;
+    border-radius: 50px;
+    position: relative;
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 13px;
+    padding: 1em 1em;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: bold;
+}
+
 .open>.dropdown-menu-profile {
     display: block;
     position: fixed;
