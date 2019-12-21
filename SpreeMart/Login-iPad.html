@@ -10,6 +10,20 @@
     <link rel="stylesheet" type="text/css" href="Stylesheets/Login-iPad.css">
 
 
+    <script>
+        $(document).ready(function () {
+
+            $('#login-btn').click(() => {
+                window.location.href = 'Landing page-iPad.html';
+            });
+
+            $('#links').click(() => {
+                window.location.href = 'Sign-Up-iPad.html';
+            });
+
+        });
+
+    </script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -33,7 +47,7 @@
                     <div class="login-header">LOGIN</div>
                     <div class="sign-up-message">
                         Don't have an account?
-                        <a id="links" href=""> Sign Up</a>
+                        <a id="links" href="Sign-Up-iPad.html"> Sign Up</a>
                     </div>
                 </div>
                 <div class="ui-block-c">
@@ -57,7 +71,7 @@
                     <div class="ui-block-a">
                     </div>
                     <div class="ui-block-b" style="text-align: center;">
-                        <a href="#temporary" data-role="button" id="login-btn">LOGIN</a>
+                        <a href="Landing page-iPad.html" data-role="button" id="login-btn">LOGIN</a>
                         <br>
                         <label id="or-text">-OR-</label>
                     </div>
@@ -89,15 +103,15 @@
                             <a href="#temporary" data-role="button" id="social-btn">
                                 <div class="ui-block-a">
                                     <img src="Icons/icons8_Google_2.png ">
-        
+
                                 </div>
                                 <div class="ui-block-b social-sign-message">
                                     Sign in with Google
-        
+
                                 </div>
                                 <div class="ui-block-c">
                                 </div>
-        
+
                             </a>
                         </div>
 
@@ -107,7 +121,7 @@
 
                 </div>
 
-                
+
 
             </div>
 

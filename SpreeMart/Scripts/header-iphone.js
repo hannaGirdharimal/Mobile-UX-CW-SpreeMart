@@ -43,6 +43,10 @@ $(document).ready(function() {
         window.location.href = 'login-iphone.html';
     });
 
+    $('#continue-from').click(() => {
+        window.location.href = 'Landing page-iPhone.html';
+      });
+
 
 
 });

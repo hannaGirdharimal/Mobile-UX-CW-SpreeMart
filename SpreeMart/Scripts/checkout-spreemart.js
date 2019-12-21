@@ -7,6 +7,9 @@ $(document).ready(function () {
     const priceListArray = priceList.split(",");
     const namelistArray = namelist.split(",");
 
+    var path = window.location.pathname;
+    var page = path.split("/").pop();
+
     document.getElementById('net-total').innerHTML = 'Rs. ' + netTotal;
     document.getElementById('sub-total').innerHTML = 'Rs. ' + netTotal;
 
@@ -35,7 +38,15 @@ $(document).ready(function () {
             key: 'pk_test_cp21BcECf4kMMUbSlRlZlsMo',
             token: function (token) {
                 if (token.id) {
-                window.location.href='Payment-successful-iPhone.html';
+
+                    if (page === "Checkout-iPad.html" ) {
+            
+                        window.location.href = 'Payment-successful-iPad.html';    
+                    }
+                    if (page === "Checkout-iPhone.html") {
+                       
+                        window.location.href = 'Payment-successful-iPhone.html';
+                    }
                 }
                 // $(document).on("pagecreate", "#Checkout-page", function () {
                 //     //setTimeout(function () { $("#p").popup("close"); }, 5000);

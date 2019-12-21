@@ -26,7 +26,7 @@ $(document).ready(function() {
                     '<span class="producttitle">' + Products[i].title + '</span>' +
                     '<img id="share-2" src="Icons/delete.png">' +
                     '<br>' +
-                    '<span class="price">' + Products[i].price + '</span>' +
+                    '<span class="price"> Rs.' + Products[i].price + '</span>' +
                     '<span class="rating1">' +
                     '<img id="rating-star1" src="Icons/rating star.png">' +
                     '<img id="rating-star1" src="Icons/rating star.png">' +
@@ -58,7 +58,7 @@ $(document).ready(function() {
     $(".product-check").change(function() {
 
         if (this.checked) {
-            var itemprice = parseInt($('.price').eq($('.product-check').index(this)).text());
+            var itemprice = parseInt(($('.price').eq($('.product-check').index(this)).text()).split(".").pop());
             var itemName=$('.producttitle').eq($('.product-check').index(this)).text()
             subtotal += itemprice;
             checkedItemsList.push(itemprice);
@@ -69,7 +69,7 @@ $(document).ready(function() {
         }
 
         if (!this.checked) {
-            var itemprice = parseInt($('.price').eq($('.product-check').index(this)).text());
+            var itemprice = parseInt(($('.price').eq($('.product-check').index(this)).text()).split(".").pop());
             var itemName=$('.producttitle').eq($('.product-check').index(this)).text()
             subtotal -= itemprice;
             NetTotal = subtotal;

@@ -44,7 +44,7 @@ $(document).ready(function() {
     });
 
     $('#continue-from').click(() => {
-        window.location.href = 'Landing page-iPhone.html';
+        window.location.href = 'Landing page-iPad.html';
       });
 
 
