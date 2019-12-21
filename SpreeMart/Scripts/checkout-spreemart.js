@@ -35,7 +35,7 @@ $(document).ready(function () {
             key: 'pk_test_cp21BcECf4kMMUbSlRlZlsMo',
             token: function (token) {
                 if (token.id) {
-                window.location.href='Payment-successful-iPad.html';
+                window.location.href='Payment-successful-iPhone.html';
                 }
                 // $(document).on("pagecreate", "#Checkout-page", function () {
                 //     //setTimeout(function () { $("#p").popup("close"); }, 5000);
