@@ -242,6 +242,6 @@
     #SignUp2,
     #SignUp3 {
         background-image: url("../Images/basic-landscape.png");
-        position: absolute;
+        height: 700px;
     }
 }

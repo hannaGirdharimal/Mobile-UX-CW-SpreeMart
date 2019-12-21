@@ -381,3 +381,35 @@
     color: #D62828;
     font-weight: 100;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+
+.promos{
+    text-align: center;
+}
+
+#poster {
+    width: 427px;
+}
+.section-header {
+    font-family: "Century Gothic";
+    color: #D62828;
+    font-weight: bold;
+    font-size: 23px;
+    margin: 17px 42px 10px 42px;
+    letter-spacing: 3px;
+}
+
+.card {
+    width: 212px;
+}
+.dis-grid{
+margin-left: 94px;
+}
+
+.discount-wrapper {
+    position: absolute;
+    margin-left: 176px;
+    top: -10px;
+}
+}
