@@ -19,11 +19,11 @@ $(document).ready(function () {
             window.location.href = 'Product details page - iPad.html';
         }
 
-        if (page==-"product-iphone.html") {
+        if (page==="product-iphone.html") {
             window.location.href = 'Product detail-iPhone.html';
         }
         
-        if (page== "Landing%20page-iPhone.html") {
+        if (page==="Landing%20page-iPhone.html") {
             window.location.href = 'Product detail-iPhone.html';
         }
 
