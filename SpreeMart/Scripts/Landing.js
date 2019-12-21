@@ -3,17 +3,18 @@ $(document).ready(function () {
     var path = window.location.pathname;
     var page = path.split("/").pop();
     
-    console.log(page)
+    
     $(".product-title").click(function () {
         const SelectedID = $(this).next(".product-id").text();
         console.log(SelectedID);
         localStorage.setItem("selectedProductID", SelectedID);
         
+        console.log(page)
         if (page === "Products%20page-ipad.html") {
             
             window.location.href = 'Product details page - iPad.html';    
         }
-        if (page === "Landing%20page-ipad.html") {
+        if (page === "Landing%20page-iPad.html") {
            
             window.location.href = 'Product details page - iPad.html';
         }
