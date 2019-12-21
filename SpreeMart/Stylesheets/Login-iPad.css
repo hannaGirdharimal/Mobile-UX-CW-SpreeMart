@@ -1,20 +1,20 @@
-#Login{
-    background-image:url("../Images/back2.jpg") ;
+#Login {
+    background-image: url("../Images/back2.jpg");
 }
 
 #logo-icon {
     width: 200px;
 }
 
-#links{
+#links {
     font-family: "Century Gothic";
     color: #D62828;
-    font-size:20px;
+    font-size: 20px;
     text-decoration: underline;
     font-weight: normal;
 }
 
-.login-header{
+.login-header {
     margin-top: -35px;
     font-family: "Century Gothic";
     color: #D62828;
@@ -24,19 +24,19 @@
     margin-left: -10px;
 }
 
-.ui-input-text{
-    border-width: 0 !important; 
+.ui-input-text {
+    border-width: 0 !important;
     border-style: none;
     margin: 0.58em 0;
 }
 
-.ui-input-text input{
+.ui-input-text input {
     text-align: left !important;
 }
 
-#login-btn{
+#login-btn {
     background-color: #D62828;
-    display:inline-block;
+    display: inline-block;
     border-radius: 50px;
     margin-top: 23px;
     width: 128px;
@@ -48,17 +48,17 @@
     border: none !important;
     text-shadow: none !important;
     font-weight: bold;
-}   
+}
 
-.sign-up-message{
+.sign-up-message {
     font-size: 20px !important;
     font-family: "Century Gothic";
-    color: #A4A0A0; 
+    color: #A4A0A0;
     font-size: 14px;
     font-weight: normal;
 }
 
-.white-box{
+.white-box {
     padding: 45px 30px;
     background-color: rgb(255, 255, 255, .9);
     text-align: center;
@@ -68,8 +68,8 @@
     margin-left: 130px;
     margin-top: 25px;
     margin-bottom: 110px;
-
 }
+
 
 /* .text-line{
         background-color: transparent;
@@ -83,7 +83,7 @@
         padding: 3px 10px;
 } */
 
-#text-line{
+#text-line {
     background-color: rgb(255, 255, 255, .9);
     border: none !important;
     box-shadow: none !important;
@@ -100,63 +100,60 @@
     position: relative;
 }
 
-.social-sign-message{
-    margin-left: 50px;  
-    opacity: 73%; 
+.social-sign-message {
+    margin-left: 50px;
+    opacity: 73%;
 }
 
-#social-btn{
+#social-btn {
     border-radius: 1px;
     border-color: #DDDDDD;
     width: 330px;
     box-shadow: none;
     padding: 10px;
     font-family: "Century Gothic";
-    color: #000000; 
+    color: #000000;
     font-size: 14px;
     font-weight: normal;
-    
 }
 
-#field-lbl{
+#field-lbl {
     text-align: left !important;
     font-family: "Century Gothic";
-    color: #000000; 
+    color: #000000;
     font-size: 18px;
     font-weight: normal;
     opacity: 50%;
-    
 }
 
-.forgot-password{
-    text-align: left; 
+.forgot-password {
+    text-align: left;
     font-family: "Century Gothic";
     color: #D62828;
     font-size: 14px;
     text-decoration: underline;
     font-weight: normal;
-    
 }
 
-#or-text{
+#or-text {
     font-family: "Century Gothic";
     color: black;
     font-size: 18px;
 }
 
-.ui-footer{
+.ui-footer {
     padding: 15px 40px;
     background-color: #D62828 !important;
 }
 
-.spreemart-title{
+.spreemart-title {
     font-family: "Century Gothic";
     color: white;
     font-size: 14px;
     text-shadow: none !important;
 }
 
-.spreemart-copyright{
+.spreemart-copyright {
     font-family: "Century Gothic";
     font-style: italic;
     font-weight: 100;
@@ -165,21 +162,21 @@
     text-shadow: none !important;
 }
 
-.social-media-wrapper{
+.social-media-wrapper {
     text-align: right;
     margin-top: 10px;
 }
 
-#social-media{
+#social-media {
     width: 20px;
     margin-right: 10px;
-} 
+}
 
 @media only screen and (min-device-width: 1024px) {
     .white-box {
         margin-left: 255px;
     }
-    #Login{
+    #Login {
         background-image: url("../Images/basic-landscape.png");
         height: 700px;
     }
