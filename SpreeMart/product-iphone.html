@@ -24,16 +24,6 @@
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-        <script>
-            function changeImage() {
-                var image = document.getElementById('heart');
-                if (image.src.match("Icons/unfilled-heart.png")) {
-                    image.src = "Icons/heart.png";
-                }
-                else {
-                    image.src = "Icons/unfilled-heart.png";
-                }
-            }</script>
 
     </head>
 
@@ -129,7 +119,7 @@
     
                         <div class="card best">
                             <div class="heart-wrapper">
-                                <img id="heart" src="Icons/unfilled-heart.png" onclick="changeImage();">
+                                <img id="heart" class="heart-icon" src="Icons/unfilled-heart.png">
                             </div>
                             <div class="card-content">
                                 <img id="product-image" src="Images/biscuit-packet.png">

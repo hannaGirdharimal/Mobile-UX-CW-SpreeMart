@@ -39,6 +39,7 @@ $(document).ready(function() {
     });
 
     $('#dropdown-logout').click(() => {
+        
         window.location.href = 'login-ipad.html';
     });
 

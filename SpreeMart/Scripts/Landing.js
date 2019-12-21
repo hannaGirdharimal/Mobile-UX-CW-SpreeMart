@@ -10,20 +10,20 @@ $(document).ready(function () {
         localStorage.setItem("selectedProductID", SelectedID);
         
         console.log(page)
-        if (page === "Products%20page-ipad.html") {
+        if (page === "Products%20page-ipad.html" ||page === "Products%20page-iPad.html") {
             
             window.location.href = 'Product details page - iPad.html';    
         }
-        if (page === "Landing%20page-iPad.html") {
+        if (page === "Landing%20page-iPad.html" || page === "Landing%20page-ipad.html") {
            
             window.location.href = 'Product details page - iPad.html';
         }
 
-        if (page==="product-iphone.html") {
+        if (page==="Product-iphone.html" || page==="product-iphone.html" ) {
             window.location.href = 'Product detail-iPhone.html';
         }
         
-        if (page==="Landing%20page-iPhone.html") {
+        if (page==="Landing%20page-iPhone.html"||page==="Landing%20page-iphone.html") {
             window.location.href = 'Product detail-iPhone.html';
         }
 
