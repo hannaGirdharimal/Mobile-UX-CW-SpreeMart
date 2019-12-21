@@ -404,6 +404,53 @@
     margin: 0em 0;
     -webkit-box-shadow: none !important;
 }
+#submit-mail2 {
+    background-color: #34AD48;
+    display: inline-block;
+    border-radius: 50px;
+    position: relative;
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 13px;
+    padding: 1em 1em;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: bold;
+}
+
+.ui-popup-container {
+    top: 783px !important;
+    left: 229px !important;
+}
+
+#sharepopup {
+    width: 500px;
+    height: 225px;
+    background-color: white;
+    border-color: white;
+}
+
+.share-title {
+    font-family: "Century Gothic";
+    color: #0D0C0C;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.share-subtitle {
+    font-family: "Century Gothic";
+    color: #A1A1A1;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: none;
+}
+
+.share-content {
+    padding: 15px 40px;
+}
 
 
 

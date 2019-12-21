@@ -17,7 +17,7 @@
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 4;
     top: 68px;
     left: 0;
     border-right: 1px solid #F1F1F1;
@@ -270,7 +270,7 @@
     font-family: "Century Gothic";
     color: white;
     font-size: 12px;
-    height: 35px;
+    height: 39px;
     padding: 1em 1em;
     border: none !important;
     text-shadow: none !important;
@@ -282,11 +282,11 @@
     background-color: #34AD48;
     display: inline-block;
     border-radius: 50px;
-    width: 167px;
+    width: 102px;
     font-family: "Century Gothic";
     color: white;
     font-size: 12px;
-    height: 35px;
+    height: 42px;
     padding: 1em 1em;
     border: none !important;
     text-shadow: none !important;
@@ -461,3 +461,74 @@
     margin: 0em 0;
     -webkit-box-shadow: none !important;
 }
+
+
+.ui-popup-container {    
+    top: 507px !important;
+  
+    left: 123px !important;
+  }
+  
+  #sharepopup {
+    width: 500px;
+    height: 225px;
+    background-color: white;
+    border-color: white;
+  }
+  
+  
+  .share-title {
+    font-family: "Century Gothic";
+    color: #0D0C0C;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .share-subtitle {
+    font-family: "Century Gothic";
+    color: #A1A1A1;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: none;
+  }
+  
+  .share-content {
+    padding: 15px 40px;
+  }
+  
+  #social-media-share {
+    margin-right: 25px;
+    width: 60px;
+  }
+  
+  #submit-mail2 {
+    background-color: #F77F00;
+    display: inline-block;
+    border-radius: 50px;
+    position: relative;
+    font-family: "Century Gothic";
+    color: white;
+    width: 96px;
+    font-size: 13px;
+    padding: 1em 1em;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: bold;
+  }
+  
+  #add-to-cart2{
+    background-color: #34AD48;
+    display: inline-block;
+    border-radius: 50px;
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 12px;
+    padding: 1em 1em;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: bold;
+    margin-left: 9px;
+  }

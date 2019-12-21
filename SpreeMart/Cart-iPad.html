@@ -137,7 +137,26 @@
 
             <div style="text-align: center;">
                 <a href="#temporary" data-role="button" id="add-to-cart1">CONTINUE SHOPPING</a>
-                <a href="#temp" data-role="button" id="BuyNow1">PROCEED TO CHECKOUT</a>
+                <a href="#checkoutPopup" data-role="button" data-rel="popup" id="add-to-cart2">PROCEED TO CHECKOUT</a>
+            </div>
+        </div>
+
+        <div data-role="popup" id="checkoutPopup">
+            <div class="share-header" style="padding: 20px 20px 0px 20px;">
+                <div class="share-title">
+                    Are you sure you want to proceed to checkout?
+                </div>
+            </div>
+            <hr style="margin-top: 5px;border-top: 2px solid #eee;">
+            <div class="share-content text-center">
+                <div class="ui-grid-a">
+    
+                    <div class="text-center">
+                        <a href="#temporary" data-role="button" id="BuyNow1">Yes</a>
+                        <a href="#temporary" data-role="button" id="submit-mail2">No</a>
+                    </div>
+    
+                </div>
             </div>
         </div>
 
