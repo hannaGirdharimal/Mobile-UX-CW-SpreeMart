@@ -115,6 +115,37 @@
     margin-top: 10px;
 }
 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    .camera-button {
+        position: fixed;
+        top: 872px;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+        margin-left: 20pc;
+        opacity: 70%;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    .camera-button {
+        position: fixed;
+        top: 386px;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+        margin-left: 23pc;
+        opacity: 70%;
+    }
+
+}
+
 .dropdown-item {
     border-bottom: 1px solid gray;
     border-width: 0;

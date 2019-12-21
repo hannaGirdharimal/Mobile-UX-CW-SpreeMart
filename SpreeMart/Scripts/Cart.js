@@ -94,7 +94,22 @@ $(document).ready(function() {
         localStorage.setItem("NameList", checkedNameList);
         localStorage.setItem("NetTotal", NetTotal);
         localStorage.setItem("Subtotal", subtotal);
-        window.location.href = 'Checkout-iPad.html';
+
+        var path = window.location.pathname;
+        var page = path.split("/").pop();
+        
+
+        if (page === "Cart-ipad.html") {
+            
+            window.location.href = 'Checkout-iPad.html';    
+        }
+        if (page === "Cart-iPhone.html") {
+           
+            window.location.href = 'Checkout-iPhone.html';
+        }
+
+
+        
     });
 
 });

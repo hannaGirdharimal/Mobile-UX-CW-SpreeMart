@@ -296,6 +296,15 @@
         text-align: center;
     }
 
+    #first-slider{
+        width: 815px;
+        min-height: 285px;
+    }
+    
+    .product-grid {
+        margin-top: 120px;
+    }
+
     #discount-percent {
         margin-left: 33px;
     }
@@ -310,14 +319,19 @@
         margin-left: 111px;
     }
 
-        #search-icon {
-            position: absolute;
-            width: 22px;
-            /* bottom: 30px; */
-            right: 81px;
-            top: 291px;
-            /* margin-left: -22px; */
-        }
+    #search-icon {
+        position: absolute;
+        width: 22px;
+        /* bottom: 30px; */
+        right: 81px;
+        top: 370px;
+        /* margin-left: -22px; */
+    }
+
+    .carousel-indicators {
+        top: 288px;
+    }
+1    
 }
 
 .spreemart-copyright{
@@ -374,11 +388,3 @@
     -webkit-box-shadow: none !important;
 }
 
-#first-slider{
-    width: 815px;
-    min-height: 285px;
-}
-
-.product-grid {
-    margin-top: 120px;
-}

@@ -346,7 +346,7 @@ button:focus {outline:0;}
         background-color: white;
         text-align: center;
     }
-
+    
     .section-header {
         font-family: "Century Gothic";
         color: #D62828;
@@ -386,8 +386,6 @@ button:focus {outline:0;}
     text-shadow: none !important;
     font-weight: bold;
 }
-    }
-
     .terms-text {
         font-family: "Century Gothic";
         color: black;
@@ -404,10 +402,9 @@ button:focus {outline:0;}
     
    
     #checkbox-select-all-terms{
-        margin-top: -5px;
+    margin-top: -5px;
     z-index: 0;
     margin-left: 247px;
 }
     }
 
-}

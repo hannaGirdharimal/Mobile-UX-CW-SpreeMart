@@ -12,6 +12,7 @@ function PopulateDetails(){
           document.getElementById("product-image-1").src=product.img_url;
           document.getElementsByClassName("product-title-1")[0].innerHTML=product.title;
           document.getElementsByClassName("product-category-1")[0].innerHTML=product.category;
+          console.log("hello")
         }
     }
 
