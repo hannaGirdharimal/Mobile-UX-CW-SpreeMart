@@ -1,20 +1,22 @@
-#SignUp,#SignUp2,#SignUp3{
-    background-image:url("../Images/back2.jpg") ;
+#SignUp,
+#SignUp2,
+#SignUp3 {
+    background-image: url("../Images/back2.jpg");
 }
 
 #logo-icon {
     width: 200px;
 }
 
-#links{
+#links {
     font-family: "Century Gothic";
     color: #D62828;
-    font-size:20px;
+    font-size: 20px;
     text-decoration: underline;
     font-weight: normal;
 }
 
-.login-header{
+.login-header {
     margin-top: -35px;
     font-family: "Century Gothic";
     color: #D62828;
@@ -24,7 +26,6 @@
     margin-left: -10px;
 }
 
-
 .circle {
     height: 40px;
     width: 40px;
@@ -33,26 +34,28 @@
     display: inline-block;
 }
 
-#google-maps-temp{
+#google-maps-temp {
     width: 400px;
     margin-top: 20px;
 }
 
-.card-num{
+.card-num {
     width: 209px;
 }
-#progress-number{
+
+#progress-number {
     font-family: "Century Gothic";
     color: white;
     font-size: 20px;
     font-weight: bold;
     padding: 6px;
 }
-#progress-image{
+
+#progress-image {
     width: 360px;
 }
 
-.personal-details-heading{
+.personal-details-heading {
     font-family: "Century Gothic";
     color: #D62828;
     font-weight: bold;
@@ -62,40 +65,39 @@
     margin-top: 6px;
     letter-spacing: 2px;
 }
-.progress-line{
+
+.progress-line {
     border-top: 2px solid #A1A1A1;
     height: 100px;
     margin-top: -20px;
     margin-left: 49px;
 }
 
-#progress-line1{
+#progress-line1 {
     margin-top: -70px;
     margin-left: 43px;
 }
 
-
-.current-circle{
-    background-color:#34AD48;
+.current-circle {
+    background-color: #34AD48;
     margin-right: 101px;
-
 }
 
-.logo-block{
+.logo-block {
     width: 200px;
 }
 
-.ui-input-text{
-    border-width: 0 !important; 
+.ui-input-text {
+    border-width: 0 !important;
     border-style: none;
     margin: 0.58em 0;
 }
 
-.ui-input-text input{
+.ui-input-text input {
     text-align: left !important;
 }
 
-#text-line{
+#text-line {
     background-color: rgb(255, 255, 255, .9);
     border: none !important;
     box-shadow: none !important;
@@ -112,9 +114,10 @@
     position: relative;
 }
 
-#continue-btn,#submit-btn{
+#continue-btn,
+#submit-btn {
     background-color: #D62828;
-    display:inline-block;
+    display: inline-block;
     border-radius: 50px;
     margin-top: 23px;
     margin-left: -15px;
@@ -129,36 +132,36 @@
     font-weight: bold;
 }
 
-.iconblock{
+.iconblock {
     width: 5% !important;
 }
 
-.cardblock{
+.cardblock {
     width: 75% !important;
     margin-left: 52px;
 }
 
-.fnameblock{
+.fnameblock {
     width: 35% !important;
 }
 
-.lnameblock{
+.lnameblock {
     margin-left: 13px;
     width: 60% !important;
 }
 
-.expiryblock{
+.expiryblock {
     width: 45% !important;
 }
 
-.securityblock{
+.securityblock {
     margin-left: 24px;
     width: 45% !important;
 }
 
-#login-btn{
+#login-btn {
     background-color: #D62828;
-    display:inline-block;
+    display: inline-block;
     border-radius: 50px;
     margin-top: 23px;
     width: 128px;
@@ -170,17 +173,17 @@
     border: none !important;
     text-shadow: none !important;
     font-weight: bold;
-}   
+}
 
-.sign-up-message{
+.sign-up-message {
     font-size: 20px !important;
     font-family: "Century Gothic";
-    color: #A4A0A0; 
+    color: #A4A0A0;
     font-size: 14px;
     font-weight: normal;
 }
 
-.white-box{
+.white-box {
     padding: 45px 30px;
     background-color: rgb(255, 255, 255, .9);
     text-align: center;
@@ -191,29 +194,28 @@
     margin-top: 25px;
 }
 
-#field-lbl{
+#field-lbl {
     text-align: left !important;
     font-family: "Century Gothic";
-    color: #000000; 
+    color: #000000;
     font-size: 18px;
     font-weight: normal;
     opacity: 50%;
-    
 }
 
-.ui-footer{
+.ui-footer {
     padding: 15px 40px;
     background-color: #D62828 !important;
 }
 
-.spreemart-title{
+.spreemart-title {
     font-family: "Century Gothic";
     color: white;
     font-size: 14px;
     text-shadow: none !important;
 }
 
-.spreemart-copyright{
+.spreemart-copyright {
     font-family: "Century Gothic";
     font-style: italic;
     font-weight: 100;
@@ -222,12 +224,24 @@
     text-shadow: none !important;
 }
 
-.social-media-wrapper{
+.social-media-wrapper {
     text-align: right;
     margin-top: 10px;
 }
 
-#social-media{
+#social-media {
     width: 20px;
     margin-right: 10px;
-} 
+}
+
+@media only screen and (min-device-width: 1024px) {
+    .white-box {
+        margin-left: 255px;
+    }
+    #SignUp,
+    #SignUp2,
+    #SignUp3 {
+        background-image: url("../Images/basic-landscape.png");
+        position: absolute;
+    }
+}
