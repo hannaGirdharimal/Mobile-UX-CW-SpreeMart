@@ -34,7 +34,15 @@ $(document).ready(function () {
         const SelectedID = $(this).next(".promotion-id").text();
         console.log(SelectedID);
         localStorage.setItem("selectedPromotionID", SelectedID);
-        window.location.href = 'Promotion detail page-iPad.html';
+
+        if (page==="Promotions%20page-%20iPhone%20Portrait.html" ) {
+          window.location.href = 'Promotion detail page-iPhone.html';
+        }
+        
+        if (page==="Promotions%20page-iPad.html"||page==="Promotions%20page-ipad.html") {
+            window.location.href = 'Promotion detail page-iPad.html';
+        }
+
     });
 
     $("#special-promotion").click(function(){
