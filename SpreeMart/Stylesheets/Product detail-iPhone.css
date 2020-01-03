@@ -243,6 +243,10 @@
     font-size: 13px;
 }
 
+#rating-star2 {
+    width: 15px;
+}
+
 .rating {
     margin: 5px 0;
 }
@@ -255,8 +259,24 @@
     margin: 5px;
 }
 
-#rating-star {
-    width: 15px;
+.rating-star {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    display: inline;
+}
+
+.rating-star>span {
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    width: 0.8em;
+}
+
+.rating-star>span:hover:before,
+.rating-star>span:hover~span:before {
+    content: "\2605";
+    color: #F77F00;
+    position: absolute;
 }
 
 .member-deal {
@@ -658,10 +678,7 @@
     -webkit-box-shadow: none !important;
 }
 
-
-
 .ui-popup-container {
-    
     top: 311px !important;
     left: 28px !important;
 }
@@ -714,10 +731,9 @@
     font-weight: bold;
 }
 
-#addtocartPopup{
+#addtocartPopup {
     border-radius: 0 !important;
 }
-
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
     #share-2 {
@@ -725,15 +741,13 @@
         margin-left: 208px;
         margin-top: -42px;
     }
-
     .card {
         width: 247px !important;
         margin: 10px 32px !important;
         border-radius: 10px;
         background-color: white;
         text-align: center;
-    }   
-
+    }
     .product-detail-grid {
         margin: 10px 137px;
         border-radius: 10px;
