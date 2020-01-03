@@ -4,12 +4,12 @@ $(document).ready(function () {
   var noOfItems;
   var FavouriteIDList
 
-  if (IDs.length != 0) {
+  if (IDs !== null ) {
     FavouriteIDList = IDs.split(",");
     noOfItems = FavouriteIDList.length;
   } else {
     FavouriteIDList = []
-    noOfItems = IDs.length;
+    noOfItems = 0;
   }
 
 

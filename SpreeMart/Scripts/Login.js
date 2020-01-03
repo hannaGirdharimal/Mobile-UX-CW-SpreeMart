@@ -8,7 +8,7 @@ $(document).ready(function () {
         var path = window.location.pathname;
         var page = path.split("/").pop();
 
-        if (email = "JaneDoe@gmail.com" && password == "janedoe12") {
+        if (email = "JaneDoe@gmail.com" && password == "1234") {
            
             if (page === "Login-ipad.html" ||page === "Login-iPad.html") {
             
