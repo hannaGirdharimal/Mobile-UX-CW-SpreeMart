@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="Scripts/Login.js"></script>
+
     <link rel="stylesheet" type="text/css" href="Stylesheets/Login-iPad.css">
+    
 
 
     <script>
         $(document).ready(function () {
 
-            $('#login-btn').click(() => {
-                window.location.href = 'Landing page-iPad.html';
-            });
+            // $('#login-btn').click(() => {
+            //     window.location.href = 'Landing page-iPad.html';
+            // });
 
             $('#links').click(() => {
                 window.location.href = 'Sign-Up-iPad.html';
@@ -62,12 +65,12 @@
                     <input type="text" name="text-line-email" id="text-line" value="">
                 </div>
                 <div class="text-field-wrapper">
-                    <label id="field-lbl" for="text-line">Password</label>
-                    <div><input type="text" name="text-line" id="text-line" value=""></div>
+                    <label id="field-lbl" for="text-line-pass">Password</label>
+                    <div><input type="text" name="text-line-pass" id="text-line" value=""></div>
                 </div>
                 <br>
                 <div class="forgot-password"><a id="links" class="forgot-password" href="">Forgot Password ? </a></div>
-                <div class="ui-grid-a alert-box">
+                <div class="ui-grid-a alert-box" hidden>
                     <div class="ui-block-a alert-left">
                         <img id="cross-icon" src="Icons/cross.png">
                     </div>
