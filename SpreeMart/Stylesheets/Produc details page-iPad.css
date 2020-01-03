@@ -169,6 +169,7 @@
 #share-2 {
     width: 20px;
     /* margin-left: 95px; */
+    float: right;
 }
 
 .product-description-block {
@@ -631,7 +632,7 @@
 
 @media only screen and (min-device-width: 1024px) {
     #share-2 {
-        margin-left: 120px;
+        margin-left: 284px !important;
     }
     .product-title {
         font-size: 18px;
@@ -650,6 +651,10 @@
     }
     .rating-2 {
         text-align: left;
+    }
+    .ui-popup-container {
+        top: 115px !important;
+        left: 269px !important;
     }
 }
 

@@ -160,8 +160,7 @@
 
 #share-2 {
     width: 17px;
-    margin-left: -11px;
-    margin-top: -30px;
+    margin-left: -13px;
 }
 
 .product-description-block {
@@ -506,12 +505,7 @@
     left: 140px !important;
 }
 
-#sharepopup {
-    width: 500px;
-    height: 225px;
-    background-color: white;
-    border-color: white;
-}
+
 
 .share-title {
     font-family: "Century Gothic";
@@ -593,8 +587,8 @@
 }
 
 #sharepopup {
-    width: 330px;
-    height: 245px;
+    width: 320px;
+    height: 272px;
     background-color: white;
     border-color: white;
 }
@@ -683,12 +677,7 @@
     left: 28px !important;
 }
 
-#sharepopup {
-    width: 500px;
-    height: 225px;
-    background-color: white;
-    border-color: white;
-}
+
 
 .share-title {
     font-family: "Century Gothic";
@@ -712,10 +701,7 @@
     padding: 15px 40px;
 }
 
-#social-media-share {
-    margin-right: 25px;
-    width: 60px;
-}
+
 
 #submit-mail2 {
     background-color: #34AD48;
@@ -753,5 +739,10 @@
         border-radius: 10px;
         background-color: white;
         width: 443px;
+    }
+
+    .ui-popup-container{
+        top: 87px !important;
+        left: 246px !important;
     }
 }

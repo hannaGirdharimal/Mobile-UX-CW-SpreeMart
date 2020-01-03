@@ -78,7 +78,7 @@
 }
 
 .right-wrapper{
-    width: 205px !important;
+  width: 397px !important;
     margin-left: -15px;
     padding: 10px 0 10px 15px;
 }
@@ -368,12 +368,11 @@ float: right;
       font-family: "Century Gothic";
       color: white;
       font-size: 12px;
-      height: 35px;
       padding: 1em 1em;
       border: none !important;
       text-shadow: none !important;
       font-weight: bold;
-      margin-left: 315px;
+      margin-left: 204px;
   }
 
   .card {
@@ -383,6 +382,12 @@ float: right;
     background-color: white;
     height: 150px;
     width: 535px;
+}
+
+.ui-popup-container
+{
+  top: 188px !important;
+  left: 125px !important;
 }
 }
 #share-2{
