@@ -78,7 +78,7 @@
 }
 
 .right-wrapper{
-  width: 397px !important;
+  width: 205px !important;
     margin-left: -15px;
     padding: 10px 0 10px 15px;
 }
@@ -389,6 +389,11 @@ float: right;
   top: 188px !important;
   left: 125px !important;
 }
+
+#nutella{
+  margin-top: 12px;
+}
+
 }
 #share-2{
   width: 14px;
