@@ -175,6 +175,32 @@
     margin-right: 10px;
 } 
 
+.alert-box{
+    margin: 30px 15px 0 15px;
+}
+
+.alert-left{
+    width: 10% !important;
+    background-color: #D62828;
+    padding: 6px;
+}
+
+.alert-right{
+    width: 90% !important;
+    background-color: #f0cdcd;
+    padding: 6px;
+    font-family: "Century Gothic";
+    color: #D62828;
+    font-size: 14px;
+    text-shadow: none !important;
+    text-align: left;
+}
+
+#cross-icon{
+    width: 20px;
+}
+
+
 @media only screen and (min-device-width: 1024px) {
     .white-box {
         margin-left: 255px;

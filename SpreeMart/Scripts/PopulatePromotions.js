@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  console.log("Hello")
     let eventData;
     populatePromotion();
 
