@@ -82,40 +82,75 @@
                         RECIPIENT DETAILS
                     </div>
                     <div class="card">
-                        <input type="checkbox" name="checkbox-mini-0" id="checkbox-select-all" data-mini="true" />
+                        <input type="checkbox" name="checkbox-mini-0" id="checkbox-select-all" class="personal-details"
+                            data-mini="true" />
                         <span class="same-text">Same as Personal details</span>
-                        <div class="text-field-wrapper">
-                            <label id="field-lbl" for="text-line-email">Email*</label>
-                            <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
-                            <div class="text-answer">savindujayasinghe@gmail.com</div>
-                        </div>
-                        <div class="ui-grid-a">
-                            <div class="ui-block-a title-block">
-                                <div class="text-field-wrapper">
-                                    <label id="field-lbl" for="text-line-email">Title*</label>
-                                    <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
-                                    <div class="text-answer">Mr.</div>
+                        <div class="details-block-fields" style="display: block;">
+                            <div class="text-field-wrapper">
+                                <label id="field-lbl" for="text-line-email">Email*</label>
+                                <input type="text" name="text-line-email" id="text-line" value="">
+                                <!-- <div class="text-answer">savindujayasinghe@gmail.com</div> -->
+                            </div>
+                            <div class="ui-grid-a">
+                                <div class="ui-block-a title-block">
+                                    <div class="text-field-wrapper">
+                                        <label id="field-lbl" for="text-line-email">Title*</label>
+                                        <input type="text" name="text-line-email" id="text-line" value="">
+                                        <!-- <div class="text-answer">Mr.</div> -->
+                                    </div>
+                                </div>
+                                <div class="ui-block-b name-block">
+                                    <div class="text-field-wrapper">
+                                        <label id="field-lbl" for="text-line-email">First Name*</label>
+                                        <input type="text" name="text-line-email" id="text-line" value="">
+                                        <!-- <div class="text-answer">Savindu</div> -->
+                                    </div>
                                 </div>
                             </div>
-                            <div class="ui-block-b name-block">
-                                <div class="text-field-wrapper">
-                                    <label id="field-lbl" for="text-line-email">First Name*</label>
-                                    <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
-                                    <div class="text-answer">Savindu</div>
-                                </div>
+                            <div class="text-field-wrapper">
+                                <label id="field-lbl" for="text-line-email">Last Name*</label>
+                                <input type="text" name="text-line-email" id="text-line" value="">
+                                <!-- <div class="text-answer">Jayasinghe</div> -->
+                            </div>
+                            <div class="text-field-wrapper">
+                                <label id="field-lbl" for="text-line-email">Phone Number*</label>
+                                <input type="text" name="text-line-email" id="text-line" value="">
+                                <!-- <div class="text-answer">0778292738</div> -->
                             </div>
                         </div>
-                        <div class="text-field-wrapper">
-                            <label id="field-lbl" for="text-line-email">Last Name*</label>
-                            <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
-                            <div class="text-answer">Jayasinghe</div>
+                        <div class="details-block-val" style="display: none;">
+                            <div class="text-field-wrapper">
+                                <label id="field-lbl" for="text-line-email">Email*</label>
+                                <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
+                                <div class="text-answer">savindujayasinghe@gmail.com</div>
+                            </div>
+                            <div class="ui-grid-a">
+                                <div class="ui-block-a title-block">
+                                    <div class="text-field-wrapper">
+                                        <label id="field-lbl" for="text-line-email">Title*</label>
+                                        <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
+                                        <div class="text-answer">Mr.</div>
+                                    </div>
+                                </div>
+                                <div class="ui-block-b name-block">
+                                    <div class="text-field-wrapper">
+                                        <label id="field-lbl" for="text-line-email">First Name*</label>
+                                        <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
+                                        <div class="text-answer">Savindu</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-field-wrapper">
+                                <label id="field-lbl" for="text-line-email">Last Name*</label>
+                                <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
+                                <div class="text-answer">Jayasinghe</div>
+                            </div>
+                            <div class="text-field-wrapper">
+                                <label id="field-lbl" for="text-line-email">Phone Number*</label>
+                                <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
+                                <div class="text-answer">0778292738</div>
+                            </div>
                         </div>
-                        <div class="text-field-wrapper">
-                            <label id="field-lbl" for="text-line-email">Phone Number*</label>
-                            <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
-                            <div class="text-answer">0778292738</div>
-                        </div>
-
                     </div>
                 </div>
 
@@ -124,7 +159,8 @@
                         DELIVERY DETAILS
                     </div>
                     <div class="card">
-                        <input type="checkbox" name="checkbox-mini-0" id="checkbox-select-all" data-mini="true" />
+                        <input type="checkbox" name="checkbox-mini-0" id="checkbox-select-all" data-mini="true"
+                            class="personal-address" />
                         <span class="same-text">Same as Personal address</span>
                         <div class="ui-grid-a">
                             <div class="ui-block-a title-block">
@@ -165,7 +201,7 @@
                                 <div class="col-header">TOTAL</div>
                             </div>
                         </div>
-                         <div class="product-price">
+                        <div class="product-price">
 
                         </div>
                         <!-- <div class="ui-grid-b summary-content">
@@ -239,54 +275,100 @@
                         </div>
 
                         <div class="checkbox">
-                            <input type="checkbox" name="checkbox-mini-0" id="checkbox-select-all" data-mini="true" />
+                            <input type="checkbox" name="checkbox-mini-0" id="checkbox-select-all" data-mini="true"
+                                class="payement-details" />
                             <span class="same-text-2">Same as Payment details</span>
                         </div>
 
-                        <div class="ui-grid-a">
-                            <div class="ui-block-a">
-                                <div class="text-field-wrapper">
-                                    <div class="ui-grid-a">
-                                        <div class="ui-block-a card-type-block-1">
-                                            <img id="card-type-img" src="Images/mastercard.png">
+                        <div class="payement-details-field" style="display: block;">
+                            <div class="ui-grid-a">
+                                <div class="ui-block-a">
+                                    <div class="text-field-wrapper">
+                                        <div class="ui-grid-a">
+                                            <div class="ui-block-a card-type-block-1">
+                                                <img id="card-type-img" src="Images/mastercard.png">
+                                            </div>
+                                            <div class="ui-block-b card-type-block-2">
+                                                <label id="field-lbl" for="text-line-email">Card Number*</label>
+                                                <input type="text" name="text-line-email" id="text-line" value="">
+                                                <!-- <div class="text-answer">2109 2844 1046 3409</div> -->
+                                            </div>
                                         </div>
-                                        <div class="ui-block-b card-type-block-2">
-                                            <label id="field-lbl" for="text-line-email">Card Number*</label>
-                                            <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
-                                            <div class="text-answer">2109 2844 1046 3409</div>
+                                    </div>
+
+                                    <div class="text-field-wrapper" style="margin-top: 26px;margin-left: 16px;">
+                                        <label id="field-lbl" for="text-line-email">Name on card*</label>
+                                        <input type="text" name="text-line-email" id="text-line" value="">
+                                        <!-- <div class="text-answer">Savindu Jayasinghe</div> -->
+                                    </div>
+
+                                    <div class="ui-grid-a" style="margin: 15px 15px;">
+                                        <div class="ui-block-a">
+                                            <label id="field-lbl" for="text-line-email">Expiry*</label>
+                                            <input type="text" name="text-line-email" id="text-line" value="">
+                                            <!-- <div class="text-answer">07/20</div> -->
+                                        </div>
+                                        <div class="ui-block-b">
+                                            <label id="field-lbl" for="text-line-email">Security code*</label>
+                                            <input type="text" name="text-line-email" id="text-line" value="">
+                                            <!-- <div class="text-answer">***</div> -->
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class="text-field-wrapper" style="margin-top: 26px;margin-left: 16px;">
-                                    <label id="field-lbl" for="text-line-email">Name on card*</label>
-                                    <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
-                                    <div class="text-answer">Savindu Jayasinghe</div>
                                 </div>
+                                <div class="ui-block-b" style="margin-top: 10px;">
 
-                                <div class="ui-grid-a" style="margin: 15px 15px;">
-                                    <div class="ui-block-a">
-                                        <label id="field-lbl" for="text-line-email">Expiry*</label>
-                                        <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
-                                        <div class="text-answer">07/20</div>
-                                    </div>
-                                    <div class="ui-block-b">
-                                        <label id="field-lbl" for="text-line-email">Security code*</label>
-                                        <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
-                                        <div class="text-answer">***</div>
-                                    </div>
                                 </div>
-
                             </div>
-                            <div class="ui-block-b" style="margin-top: 10px;">
+                        </div>
 
+                        <div class="payement-details-val"  style="display: none;">
+                            <div class="ui-grid-a">
+                                <div class="ui-block-a">
+                                    <div class="text-field-wrapper">
+                                        <div class="ui-grid-a">
+                                            <div class="ui-block-a card-type-block-1">
+                                                <img id="card-type-img" src="Images/mastercard.png">
+                                            </div>
+                                            <div class="ui-block-b card-type-block-2">
+                                                <label id="field-lbl" for="text-line-email">Card Number*</label>
+                                                <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
+                                                <div class="text-answer">2109 2844 1046 3409</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-field-wrapper" style="margin-top: 26px;margin-left: 16px;">
+                                        <label id="field-lbl" for="text-line-email">Name on card*</label>
+                                        <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
+                                        <div class="text-answer">Savindu Jayasinghe</div>
+                                    </div>
+
+                                    <div class="ui-grid-a" style="margin: 15px 15px;">
+                                        <div class="ui-block-a">
+                                            <label id="field-lbl" for="text-line-email">Expiry*</label>
+                                            <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
+                                            <div class="text-answer">07/20</div>
+                                        </div>
+                                        <div class="ui-block-b">
+                                            <label id="field-lbl" for="text-line-email">Security code*</label>
+                                            <!-- <input type="text" name="text-line-email" id="text-line" value=""> -->
+                                            <div class="text-answer">***</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="ui-block-b" style="margin-top: 10px;">
+
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="ui-grid-a">
                         <div class="text-field-wrapper" style="margin-top: 33px;">
-                            <input type="checkbox" name="checkbox-mini-0"  id="checkbox-select-all-terms" data-mini="true" />
+                            <input type="checkbox" name="checkbox-mini-0" id="checkbox-select-all-terms"
+                                data-mini="true" />
                             <span class="terms-text">I have read and agreed to the Terms and Conditions</span>
                         </div>
                     </div>
@@ -299,28 +381,28 @@
 
                 <div data-role="popup" id="successpop">
                     <div class="share-header" style="padding: 20px 20px 0px 20px;">
-                      <div class="share-title">
-                        Share this product with your friends
-                      </div>
-                      <div class="share-subtitle">
-                        Choose who you want to share this with
-                      </div>
+                        <div class="share-title">
+                            Share this product with your friends
+                        </div>
+                        <div class="share-subtitle">
+                            Choose who you want to share this with
+                        </div>
                     </div>
                     <hr style="margin-top: 5px;border-top: 2px solid #eee;">
                     <div class="share-content">
-                      <div class="ui-grid-a">
-                        <div class="ui-block-a" style="width: 25% !important;">
-                          <img id="social-media-share" src="Icons/mail-red.png">
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a" style="width: 25% !important;">
+                                <img id="social-media-share" src="Icons/mail-red.png">
+                            </div>
+                            <div class="ui-block-b" style="width: 75% !important;">
+                                <input type="text" name="mail" id="mail-to" value="" />
+                                <div style="float: right;">
+                                    <a href="#temporary" data-role="button" id="submit-mail">SEND</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="ui-block-b" style="width: 75% !important;">
-                          <input type="text" name="mail" id="mail-to" value="" />
-                          <div style="float: right;">
-                            <a href="#temporary" data-role="button" id="submit-mail">SEND</a>
-                          </div>
-                        </div>
-                      </div>
                     </div>
-                    </div>
+                </div>
 
 
             </div>
