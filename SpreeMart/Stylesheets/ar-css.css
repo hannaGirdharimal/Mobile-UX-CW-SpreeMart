@@ -67,7 +67,10 @@
     padding: 15px;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
     .white-box {
         background-color: white;
         text-align: center;
@@ -136,11 +139,11 @@ and (max-device-width : 1024px)
 and (orientation : landscape) {
     .camera-button {
         position: fixed;
-        top: 386px;
+        top: 153px;
         width: 100%;
         text-align: center;
         z-index: 1;
-        margin-left: 23pc;
+        margin-left: 330px;
         opacity: 70%;
     }
 

@@ -143,6 +143,12 @@ Product price font-size: 14px */
     border: none;
 }
 
+.dropdown, .dropup {
+    position: absolute !important;
+
+}
+
+
 .spreemart-title{
     font-family: "Century Gothic";
     color: white;
@@ -213,7 +219,7 @@ Product price font-size: 14px */
     padding: 5px 25px;
     font-size: 16px;
     font-family: "Century Gothic";
-    position: relative;
+    /* position: relative; */
 }
 
 #select-choice-1-button{
@@ -356,7 +362,7 @@ Product price font-size: 14px */
     /* padding: 0 40px; */
     font-size: 14px;
     font-family: "Century Gothic";
-    position: relative;
+    /* position: relative; */
 }
 
 .ui-body-inherit

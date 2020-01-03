@@ -38,7 +38,7 @@
 }
 
 .card{
-    margin: 20px 0px 10px 0px;
+    margin: 20px 7px 10px 0px;
     border-radius: 10px;
     background-color: white;
     height: 150px;
@@ -162,7 +162,6 @@
       font-family: "Century Gothic";
       color: white;
       font-size: 12px;
-      height: 35px;
       padding: 1em 1em;
       border: none !important;
       text-shadow: none !important;
@@ -204,7 +203,7 @@
 }
 
 .subprice{
-  margin-left: 193px;
+  float: right;
 }
 
 .subtot1{
@@ -216,7 +215,7 @@
 }
 
 .subprice1{
-  margin-left: 140px;
+  float: right;
 }
 
 .subtot2{
@@ -228,7 +227,7 @@
 }
 
 .subprice2{
-  margin-left: 136px;
+  float: right;
 }
 
 .subtot3{
@@ -241,7 +240,7 @@
 }
 
 .subprice3{
-  margin-left: 158px;
+float: right;
   color: #D62828;
 }
 .open>.dropdown-menu-profile {

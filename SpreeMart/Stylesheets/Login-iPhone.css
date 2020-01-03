@@ -147,6 +147,33 @@
     font-size: 18px;
 }
 
+.alert-box{
+    margin: 30px 15px 0 15px;
+}
+
+.alert-left{
+    width: 10% !important;
+    background-color: #D62828;
+    padding: 6px;
+}
+
+.alert-right{
+    width: 90% !important;
+    background-color: #f0cdcd;
+    padding: 6px;
+    font-family: "Century Gothic";
+    color: #D62828;
+    font-size: 14px;
+    text-shadow: none !important;
+    text-align: left;
+}
+
+#cross-icon{
+    width: 15px;
+
+}
+
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
     #Login{
         background-image:url("../Images/back2.jpg") ;

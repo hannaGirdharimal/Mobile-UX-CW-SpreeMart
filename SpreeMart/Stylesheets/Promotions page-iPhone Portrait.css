@@ -17,11 +17,11 @@
 
 
 .sidenav{
-    height: 50%;
+    height: 100%;
     width: 0;
     position: fixed;
     z-index: 3;
-    top: 68px;
+    top: 54px;
     left: 0;
     border-right: 1px solid #F1F1F1;
     background-color: white;

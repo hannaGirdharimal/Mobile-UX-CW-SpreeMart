@@ -315,7 +315,7 @@
 }
 
 .subprice {
-    margin-left: 193px;
+    float: right;
 }
 
 .subtot1 {
@@ -327,7 +327,7 @@
 }
 
 .subprice1 {
-    margin-left: 140px;
+    float: right;
 }
 
 .subtot2 {
@@ -339,7 +339,7 @@
 }
 
 .subprice2 {
-    margin-left: 136px;
+    float: right;
 }
 
 .subtot3 {
@@ -352,7 +352,7 @@
 }
 
 .subprice3 {
-    margin-left: 158px;
+    float: right;
     color: #D62828;
 }
 
