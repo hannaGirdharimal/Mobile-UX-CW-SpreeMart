@@ -67,6 +67,56 @@ $(document).ready(function () {
 
             });
         });
+
+        $(".personal-details").change(function() {
+             
+            if (this.checked) {
+                document.getElementsByClassName('details-block-fields')[0].style.display="none";
+                document.getElementsByClassName('details-block-val')[0].style.display="block";
+            }
+
+            if (!this.checked) {
+                document.getElementsByClassName('details-block-fields')[0].style.display="block";
+                document.getElementsByClassName('details-block-val')[0].style.display="none";
+            }
+
+        });
+
+        $(".payement-details").change(function() {
+             
+            if (this.checked) {
+                document.getElementsByClassName('payement-details-field')[0].style.display="none";
+                document.getElementsByClassName('payement-details-val')[0].style.display="block";
+            }
+
+            if (!this.checked) {
+                document.getElementsByClassName('payement-details-field')[0].style.display="block";
+                document.getElementsByClassName('payement-details-val')[0].style.display="none";
+            }
+
+            if (page === "Checkout-iPad.html" ) {
+            
+                if (this.checked) {
+                    document.getElementsByClassName('payement-details-field')[0].style.display="none";
+                    document.getElementsByClassName('payement-details-val')[0].style.display="block";
+
+                    document.getElementsByClassName('payement-details-field')[1].style.display="none";
+                    document.getElementsByClassName('payement-details-val')[1].style.display="block";
+                }
+    
+                if (!this.checked) {
+                    document.getElementsByClassName('payement-details-field')[0].style.display="block";
+                    document.getElementsByClassName('payement-details-val')[0].style.display="none";
+
+                    document.getElementsByClassName('payement-details-field')[1].style.display="block";
+                    document.getElementsByClassName('payement-details-val')[1].style.display="none";
+                }
+    
+                
+                
+            }
+
+        });
     });
 
 });
