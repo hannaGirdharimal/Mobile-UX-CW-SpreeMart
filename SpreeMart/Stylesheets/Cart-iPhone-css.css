@@ -394,6 +394,14 @@ float: right;
   margin-top: 12px;
 }
 
+.first-checkbox{
+  margin-left: 100px !important;
+}
+
+#select-txt{
+  margin-left: 133px !important;
+}
+
 }
 #share-2{
   width: 14px;
